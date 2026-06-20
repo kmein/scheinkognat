@@ -285,7 +285,11 @@
   "pgd": {
     "name": "Gandhari",
     "rtl": false,
-    "glottocode": "gand1259"
+    "glottocode": "gand1259",
+    "coords": [
+      34.15,
+      71.73
+    ]
   },
   "guj": {
     "name": "Gujarati",
@@ -953,7 +957,12 @@
   },
   "qji": {
     "name": "Jirim",
-    "rtl": false
+    "rtl": false,
+    "glottocode": "diri1253",
+    "coords": [
+      8.36,
+      11.05
+    ]
   },
   "qga": {
     "name": "Gali",
