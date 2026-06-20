@@ -4,7 +4,7 @@ export const SITE = {
   description: 'Linguistische Koinzidenzen zwischen Sprachen.',
   // GitHub repo for submission/PR flow. Update to actual values before deploy.
   github: {
-    owner: 'kfm',
+    owner: 'kmein',
     repo: 'scheinkognat',
   },
 };
