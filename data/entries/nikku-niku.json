@@ -1,0 +1,8 @@
+{
+  "id": "nikku-niku",
+  "forms": [
+    { "lang": "kal", "script": "nikku", "gloss": "Trockenfleisch" },
+    { "lang": "jpn", "script": "肉", "translit": "niku", "gloss": "Fleisch" }
+  ],
+  "contributor": "kenneth-wehr"
+}

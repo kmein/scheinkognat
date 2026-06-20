@@ -1,0 +1,8 @@
+{
+  "id": "potom-potom",
+  "forms": [
+    { "lang": "kls", "script": "pot'om", "gloss": "danach, später" },
+    { "lang": "rus", "script": "потом", "translit": "potom", "gloss": "danach" }
+  ],
+  "contributor": "johannes-schuetz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ki-ki-kin",
+  "forms": [
+    { "lang": "kal", "script": "ki-, ki-na", "gloss": "wer?" },
+    { "lang": "hun", "script": "ki", "gloss": "wer?" },
+    { "lang": "udm", "script": "кин", "translit": "kin", "gloss": "wer?" }
+  ],
+  "contributor": "kenneth-wehr"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "eye-iji",
+  "forms": [
+    { "lang": "eng", "script": "eye", "gloss": "Auge" },
+    { "lang": "iku", "script": "iji", "gloss": "Auge" }
+  ],
+  "contributor": "kenneth-wehr",
+  "added": "2026-01-27"
+}

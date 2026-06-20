@@ -1,0 +1,8 @@
+{
+  "id": "igniq-ignis",
+  "forms": [
+    { "lang": "ipk", "script": "igniq", "gloss": "Feuer" },
+    { "lang": "lat", "script": "ignis", "gloss": "Feuer" }
+  ],
+  "contributor": "kenneth-wehr"
+}

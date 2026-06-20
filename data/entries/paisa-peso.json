@@ -1,0 +1,7 @@
+{
+  "id": "paisa-peso",
+  "forms": [
+    { "lang": "hin", "script": "पैसा", "translit": "paisā", "gloss": "Geldstück" },
+    { "lang": "spa", "script": "peso", "gloss": "Währung" }
+  ]
+}

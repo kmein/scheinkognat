@@ -1,0 +1,8 @@
+{
+  "id": "ir-ira",
+  "forms": [
+    { "lang": "heb", "script": "עיר", "translit": "ʿīr", "gloss": "Zorn" },
+    { "lang": "lat", "script": "īra", "gloss": "Zorn" }
+  ],
+  "contributor": "m-kahir"
+}

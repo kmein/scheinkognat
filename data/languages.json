@@ -281,6 +281,15 @@
       29.9786
     ]
   },
+  "guj": {
+    "name": "Gujarati",
+    "rtl": false,
+    "glottocode": "guja1252",
+    "coords": [
+      22.687,
+      71.0962
+    ]
+  },
   "grc": {
     "name": "Altgriechisch",
     "rtl": false,
@@ -960,6 +969,22 @@
     "coords": [
       0,
       0
+    ]
+  },
+  "qun": {
+    "name": "Urinuitisch",
+    "rtl": false,
+    "coords": [
+      47.4214,
+      -124.16
+    ]
+  },
+  "qug": {
+    "name": "Urgermanisch",
+    "rtl": false,
+    "coords": [
+      -1.36727,
+      -78.8521
     ]
   }
 }

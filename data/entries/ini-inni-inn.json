@@ -1,0 +1,9 @@
+{
+  "id": "ini-inni-inn",
+  "forms": [
+    { "lang": "kal", "script": "ini", "gloss": "Raum, Platz, Wohnung" },
+    { "lang": "isl", "script": "inni", "gloss": "Wohnung, Zuhause" },
+    { "lang": "eng", "script": "inn", "gloss": "Herberge" }
+  ],
+  "contributor": "kenneth-wehr"
+}

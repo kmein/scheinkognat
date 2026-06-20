@@ -1,0 +1,7 @@
+{
+  "id": "pitna-beat",
+  "forms": [
+    { "lang": "hin", "script": "पीट-ना", "translit": "pīṭ-nā", "gloss": "verprügeln" },
+    { "lang": "eng", "script": "beat", "gloss": "schlagen" }
+  ]
+}

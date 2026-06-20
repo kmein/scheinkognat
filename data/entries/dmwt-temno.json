@@ -1,0 +1,11 @@
+{
+  "id": "dmwt-temno",
+  "forms": [
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "dm.wt", "gloss": "Schnitt" },
+    { "lang": "grc", "script": "τέμνω", "translit": "témnō", "gloss": "schneiden" }
+  ],
+  "contributor": "anne-grischeck",
+  "sources": [
+    "https://thesaurus-linguae-aegyptiae.de/lemma/179220"
+  ]
+}

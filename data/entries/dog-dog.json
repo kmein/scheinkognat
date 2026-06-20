@@ -1,0 +1,7 @@
+{
+  "id": "dog-dog",
+  "forms": [
+    { "lang": "vmb", "script": "dog", "gloss": "Hund" },
+    { "lang": "eng", "script": "dog" }
+  ]
+}

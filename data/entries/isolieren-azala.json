@@ -1,0 +1,7 @@
+{
+  "id": "isolieren-azala",
+  "forms": [
+    { "lang": "deu", "script": "isolieren" },
+    { "lang": "ara", "script": "عزل", "translit": "ʿazala", "gloss": "isolieren" }
+  ]
+}

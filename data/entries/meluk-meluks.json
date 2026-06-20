@@ -1,0 +1,8 @@
+{
+  "id": "meluk-meluks",
+  "forms": [
+    { "lang": "qun", "script": "*məluk-", "gloss": "saugen (Milch)" },
+    { "lang": "qug", "script": "*meluk-s", "gloss": "Milch" }
+  ],
+  "contributor": "kenneth-wehr"
+}

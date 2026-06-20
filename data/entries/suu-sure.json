@@ -1,0 +1,9 @@
+{
+  "id": "suu-sure",
+  "forms": [
+    { "lang": "kal", "script": "suu", "gloss": "ja (umgangssprachlich)" },
+    { "lang": "eng", "script": "sure", "gloss": "klar" }
+  ],
+  "contributor": "kenneth-wehr",
+  "comment": "Eine beliebte Volksetymologie — gleichlautend in Bedeutung und Klang."
+}
