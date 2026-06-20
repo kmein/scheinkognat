@@ -1,0 +1,8 @@
+{
+  "id": "cok-sok",
+  "forms": [
+    { "lang": "tur", "script": "çok", "gloss": "viel" },
+    { "lang": "hun", "script": "sok", "gloss": "viel" }
+  ],
+  "comment": "Leider ein Lehnwort."
+}

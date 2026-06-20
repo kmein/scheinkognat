@@ -1,0 +1,10 @@
+{
+  "id": "slot-schloss",
+  "forms": [
+    { "lang": "eng", "script": "slot" },
+    { "lang": "eng", "script": "lock" },
+    { "lang": "deu", "script": "Schloss" },
+    { "lang": "deu", "script": "Loch" }
+  ],
+  "comment": "Im Englischen *slot* vs. *lock*, im Deutschen *Schloss* vs. *Loch* — die gleichlautende Opposition wiederholt sich in beiden Sprachen mit vertauschten Bedeutungen (etwa: das, was offen ist, vs. das, was verschließt)."
+}

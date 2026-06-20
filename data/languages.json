@@ -451,6 +451,15 @@
       12.4502
     ]
   },
+  "ltc": {
+    "name": "Mittelchinesisch",
+    "rtl": false,
+    "glottocode": "midd1344",
+    "coords": [
+      34.27,
+      108.9
+    ]
+  },
   "lit": {
     "name": "Litauisch",
     "rtl": false,

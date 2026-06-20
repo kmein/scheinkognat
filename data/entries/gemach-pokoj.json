@@ -1,0 +1,7 @@
+{
+  "id": "gemach-pokoj",
+  "forms": [
+    { "lang": "deu", "script": "Gemach", "gloss": "Ruhe, Zimmer" },
+    { "lang": "pol", "script": "pokój", "gloss": "Ruhe, Zimmer" }
+  ]
+}

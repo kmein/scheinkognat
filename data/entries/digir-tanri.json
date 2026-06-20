@@ -1,0 +1,7 @@
+{
+  "id": "digir-tanri",
+  "forms": [
+    { "lang": "sux", "script": "DIĜIR", "gloss": "Gott" },
+    { "lang": "tur", "script": "tanrı", "gloss": "Gott", "etymology": "< *teŋri" }
+  ]
+}

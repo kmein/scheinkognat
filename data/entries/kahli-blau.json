@@ -1,0 +1,9 @@
+{
+  "id": "kahli-blau",
+  "forms": [
+    { "lang": "ara", "script": "كحلي", "translit": "kuḥlī", "gloss": "blau, kohl-farben" },
+    { "lang": "ara", "script": "الكحول", "translit": "al-kuḥūl", "gloss": "Alkohol" },
+    { "lang": "deu", "script": "blau", "gloss": "alkoholisiert" }
+  ],
+  "comment": "Das arabische *kuḥlī* (kohl, blau) und *al-kuḥūl* (Alkohol — Quelle des deutschen Wortes) sind etymologisch dieselbe Wurzel. Die Koinzidenz: im Deutschen heißt *blau* auch *alkoholisiert*."
+}
