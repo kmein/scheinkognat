@@ -1,7 +1,7 @@
 {
   "id": "e-i",
   "forms": [
-    { "lang": "sux", "script": "e₂", "gloss": "Haus" },
+    { "lang": "sux", "translit": "e₂", "script": "𒂍", "gloss": "Haus" },
     { "lang": "cop", "script": "ⲏⲓ", "translit": "ēi", "gloss": "Haus" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "ja-ja",
   "forms": [
-    { "lang": "gdm", "script": "já", "gloss": "ich (maskulin)" },
+    { "lang": "gdm", "translit": "já", "gloss": "ich (maskulin)" },
     { "lang": "ces", "script": "já", "gloss": "ich" }
   ]
 }

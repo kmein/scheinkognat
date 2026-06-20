@@ -1,7 +1,7 @@
 {
   "id": "iope-job",
   "forms": [
-    { "lang": "cop", "script": "ⲉⲓⲟⲡⲉ", "translit": "iope", "gloss": "Arbeit, Beruf" },
+    { "lang": "cop", "script": "ⲉⲓⲟⲡⲉ", "translit": "eiope", "gloss": "Arbeit, Beruf" },
     { "lang": "eng", "script": "job", "gloss": "Arbeit" }
   ]
 }

@@ -2,6 +2,6 @@
   "id": "kunyah-kuni",
   "forms": [
     { "lang": "ara", "script": "كنية", "translit": "kunyah", "gloss": "Teknonym, Beiname" },
-    { "lang": "got", "script": "kuni", "gloss": "Geschlecht, Stamm" }
+    { "lang": "got", "script": "𐌺𐌿𐌽𐌹", "translit": "kuni", "gloss": "Geschlecht, Stamm" }
   ]
 }

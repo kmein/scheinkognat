@@ -1,7 +1,10 @@
 {
   "id": "maat-emet",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "mꜣꜥ.t", "gloss": "Wahrheit" },
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "𓌳𓐙𓂝𓏏𓏛", "translit": "mꜣꜥ.t", "gloss": "Wahrheit" },
     { "lang": "heb", "script": "אמת", "translit": "ʾemet", "gloss": "Wahrheit" }
+  ],
+  "sources": [
+    "https://thesaurus-linguae-aegyptiae.de/lemma/66620"
   ]
 }

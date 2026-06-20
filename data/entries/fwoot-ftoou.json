@@ -1,7 +1,7 @@
 {
   "id": "fwoot-ftoou",
   "forms": [
-    { "lang": "qga", "script": "fwóót˺", "gloss": "vier" },
+    { "lang": "qga", "translit": "fwóót˺", "gloss": "vier" },
     { "lang": "cop", "script": "ϥⲧⲟⲟⲩ", "translit": "ftoou", "gloss": "vier" }
   ]
 }

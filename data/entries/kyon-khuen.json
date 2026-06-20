@@ -2,6 +2,6 @@
   "id": "kyon-khuen",
   "forms": [
     { "lang": "grc", "script": "κύων", "translit": "kýōn", "gloss": "Hund" },
-    { "lang": "ltc", "script": "*khuen", "gloss": "Hund" }
+    { "lang": "ltc", "translit": "*khuen", "gloss": "Hund" }
   ]
 }

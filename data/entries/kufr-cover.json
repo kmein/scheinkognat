@@ -1,7 +1,7 @@
 {
   "id": "kufr-cover",
   "forms": [
-    { "lang": "ara", "script": "كُفر", "translit": "kufr", "gloss": "Unglaube, wörtlich Bedeckung" },
+    { "lang": "ara", "script": "كُفر", "translit": "kufr", "gloss": "Unglaube, (wörtl.) Bedeckung" },
     { "lang": "eng", "script": "cover", "gloss": "bedecken" }
   ]
 }

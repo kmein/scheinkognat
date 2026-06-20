@@ -1,7 +1,7 @@
 {
   "id": "kemo-como",
   "forms": [
-    { "lang": "heb", "script": "כמו", "translit": "kemo", "gloss": "wie" },
+    { "lang": "heb", "script": "כמו", "translit": "kəmo", "gloss": "wie" },
     { "lang": "spa", "script": "como", "gloss": "wie" }
   ]
 }

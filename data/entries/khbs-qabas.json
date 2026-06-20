@@ -1,7 +1,8 @@
 {
   "id": "khbs-qabas",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "ḫbs", "gloss": "Fackel" },
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": " 𓆼𓄿𓃀𓏲𓐠𓏤𓊮", "translit": "ḫbs", "gloss": "Lampe, Docht" },
     { "lang": "ara", "script": "قبس", "translit": "qabas", "gloss": "Fackel" }
-  ]
+  ],
+  "sources": ["https://thesaurus-linguae-aegyptiae.de/lemma/113860"]
 }

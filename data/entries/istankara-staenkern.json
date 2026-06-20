@@ -1,7 +1,7 @@
 {
   "id": "istankara-staenkern",
   "forms": [
-    { "lang": "ara", "translit": "istankara", "gloss": "missbilligen" },
+    { "lang": "ara", "script": "استنكر", "translit": "istankara", "gloss": "missbilligen" },
     { "lang": "deu", "script": "stänkern" }
   ]
 }

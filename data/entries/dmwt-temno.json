@@ -1,7 +1,7 @@
 {
   "id": "dmwt-temno",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "dm.wt", "gloss": "Schnitt" },
+    { "lang": "egy", "dialect": "Mittelägyptisch", "translit": "dm.wt", "script": "𓂧𓅓𓅱𓏏𓌪𓏥", "gloss": "Schnitt" },
     { "lang": "grc", "script": "τέμνω", "translit": "témnō", "gloss": "schneiden" }
   ],
   "contributor": "anne-grischeck",

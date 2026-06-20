@@ -1,7 +1,7 @@
 {
   "id": "kere-keer",
   "forms": [
-    { "lang": "tur", "script": "kere", "gloss": "Mal (z. B. fünf kere)" },
-    { "lang": "nld", "script": "keer", "gloss": "Mal (z. B. vijf keer)" }
+    { "lang": "tur", "script": "kere", "gloss": "Mal (z. B. fünf Mal)" },
+    { "lang": "nld", "script": "keer", "gloss": "Mal (z. B. fünf Mal)" }
   ]
 }
