@@ -255,7 +255,7 @@ li.form .gloss {
   font-size: 1rem;
 }
 li.form .gloss::before { content: '\2009\201A'; }
-li.form .gloss::after  { content: '\2019\2009'; }
+li.form .gloss::after  { content: '\2018\2009'; }
 li.form .etymology {
   display: block;
   flex-basis: 100%;
