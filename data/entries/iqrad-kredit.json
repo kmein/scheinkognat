@@ -1,0 +1,7 @@
+{
+  "id": "iqrad-kredit",
+  "forms": [
+    { "lang": "ara", "script": "إقراض", "translit": "ʾiqrāḍ", "gloss": "Kredit" },
+    { "lang": "deu", "script": "Kredit" }
+  ]
+}

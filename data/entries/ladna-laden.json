@@ -1,0 +1,7 @@
+{
+  "id": "ladna-laden",
+  "forms": [
+    { "lang": "hin", "script": "लादना", "translit": "lādnā", "gloss": "laden, beladen" },
+    { "lang": "deu", "script": "laden" }
+  ]
+}

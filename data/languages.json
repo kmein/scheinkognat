@@ -451,6 +451,15 @@
       12.4502
     ]
   },
+  "lzh": {
+    "name": "Klassisches Chinesisch",
+    "rtl": false,
+    "glottocode": "lite1248",
+    "coords": [
+      34.09,
+      109.05
+    ]
+  },
   "ltc": {
     "name": "Mittelchinesisch",
     "rtl": false,

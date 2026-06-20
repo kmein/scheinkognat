@@ -1,0 +1,12 @@
+{
+  "id": "ger-gar",
+  "forms": [
+    { "lang": "syc", "script": "ܓܝܪ", "translit": "ger", "gloss": "denn" },
+    { "lang": "syc", "script": "ܕܝܢ", "translit": "den", "gloss": "aber" },
+    { "lang": "syc", "script": "ܐܠܐ", "translit": "ʾela", "gloss": "sondern" },
+    { "lang": "grc", "script": "γάρ", "translit": "gár", "gloss": "denn" },
+    { "lang": "grc", "script": "δέ", "translit": "dé", "gloss": "aber" },
+    { "lang": "grc", "script": "ἀλλά", "translit": "allá", "gloss": "sondern" }
+  ],
+  "comment": "Drei Partikel-Trios fallen in syrischer und griechischer Form parallel zusammen."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "patthar-petra",
+  "forms": [
+    { "lang": "hin", "script": "पत्थर", "translit": "patthar", "gloss": "Felsen" },
+    { "lang": "urd", "script": "پتھر", "translit": "patthar", "gloss": "Felsen" },
+    { "lang": "grc", "script": "πέτρα", "translit": "pétra", "gloss": "Felsen" }
+  ]
+}

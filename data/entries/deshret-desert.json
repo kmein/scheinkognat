@@ -1,0 +1,7 @@
+{
+  "id": "deshret-desert",
+  "forms": [
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "𓂧𓈙𓂋𓏏𓅟𓈉", "translit": "dšrt", "gloss": "rotes Land, Wüste" },
+    { "lang": "eng", "script": "desert", "gloss": "Wüste" }
+  ]
+}

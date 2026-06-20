@@ -1,0 +1,8 @@
+{
+  "id": "tek-tik",
+  "forms": [
+    { "lang": "tur", "script": "tek", "gloss": "einzig" },
+    { "lang": "lit", "script": "tik", "gloss": "nur" }
+  ],
+  "contributor": "johannes-schuetz"
+}

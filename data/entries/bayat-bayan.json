@@ -1,0 +1,7 @@
+{
+  "id": "bayat-bayan",
+  "forms": [
+    { "lang": "rus", "script": "баять", "translit": "bajat'", "gloss": "sprechen, erzählen" },
+    { "lang": "ara", "script": "بيان", "translit": "bayān", "gloss": "Erklärung, Rede" }
+  ]
+}

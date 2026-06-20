@@ -1,0 +1,7 @@
+{
+  "id": "tala-tale",
+  "forms": [
+    { "lang": "smo", "script": "tala", "gloss": "Geschichte" },
+    { "lang": "eng", "script": "tale", "gloss": "Geschichte" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "kutsal-quds",
+  "forms": [
+    { "lang": "tur", "script": "kutsal", "gloss": "heilig", "etymology": "< *kutsa* segnen + *-l*" },
+    { "lang": "ara", "script": "القُدس", "translit": "al-quds", "gloss": "die Heiligkeit" }
+  ]
+}

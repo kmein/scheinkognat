@@ -1,0 +1,10 @@
+{
+  "id": "h-letter-cluster",
+  "forms": [
+    { "lang": "san", "script": "𐨱", "translit": "h", "gloss": "Buchstabe h (Kharoṣṭhī)" },
+    { "lang": "bod", "script": "འ", "gloss": "Buchstabe ʼa-chung" },
+    { "lang": "cop", "script": "ϩ", "translit": "h", "gloss": "Buchstabe Hori" },
+    { "lang": "ara", "script": "ح", "translit": "ḥ", "gloss": "Buchstabe Ḥā" }
+  ],
+  "comment": "Vier völlig unverwandte Schriftsysteme — Kharoṣṭhī (Sanskrit/Gandhari), Tibetisch, Koptisch, Arabisch — verwenden gleich aussehende Glyphen für einen h-Laut."
+}

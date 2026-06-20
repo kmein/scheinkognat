@@ -1,0 +1,7 @@
+{
+  "id": "bana-banaya",
+  "forms": [
+    { "lang": "ara", "script": "بنى", "translit": "banā", "gloss": "er baute" },
+    { "lang": "hin", "script": "बनाया", "translit": "banāyā", "gloss": "er hat gemacht" }
+  ]
+}

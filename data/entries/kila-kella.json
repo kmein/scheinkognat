@@ -1,0 +1,8 @@
+{
+  "id": "kila-kella",
+  "forms": [
+    { "lang": "swa", "script": "kila", "gloss": "jede, alle" },
+    { "lang": "ara", "dialect": "Damaszenisch", "script": "كلّا", "translit": "kəlla", "gloss": "ganz" }
+  ],
+  "comment": "Leider entlehnt."
+}

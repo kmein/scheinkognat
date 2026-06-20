@@ -1,0 +1,8 @@
+{
+  "id": "penta-pente",
+  "forms": [
+    { "lang": "qpu", "script": "penta", "gloss": "fünf" },
+    { "lang": "grc", "script": "πέντε", "translit": "pénte", "gloss": "fünf" }
+  ],
+  "contributor": "johannes-friedrich"
+}

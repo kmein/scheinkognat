@@ -1,0 +1,9 @@
+{
+  "id": "tiz-dix-disi",
+  "forms": [
+    { "lang": "hun", "script": "tíz", "gloss": "zehn" },
+    { "lang": "fra", "script": "dix", "gloss": "zehn" },
+    { "lang": "naq", "script": "disi", "gloss": "zehn" }
+  ],
+  "contributor": "johannes-friedrich"
+}
