@@ -1,7 +1,7 @@
 {
   "id": "bsirfa-bystro",
   "forms": [
-    { "lang": "ara", "dialect": "Libanesisch", "script": "بسرعة", "translit": "bsərʕa", "gloss": "schnell" },
+    { "lang": "ara", "dialect": "Libanon", "script": "بسرعة", "translit": "bsərʕa", "gloss": "schnell" },
     { "lang": "rus", "script": "быстро", "translit": "bystro", "gloss": "schnell" }
   ]
 }

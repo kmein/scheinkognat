@@ -2,6 +2,6 @@
   "id": "sagen-saji",
   "forms": [
     { "lang": "deu", "script": "sage-n" },
-    { "lang": "cop", "script": "ⲥⲁϫⲓ", "translit": "saji", "gloss": "sagen, sprechen" }
+    { "lang": "cop", "script": "ⲥⲁϫⲓ", "dialect": "Bohairisch", "translit": "sači", "gloss": "sagen, sprechen" }
   ]
 }

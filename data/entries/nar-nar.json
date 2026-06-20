@@ -3,11 +3,12 @@
   "forms": [
     {
       "lang": "qya",
-      "script": "nár",
+      "translit": "nár",
       "gloss": "Feuer"
     },
     {
       "lang": "ara",
+      "script": "نار",
       "translit": "nār",
       "gloss": "Feuer"
     }

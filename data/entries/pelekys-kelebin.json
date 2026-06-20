@@ -41,6 +41,7 @@
     },
     {
       "lang": "akk",
+      "script": "𒁄",
       "translit": "pilakku",
       "gloss": "Spindel"
     },
@@ -51,9 +52,9 @@
     },
     {
       "lang": "prg",
-      "translit": "kalabijan",
+      "script": "kalabijan",
       "gloss": "Schwert"
     }
   ],
-  "comment": "Ein Cluster mit ungewöhnlich vielen Reflexen — von der Axt bis zum Schwert und zur Spindel. Vgl. auch das von Hesychios überlieferte griechische βέλεκκος."
+  "sources": ["https://en.wiktionary.org/wiki/%F0%92%81%84"]
 }

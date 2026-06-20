@@ -1,7 +1,7 @@
 {
   "id": "meqqer-makros",
   "forms": [
-    { "lang": "auj", "script": "mə̀qqər", "gloss": "groß sein" },
+    { "lang": "auj", "translit": "mə̀qqər", "gloss": "groß sein" },
     { "lang": "grc", "script": "μακρός", "translit": "makrós", "gloss": "lang, groß" }
   ],
   "sources": [

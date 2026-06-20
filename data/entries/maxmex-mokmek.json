@@ -1,7 +1,7 @@
 {
   "id": "maxmex-mokmek",
   "forms": [
-    { "lang": "ara", "dialect": "Damaszenisch", "translit": "y-maxmex", "gloss": "konzentriert nachdenken" },
+    { "lang": "ara", "dialect": "Damaskus", "script": "يمخمخ", "translit": "y-maxmex", "gloss": "konzentriert nachdenken" },
     { "lang": "cop", "script": "ⲙⲟⲕⲙⲉⲕ", "translit": "mokmek", "gloss": "konzentriert nachdenken" }
   ]
 }

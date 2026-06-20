@@ -1,7 +1,7 @@
 {
   "id": "nj-ni",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "nj", "gloss": "nicht" },
-    { "lang": "deu", "dialect": "Sächsisch", "translit": "/nɪ/", "gloss": "nicht" }
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "𓈖𓇋", "translit": "nj", "gloss": "nicht" },
+    { "lang": "deu", "dialect": "Sachsen", "translit": "nɪ", "gloss": "nicht" }
   ]
 }

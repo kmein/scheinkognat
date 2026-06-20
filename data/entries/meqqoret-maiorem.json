@@ -1,7 +1,7 @@
 {
   "id": "meqqoret-maiorem",
   "forms": [
-    { "lang": "taq", "script": "meqqôret", "gloss": "groß" },
+    { "lang": "taq", "translit": "meqqôret", "gloss": "groß" },
     { "lang": "lat", "script": "maiorem", "gloss": "größer" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "okaso-occasio",
   "forms": [
-    { "lang": "pli", "script": "okāso", "gloss": "Ort, Gelegenheit" },
+    { "lang": "pli", "translit": "okāso", "gloss": "Ort, Gelegenheit" },
     { "lang": "lat", "script": "occāsiō", "gloss": "Gelegenheit" }
   ]
 }

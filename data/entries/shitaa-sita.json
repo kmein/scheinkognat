@@ -2,6 +2,6 @@
   "id": "shitaa-sita",
   "forms": [
     { "lang": "ara", "script": "شِتَاء", "translit": "šitāʾ", "gloss": "Winter" },
-    { "lang": "san", "translit": "śīta", "gloss": "kalt" }
+    { "lang": "san", "script": "शीत", "translit": "śīta", "gloss": "kalt" }
   ]
 }

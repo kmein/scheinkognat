@@ -1,7 +1,7 @@
 {
   "id": "shml-sammeln",
   "forms": [
-    { "lang": "ara", "translit": "šml", "gloss": "beinhalten" },
+    { "lang": "ara", "script": "شمل", "translit": "šamila", "gloss": "beinhalten" },
     { "lang": "deu", "script": "sammeln" }
   ]
 }

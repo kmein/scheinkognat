@@ -2,6 +2,6 @@
   "id": "radii-radu",
   "forms": [
     { "lang": "ara", "script": "راضي", "translit": "rāḍī", "gloss": "zufrieden" },
-    { "lang": "chu", "translit": "radŭ", "gloss": "zufrieden" }
+    { "lang": "chu", "script": "радъ", "translit": "radŭ", "gloss": "zufrieden" }
   ]
 }

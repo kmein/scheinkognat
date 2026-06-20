@@ -1,8 +1,26 @@
 {
   "id": "tape-tepe",
   "forms": [
-    { "lang": "cop", "script": "ⲧⲁⲡⲉ", "translit": "tape", "gloss": "Kopf" },
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "tpy", "gloss": "Kopf" },
-    { "lang": "tur", "script": "tepe", "gloss": "Hügel" }
+    {
+      "lang": "cop",
+      "script": "ⲧⲁⲡⲉ",
+      "translit": "tape",
+      "gloss": "Kopf"
+    },
+    {
+      "lang": "egy",
+      "dialect": "Mittelägyptisch",
+      "translit": "tp.t",
+      "script": " 𓁶𓊪𓏏𓄹",
+      "gloss": "Kopf"
+    },
+    {
+      "lang": "tur",
+      "script": "tepe",
+      "gloss": "Hügel"
+    }
+  ],
+  "sources": [
+    "https://thesaurus-linguae-aegyptiae.de/lemma/170920"
   ]
 }

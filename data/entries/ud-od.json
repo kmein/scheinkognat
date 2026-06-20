@@ -1,7 +1,7 @@
 {
   "id": "ud-od",
   "forms": [
-    { "lang": "sux", "script": "ud", "gloss": "Zeit" },
+    { "lang": "sux", "script": "𒌓", "translit": "ud", "gloss": "Tag" },
     { "lang": "tur", "dialect": "Gök-Türkisch", "script": "öd", "gloss": "Zeit" }
   ],
   "sources": [

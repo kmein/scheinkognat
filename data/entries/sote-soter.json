@@ -2,6 +2,6 @@
   "id": "sote-soter",
   "forms": [
     { "lang": "cop", "script": "ⲥⲱⲧⲉ", "translit": "sōte", "gloss": "retten, erlösen" },
-    { "lang": "grc", "script": "σωτῆρ", "translit": "sōtḗr", "gloss": "Retter" }
+    { "lang": "grc", "script": "σωτήρ", "translit": "sōtḗr", "gloss": "Retter" }
   ]
 }

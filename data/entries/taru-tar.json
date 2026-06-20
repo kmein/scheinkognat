@@ -1,7 +1,7 @@
 {
   "id": "taru-tar",
   "forms": [
-    { "lang": "hit", "script": "taru", "gloss": "Baum" },
+    { "lang": "hit", "translit": "taru", "gloss": "Baum" },
     { "lang": "cop", "script": "ⲧⲁⲣ", "translit": "tar", "gloss": "Zweig" }
   ]
 }

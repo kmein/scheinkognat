@@ -49,13 +49,13 @@
     "rtl": true,
     "glottocode": "arab1395",
     "dialects": [
-      "Damaszenisch",
+      "Damskus",
       "Sudanesisch",
-      "Libanesisch",
+      "Libanon",
       "Hijazi",
       "Baghdad (muslim.)",
       "Baghdad (jüd.)",
-      "Syrisch",
+      "Syrien",
       "Rijāl Almaʿ"
     ],
     "coords": [
@@ -163,7 +163,7 @@
     "rtl": false,
     "glottocode": "stan1295",
     "dialects": [
-      "Sächsisch"
+      "Sachsen"
     ],
     "coords": [
       48.649,
