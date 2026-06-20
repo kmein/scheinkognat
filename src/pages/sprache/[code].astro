@@ -19,8 +19,10 @@ const lang = languages[code];
   <div class="subnav">
     <a href={base}>← Übersicht</a>
   </div>
+  <span class="eyebrow">Sprache</span>
   <h1>{languageName(code)}</h1>
   <p class="index-summary">
+    {list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'} ·
     ISO 639-3: <code>{code}</code>
     {lang?.rtl && <> · RTL</>}
     {lang?.constructed && <> · Kunstsprache{lang.creator ? ` (${lang.creator})` : ''}</>}
@@ -29,7 +31,6 @@ const lang = languages[code];
     )}
     {lang?.wikipedia && <> · <a href={lang.wikipedia}>Wikipedia</a></>}
   </p>
-  <p class="index-summary">{list.length} Einträge mit dieser Sprache.</p>
 
   <div>
     {list.map((e) => <Entry entry={e} />)}

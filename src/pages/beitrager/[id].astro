@@ -19,9 +19,11 @@ const c = contributors[id];
   <div class="subnav">
     <a href={base}>← Übersicht</a>
   </div>
+  <span class="eyebrow">Beiträger:in</span>
   <h1>{contributorName(id)}</h1>
-  {c?.url && <p class="index-summary"><a href={c.url}>{c.url}</a></p>}
-  <p class="index-summary">{list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'}.</p>
+  <p class="index-summary">
+    {list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'}{c?.url && <>, <a href={c.url}>{c.url}</a></>}.
+  </p>
 
   <div>
     {list.map((e) => <Entry entry={e} />)}
