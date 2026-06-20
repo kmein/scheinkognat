@@ -1,7 +1,20 @@
 {
   "id": "lawa-kuemmern",
   "forms": [
-    { "lang": "ara", "script": "لوى", "translit": "lawā", "gloss": "krümmen, kümmern" },
-    { "lang": "deu", "script": "kümmern" }
-  ]
+    {
+      "lang": "ara",
+      "script": "لوى",
+      "translit": "lawā",
+      "gloss": "krümmen, kümmern"
+    },
+    {
+      "lang": "deu",
+      "script": "kümmern"
+    },
+    {
+      "lang": "deu",
+      "script": "krümmen"
+    }
+  ],
+  "comment": "Einem arabischen Verb stehen zwei deutsche Verben gegenüber, die Anagramme voneinander sind."
 }

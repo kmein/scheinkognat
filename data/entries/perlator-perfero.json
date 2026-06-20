@@ -2,9 +2,9 @@
   "id": "perlator-perfero",
   "forms": [
     { "lang": "deu", "script": "Perlator", "gloss": "Strahlregler am Wasserhahn" },
-    { "lang": "lat", "script": "perfero", "gloss": "durchtragen, ertragen" }
+    { "lang": "lat", "script": "perlātus", "gloss": "durchgetragen" }
   ],
-  "comment": "Perlator klingt wie eine pseudo-lateinische Bildung — *Perl-ator* (von der Perle) oder *Per-lator* (von *perfero*)? Tatsächlich ist der Markenname eine Wortschöpfung der Firma Perlator GmbH aus den 1950er Jahren.",
+  "comment": "Ob der Strahlregler so heißt, damit das wasser _perlt_ – oder weil das Wasser dort durchgetragen wird?",
   "sources": [
     "https://en.wiktionary.org/wiki/perfero#Latin",
     "https://www.perlator.de/perlator/historisches/index.html"
