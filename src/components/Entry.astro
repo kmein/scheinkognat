@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL;
 
 const langCodes = Array.from(new Set(entry.forms.map((f) => f.lang)));
 const commentHtml = entry.comment ? marked.parse(entry.comment, { async: false }) as string : null;
+const etymologyHtml = (s: string) => marked.parseInline(s, { async: false }) as string;
 const hasMeta = Boolean(entry.added || entry.contributor);
 ---
 <article
@@ -45,7 +46,7 @@ const hasMeta = Boolean(entry.added || entry.contributor);
             )}
             {f.translit && <span class="translit">{f.translit}</span>}
             {f.gloss && <span class="gloss">{f.gloss}</span>}
-            {f.etymology && <span class="etymology">{f.etymology}</span>}
+            {f.etymology && <span class="etymology" set:html={etymologyHtml(f.etymology)} />}
           </div>
         </li>
       ))}

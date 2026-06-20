@@ -245,10 +245,14 @@ li.form .gloss::after  { content: '\2019\2009'; }
 li.form .etymology {
   display: block;
   flex-basis: 100%;
-  font-style: italic;
   font-size: 0.875rem;
   color: var(--fg-quiet);
   margin-top: 0;
+}
+li.form .etymology em { font-style: italic; }
+li.form .etymology code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
 }
 
 .entry .comment {
