@@ -1,0 +1,7 @@
+{
+  "id": "orchard-orchatos",
+  "forms": [
+    { "lang": "eng", "script": "orchard", "gloss": "Obstgarten" },
+    { "lang": "grc", "script": "ὄρχατος", "translit": "órchatos", "gloss": "Garten" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "cutlet-schnitzel",
+  "forms": [
+    { "lang": "eng", "script": "cutlet", "gloss": "Schnitzel" },
+    { "lang": "deu", "script": "Schnitzel" }
+  ],
+  "comment": "Parallele Diminutivbildungen: *cut-let* (Diminutiv zu *cut*) und *Schnitz-el* (Diminutiv zu *Schnitz*). Aber das englische *cutlet* kommt vom französischen *côtelette* < altfranzösisch *coste* < lateinisch *costa* — die Diminutivendung ist nicht parallel, sondern fällt nur zufällig zusammen."
+}

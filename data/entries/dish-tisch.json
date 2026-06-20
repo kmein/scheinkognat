@@ -1,0 +1,10 @@
+{
+  "id": "dish-tisch",
+  "forms": [
+    { "lang": "eng", "script": "dish" },
+    { "lang": "lat", "script": "discus" },
+    { "lang": "deu", "script": "Diskus" },
+    { "lang": "deu", "script": "Tisch" }
+  ],
+  "comment": "Die ganze Kette ist etymologisch verbunden (alle aus lat. *discus*), aber *Disko* und *Tisch* wirken bei oberflächlicher Betrachtung wie unabhängige Bildungen."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "stibaros-stiprus",
+  "forms": [
+    { "lang": "grc", "dialect": "Homerisch", "script": "στιβαρός", "translit": "stibarós", "gloss": "kräftig, fest" },
+    { "lang": "lit", "script": "stiprus", "gloss": "kräftig" }
+  ]
+}

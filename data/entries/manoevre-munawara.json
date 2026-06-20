@@ -1,0 +1,7 @@
+{
+  "id": "manoevre-munawara",
+  "forms": [
+    { "lang": "fra", "script": "manœuvre", "gloss": "Manöver" },
+    { "lang": "ara", "script": "مُنَاوَرَة", "translit": "munāwara", "gloss": "Manöver", "etymology": "→ nāwara" }
+  ]
+}

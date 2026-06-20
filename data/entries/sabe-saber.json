@@ -1,0 +1,7 @@
+{
+  "id": "sabe-saber",
+  "forms": [
+    { "lang": "cop", "dialect": "Bohairisch", "script": "ⲥⲁⲃⲉ", "translit": "sabe", "gloss": "weise", "etymology": "< ägyptisch *sb3w* 'Lehrer'" },
+    { "lang": "spa", "script": "saber", "gloss": "wissen" }
+  ]
+}

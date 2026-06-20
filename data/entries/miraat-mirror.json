@@ -1,0 +1,7 @@
+{
+  "id": "miraat-mirror",
+  "forms": [
+    { "lang": "ara", "script": "مِرآة", "translit": "mirʾāh", "gloss": "Spiegel" },
+    { "lang": "eng", "script": "mirror" }
+  ]
+}

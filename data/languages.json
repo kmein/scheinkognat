@@ -140,6 +140,15 @@
       31.2053
     ]
   },
+  "chu": {
+    "name": "Altkirchenslawisch",
+    "rtl": false,
+    "glottocode": "chur1257",
+    "coords": [
+      43.7171,
+      22.8442
+    ]
+  },
   "cym": {
     "name": "Walisisch",
     "rtl": false,

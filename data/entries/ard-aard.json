@@ -1,0 +1,7 @@
+{
+  "id": "ard-aard",
+  "forms": [
+    { "lang": "ara", "script": "أرض", "translit": "arḍ", "gloss": "Erde" },
+    { "lang": "nld", "script": "aard", "gloss": "Erde" }
+  ]
+}

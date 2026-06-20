@@ -1,0 +1,7 @@
+{
+  "id": "kesmek-kes",
+  "forms": [
+    { "lang": "tur", "script": "kesmek", "gloss": "schneiden" },
+    { "lang": "qpi", "script": "*kes-", "gloss": "schneiden" }
+  ]
+}
