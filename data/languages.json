@@ -282,6 +282,11 @@
       29.9786
     ]
   },
+  "pgd": {
+    "name": "Gandhari",
+    "rtl": false,
+    "glottocode": "gand1259"
+  },
   "guj": {
     "name": "Gujarati",
     "rtl": false,
