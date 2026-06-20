@@ -1,7 +1,7 @@
 {
   "id": "cock-cook",
   "forms": [
-    { "lang": "cop", "script": "ϭⲱϭ", "translit": "tshōtsh", "gloss": "kochen" },
+    { "lang": "cop", "script": "ϭⲱϭ", "translit": "cōc", "gloss": "kochen" },
     { "lang": "eng", "script": "cook" }
   ]
 }

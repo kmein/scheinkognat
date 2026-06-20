@@ -1,7 +1,7 @@
 {
   "id": "bw-bu",
   "forms": [
-    { "lang": "egy", "dialect": "Neuägyptisch", "script": "bw", "gloss": "nicht" },
+    { "lang": "egy", "dialect": "Neuägyptisch", "script": "𓃀𓅱", "translit": "bw", "gloss": "nicht" },
     { "lang": "zho", "script": "不", "translit": "bù", "gloss": "nicht" }
   ]
 }
