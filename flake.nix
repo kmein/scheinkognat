@@ -1,5 +1,5 @@
 {
-  description = "Kognaten — linguistische Koinzidenzen";
+  description = "Scheinkognat — linguistische Koinzidenzen";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -21,7 +21,7 @@
 
           shellHook = ''
             export COREPACK_ENABLE_DOWNLOAD_PROMPT=0
-            echo "kognaten dev shell — node $(node -v), pnpm $(pnpm -v)"
+            echo "scheinkognat dev shell — node $(node -v), pnpm $(pnpm -v)"
           '';
         };
       });

@@ -1,11 +1,11 @@
 // User-editable site configuration.
 export const SITE = {
-  title: 'Kognaten',
+  title: 'Scheinkognat',
   description: 'Linguistische Koinzidenzen zwischen Sprachen.',
   // GitHub repo for submission/PR flow. Update to actual values before deploy.
   github: {
     owner: 'kfm',
-    repo: 'kognaten',
+    repo: 'scheinkognat',
   },
 };
 

@@ -4,7 +4,7 @@ import preact from '@astrojs/preact';
 // GitHub Pages config: site + base. Update site to actual repo owner before deploy.
 export default defineConfig({
   site: 'https://kfm.github.io',
-  base: '/kognaten/',
+  base: '/scheinkognat/',
   trailingSlash: 'ignore',
   integrations: [preact()],
   build: {

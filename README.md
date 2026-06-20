@@ -1,6 +1,6 @@
-# Kognaten
+# Scheinkognat
 
-Statische Website für *linguistische Koinzidenzen* zwischen Sprachen — überraschende Wortähnlichkeiten, die keine bekannte gemeinsame Etymologie oder Entlehnung haben.
+Statische Website für *linguistische Koinzidenzen* zwischen Sprachen — überraschende Wortähnlichkeiten ohne nachweisbare gemeinsame Etymologie oder Entlehnung. Also: Wörter, die wie Verwandte klingen, aber keine sind.
 
 Daten als strukturierte JSON-Dateien, Frontend mit Astro, Deploy auf GitHub Pages.
 
@@ -11,7 +11,7 @@ Voraussetzung: [Nix](https://nixos.org/) mit Flakes aktiviert. Die Devshell stel
 ```sh
 nix develop
 pnpm install
-pnpm dev          # http://localhost:4321/kognaten/
+pnpm dev          # http://localhost:4321/scheinkognat/
 ```
 
 Mit [`direnv`](https://direnv.net/) wird die Devshell automatisch geladen (`.envrc` ist enthalten).

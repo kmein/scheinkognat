@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kognaten/schema/entry.json",
+  "$id": "https://scheinkognat/schema/entry.json",
   "title": "Entry",
   "type": "object",
   "required": ["id", "forms"],

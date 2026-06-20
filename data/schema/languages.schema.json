@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kognaten/schema/languages.json",
+  "$id": "https://scheinkognat/schema/languages.json",
   "title": "Languages",
   "type": "object",
   "propertyNames": { "pattern": "^[a-z]{3}$" },

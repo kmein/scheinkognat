@@ -3,16 +3,16 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url('/kognaten/fonts/JunicodeVF-Roman.woff2') format('woff2-variations'),
-       url('/kognaten/fonts/JunicodeVF-Roman.woff2') format('woff2');
+  src: url('/scheinkognat/fonts/JunicodeVF-Roman.woff2') format('woff2-variations'),
+       url('/scheinkognat/fonts/JunicodeVF-Roman.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Junicode';
   font-style: italic;
   font-weight: 100 900;
   font-display: swap;
-  src: url('/kognaten/fonts/JunicodeVF-Italic.woff2') format('woff2-variations'),
-       url('/kognaten/fonts/JunicodeVF-Italic.woff2') format('woff2');
+  src: url('/scheinkognat/fonts/JunicodeVF-Italic.woff2') format('woff2-variations'),
+       url('/scheinkognat/fonts/JunicodeVF-Italic.woff2') format('woff2');
 }
 
 :root {

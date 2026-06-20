@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kognaten/schema/contributors.json",
+  "$id": "https://scheinkognat/schema/contributors.json",
   "title": "Contributors",
   "type": "object",
   "propertyNames": { "pattern": "^[a-z0-9-]+$" },
