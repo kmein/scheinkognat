@@ -1,0 +1,72 @@
+---
+import { marked } from 'marked';
+import type { Entry as EntryT } from '../lib/data.ts';
+import { languageName, contributorName, isRtl, bcp47, languages } from '../lib/data.ts';
+
+export interface Props {
+  entry: EntryT;
+  detail?: boolean;
+}
+
+const { entry, detail = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const langCodes = Array.from(new Set(entry.forms.map((f) => f.lang)));
+const commentHtml = entry.comment ? marked.parse(entry.comment, { async: false }) as string : null;
+---
+<article
+  class="entry"
+  data-id={entry.id}
+  data-langs={langCodes.join(',')}
+  data-contributor={entry.contributor ?? ''}
+>
+  <header>
+    <h2>
+      <a href={`${base}eintrag/${entry.id}/`}>
+        {langCodes.map((c) => languageName(c)).join(' ↔ ')}
+      </a>
+    </h2>
+    <div class="meta">
+      {entry.added && <time datetime={entry.added}>{entry.added}</time>}
+      {entry.contributor && (
+        <>
+          {entry.added && <span> · </span>}
+          <a href={`${base}beitrager/${entry.contributor}/`}>{contributorName(entry.contributor)}</a>
+        </>
+      )}
+    </div>
+  </header>
+
+  <ul class="forms">
+    {entry.forms.map((f) => (
+      <li class="form">
+        <div class="lang-tag">
+          <a href={`${base}sprache/${f.lang}/`}>{languageName(f.lang)}</a>
+          {f.dialect && <span class="dialect">{f.dialect}</span>}
+        </div>
+        <div class="form-body">
+          {f.script && (
+            <span class="script" lang={bcp47(f.lang)} dir={isRtl(f.lang) ? 'rtl' : 'ltr'}>{f.script}</span>
+          )}
+          {f.translit && <span class="translit">{f.translit}</span>}
+          {f.gloss && <span class="gloss">{f.gloss}</span>}
+          {f.etymology && <span class="etymology">{f.etymology}</span>}
+        </div>
+      </li>
+    ))}
+  </ul>
+
+  {commentHtml && <div class="comment" set:html={commentHtml} />}
+
+  {entry.sources && entry.sources.length > 0 && (
+    <div class="sources">
+      Quellen:
+      <ul>
+        {entry.sources.map((s) => {
+          const isUrl = s.startsWith('http://') || s.startsWith('https://');
+          return <li>{isUrl ? <a href={s}>{s}</a> : s}</li>;
+        })}
+      </ul>
+    </div>
+  )}
+</article>

@@ -1,0 +1,17 @@
+{
+  "id": "simba-simha",
+  "forms": [
+    {
+      "lang": "swa",
+      "script": "simba",
+      "gloss": "Löwe",
+      "etymology": "Proto-Bantu *ncímbá 'Wildkatze, Löwe'"
+    },
+    {
+      "lang": "san",
+      "script": "सिंहः",
+      "translit": "siṃhaḥ",
+      "gloss": "Löwe"
+    }
+  ]
+}

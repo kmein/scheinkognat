@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kognaten/schema/contributors.json",
+  "title": "Contributors",
+  "type": "object",
+  "propertyNames": { "pattern": "^[a-z0-9-]+$" },
+  "additionalProperties": {
+    "type": "object",
+    "required": ["name"],
+    "additionalProperties": false,
+    "properties": {
+      "name": { "type": "string", "minLength": 1 },
+      "url": { "type": ["string", "null"], "format": "uri" }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cup-kub",
+  "forms": [
+    {
+      "lang": "eng",
+      "script": "cup",
+      "gloss": "Tasse, Becher"
+    },
+    {
+      "lang": "ara",
+      "script": "كُوب",
+      "translit": "kūb",
+      "gloss": "Tasse, Becher"
+    }
+  ],
+  "comment": "Leider Lehnwort — كُوب ist schon im Qurʾān belegt."
+}

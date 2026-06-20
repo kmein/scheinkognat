@@ -1,0 +1,59 @@
+{
+  "id": "pelekys-kelebin",
+  "forms": [
+    {
+      "lang": "grc",
+      "script": "πέλεκυς",
+      "translit": "pélekys",
+      "gloss": "Axt"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲕⲉⲗⲉⲃⲓⲛ",
+      "translit": "kelebin",
+      "gloss": "Axt, Spitzhacke"
+    },
+    {
+      "lang": "arc",
+      "script": "כּ‏ֻלְבָּא",
+      "translit": "kulbā"
+    },
+    {
+      "lang": "san",
+      "script": "परशुः",
+      "translit": "paraśuḥ",
+      "gloss": "Streitaxt, Axt"
+    },
+    {
+      "lang": "oss",
+      "translit": "færæt",
+      "gloss": "Axt"
+    },
+    {
+      "lang": "xto",
+      "translit": "porat",
+      "gloss": "Axt"
+    },
+    {
+      "lang": "txb",
+      "translit": "peret",
+      "gloss": "Axt"
+    },
+    {
+      "lang": "akk",
+      "translit": "pilakku",
+      "gloss": "Spindel"
+    },
+    {
+      "lang": "lit",
+      "script": "kalavijas",
+      "gloss": "Schwert"
+    },
+    {
+      "lang": "prg",
+      "translit": "kalabijan",
+      "gloss": "Schwert"
+    }
+  ],
+  "comment": "Ein Cluster mit ungewöhnlich vielen Reflexen — von der Axt bis zum Schwert und zur Spindel. Vgl. auch das von Hesychios überlieferte griechische βέλεκκος."
+}

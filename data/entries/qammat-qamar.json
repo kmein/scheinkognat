@@ -1,0 +1,17 @@
+{
+  "id": "qammat-qamar",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "qaammat",
+      "gloss": "Mond"
+    },
+    {
+      "lang": "ara",
+      "script": "قَمَر",
+      "translit": "qamar",
+      "gloss": "Mond"
+    }
+  ],
+  "contributor": "kenneth-wehr"
+}

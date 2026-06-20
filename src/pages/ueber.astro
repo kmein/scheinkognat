@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../lib/config.ts';
+import { entries, languages, contributors } from '../lib/data.ts';
+
+const langCount = new Set(entries.flatMap((e) => e.forms.map((f) => f.lang))).size;
+const contribCount = new Set(entries.map((e) => e.contributor).filter(Boolean)).size;
+---
+<Base title="Über">
+  <h1>Über Kognaten</h1>
+  <p>
+    <em>Kognaten</em> ist eine kuratierte Sammlung linguistischer Koinzidenzen —
+    Wortpaare zwischen Sprachen, die einander überraschend ähnlich klingen
+    oder bedeuten, ohne dass eine direkte Verwandtschaft oder Entlehnung
+    nachweisbar wäre.
+  </p>
+
+  <p>
+    Aktuell {entries.length} Einträge, {langCount} Sprachen, {contribCount} Beiträger:innen.
+  </p>
+
+  <h2>Inspiration</h2>
+  <ul>
+    <li>
+      Johannes Friedrich: <a href="https://www.degruyterbrill.com/document/doi/10.1515/9783110243017.156/html"
+        ><em>Zufällige Ähnlichkeiten auf verschiedenen Sprach- und Kulturgebieten</em></a
+      >
+    </li>
+    <li>Roman Rauschs Sammlungen zum Elbischen (<a href="http://www.sindanoorie.net/art/Similarities001.html">Walisisch &amp; Irisch</a>, <a href="http://www.sindanoorie.net/art/Similarities002.html">weitere</a>)</li>
+    <li>The Arabic Pages: <a href="https://thearabicpages.com/">thearabicpages.com</a></li>
+  </ul>
+
+  <h2>Quellcode &amp; Daten</h2>
+  <p>
+    Alle Daten liegen als strukturierte JSON-Dateien in <code>data/entries/</code>
+    im <a href={`https://github.com/${SITE.github.owner}/${SITE.github.repo}`}>GitHub-Repository</a>.
+    Sprach-Register: <code>data/languages.json</code> (ISO 639-3),
+    Beiträger-Register: <code>data/contributors.json</code>.
+    Schemas (JSON Schema Draft 2020-12) in <code>data/schema/</code>.
+  </p>
+  <p>
+    Neuer Eintrag direkt im Repository:
+    <code>pnpm new-entry</code> oder JSON-Datei in <code>data/entries/</code> hinzufügen.
+    Niedrigschwellig über die <a href={`${import.meta.env.BASE_URL}einreichen/`}>Einreichen-Seite</a>.
+  </p>
+
+  <h2>Motto</h2>
+  <blockquote>
+    <p>
+      „Selbst die ganze <a href="https://de.wikipedia.org/wiki/Etymologie">Etymologie</a> ist verächtliches Taschenspiel, wenn sie nicht von dieser
+      Auflösung der Sprachen ausgehet. Wer bloß nach dem Schellenklange der Sylben
+      urtheilet …"
+    </p>
+    <p><em>— Johann Christoph Adelung, 1806</em></p>
+  </blockquote>
+</Base>

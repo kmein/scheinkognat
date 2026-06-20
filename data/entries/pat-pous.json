@@ -1,0 +1,18 @@
+{
+  "id": "pat-pous",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ⲡⲁⲧ",
+      "translit": "pat",
+      "gloss": "Knie; Fuß"
+    },
+    {
+      "lang": "grc",
+      "script": "πούς",
+      "translit": "pous",
+      "gloss": "Fuß"
+    }
+  ],
+  "comment": "Der griechische Stamm *pod-* (Genitiv ποδός) zeigt sich z. B. in *Podium*, *Antipode*."
+}

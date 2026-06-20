@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kognaten/schema/entry.json",
+  "title": "Entry",
+  "type": "object",
+  "required": ["id", "forms"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)+$",
+      "description": "Slug, lowercase ASCII, mind. zwei Segmente."
+    },
+    "forms": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/form" }
+    },
+    "comment": {
+      "type": ["string", "null"],
+      "description": "Freie Prosa (Markdown erlaubt)."
+    },
+    "contributor": {
+      "type": ["string", "null"],
+      "pattern": "^[a-z0-9-]+$",
+      "description": "ID in data/contributors.json."
+    },
+    "added": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "$defs": {
+    "form": {
+      "type": "object",
+      "required": ["lang"],
+      "anyOf": [
+        { "required": ["script"] },
+        { "required": ["translit"] }
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "lang": {
+          "type": "string",
+          "pattern": "^[a-z]{3}$",
+          "description": "ISO 639-3 oder qaa..qtz."
+        },
+        "dialect": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "script": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Form in der Originalschrift (bei lateinischer Schrift = die Form selbst)."
+        },
+        "translit": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Romanisierung — bei nicht-lateinischer Schrift, optional sonst. IPA in /…/ oder […]."
+        },
+        "gloss": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "etymology": {
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

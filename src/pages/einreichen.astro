@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import SubmitForm from '../components/SubmitForm.tsx';
+import { languages } from '../lib/data.ts';
+import { SITE } from '../lib/config.ts';
+
+const langOptions = Object.entries(languages)
+  .map(([code, l]) => ({ code, name: l.name, rtl: l.rtl }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+---
+<Base title="Eintrag einreichen">
+  <h1>Neuen Eintrag vorschlagen</h1>
+
+  <p>
+    Fülle so viele Formen aus, wie die Koinzidenz umfasst — typischerweise zwei,
+    bei Clustern (vgl. den <a href={`${import.meta.env.BASE_URL}eintrag/pelekys-kelebin/`}>Axt-Eintrag</a>)
+    auch deutlich mehr. Beim Absenden öffnet sich ein vorausgefülltes GitHub-Issue
+    mit dem JSON-Snippet (GitHub-Konto nötig).
+  </p>
+
+  <SubmitForm
+    client:load
+    languages={langOptions}
+    githubOwner={SITE.github.owner}
+    githubRepo={SITE.github.repo}
+    entriesPath="data/entries"
+  />
+</Base>

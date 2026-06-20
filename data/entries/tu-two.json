@@ -1,0 +1,15 @@
+{
+  "id": "tu-two",
+  "forms": [
+    {
+      "lang": "ady",
+      "translit": "t'u",
+      "gloss": "zwei"
+    },
+    {
+      "lang": "eng",
+      "script": "two"
+    }
+  ],
+  "contributor": "johannes-schuetz"
+}

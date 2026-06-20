@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import Entry from '../../components/Entry.astro';
+import { entries, languageName } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  return entries.map((e) => ({ params: { id: e.id }, props: { entry: e } }));
+}
+
+const { entry } = Astro.props as { entry: typeof entries[number] };
+const base = import.meta.env.BASE_URL;
+
+// Verwandte Einträge: andere Einträge, die mind. eine Sprache teilen.
+const langSet = new Set(entry.forms.map((f) => f.lang));
+const related = entries
+  .filter((other) => other.id !== entry.id)
+  .map((other) => ({
+    entry: other,
+    shared: other.forms.filter((f) => langSet.has(f.lang)).length,
+  }))
+  .filter((r) => r.shared > 0)
+  .sort((a, b) => b.shared - a.shared)
+  .slice(0, 5)
+  .map((r) => r.entry);
+
+const title = entry.forms.map((f) => languageName(f.lang)).join(' ↔ ');
+---
+<Base title={title}>
+  <div class="subnav">
+    <a href={base}>← Zurück zur Übersicht</a>
+  </div>
+  <Entry entry={entry} detail={true} />
+
+  {related.length > 0 && (
+    <section class="related">
+      <h2>Ähnliche Einträge</h2>
+      {related.map((r) => <Entry entry={r} />)}
+    </section>
+  )}
+</Base>

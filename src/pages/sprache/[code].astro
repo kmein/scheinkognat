@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Entry from '../../components/Entry.astro';
+import { entries, languages, entriesByLang, languageName } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  const byLang = entriesByLang();
+  return [...byLang.entries()].map(([code, langEntries]) => ({
+    params: { code },
+    props: { code, entries: langEntries },
+  }));
+}
+
+const { code, entries: list } = Astro.props as { code: string; entries: typeof entries };
+const base = import.meta.env.BASE_URL;
+const lang = languages[code];
+---
+<Base title={`Sprache: ${languageName(code)}`}>
+  <div class="subnav">
+    <a href={base}>← Übersicht</a>
+  </div>
+  <h1>{languageName(code)}</h1>
+  <p class="index-summary">
+    ISO 639-3: <code>{code}</code>
+    {lang?.rtl && <> · RTL</>}
+    {lang?.constructed && <> · Kunstsprache{lang.creator ? ` (${lang.creator})` : ''}</>}
+    {lang?.glottocode && (
+      <> · <a href={`https://glottolog.org/resource/languoid/id/${lang.glottocode}`}>Glottolog: {lang.glottocode}</a></>
+    )}
+    {lang?.wikipedia && <> · <a href={lang.wikipedia}>Wikipedia</a></>}
+  </p>
+  <p class="index-summary">{list.length} Einträge mit dieser Sprache.</p>
+
+  <div>
+    {list.map((e) => <Entry entry={e} />)}
+  </div>
+</Base>

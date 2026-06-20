@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kognaten/schema/languages.json",
+  "title": "Languages",
+  "type": "object",
+  "propertyNames": { "pattern": "^[a-z]{3}$" },
+  "additionalProperties": {
+    "type": "object",
+    "required": ["name"],
+    "additionalProperties": false,
+    "properties": {
+      "name": { "type": "string", "minLength": 1 },
+      "rtl": { "type": "boolean" },
+      "constructed": { "type": "boolean" },
+      "creator": { "type": ["string", "null"] },
+      "dialects": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      },
+      "wikipedia": { "type": ["string", "null"], "format": "uri" },
+      "glottocode": {
+        "type": ["string", "null"],
+        "pattern": "^[a-z]{4}\\d{4}$",
+        "description": "Glottolog languoid ID, z. B. arab1395."
+      }
+    }
+  }
+}

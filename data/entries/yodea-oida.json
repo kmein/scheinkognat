@@ -1,0 +1,17 @@
+{
+  "id": "yodea-oida",
+  "forms": [
+    {
+      "lang": "heb",
+      "script": "יודע",
+      "translit": "yodeaʿ",
+      "gloss": "wissend"
+    },
+    {
+      "lang": "grc",
+      "script": "οἶδα",
+      "translit": "oida",
+      "gloss": "ich weiß"
+    }
+  ]
+}

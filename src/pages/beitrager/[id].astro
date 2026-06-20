@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import Entry from '../../components/Entry.astro';
+import { entries, contributors, entriesByContributor, contributorName } from '../../lib/data.ts';
+
+export function getStaticPaths() {
+  const byContrib = entriesByContributor();
+  return [...byContrib.entries()].map(([id, list]) => ({
+    params: { id },
+    props: { id, entries: list },
+  }));
+}
+
+const { id, entries: list } = Astro.props as { id: string; entries: typeof entries };
+const base = import.meta.env.BASE_URL;
+const c = contributors[id];
+---
+<Base title={`Beiträger: ${contributorName(id)}`}>
+  <div class="subnav">
+    <a href={base}>← Übersicht</a>
+  </div>
+  <h1>{contributorName(id)}</h1>
+  {c?.url && <p class="index-summary"><a href={c.url}>{c.url}</a></p>}
+  <p class="index-summary">{list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'}.</p>
+
+  <div>
+    {list.map((e) => <Entry entry={e} />)}
+  </div>
+</Base>

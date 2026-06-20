@@ -1,0 +1,17 @@
+{
+  "id": "khalla-khalao",
+  "forms": [
+    {
+      "lang": "ara",
+      "script": "خَلّى",
+      "translit": "khallā",
+      "gloss": "lassen"
+    },
+    {
+      "lang": "grc",
+      "script": "χαλάω",
+      "translit": "khaláō",
+      "gloss": "lassen, lösen"
+    }
+  ]
+}

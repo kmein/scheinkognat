@@ -1,0 +1,16 @@
+{
+  "id": "malade-marad",
+  "forms": [
+    {
+      "lang": "fra",
+      "script": "malade",
+      "gloss": "krank"
+    },
+    {
+      "lang": "ara",
+      "script": "مَرَض",
+      "translit": "maraḍ",
+      "gloss": "Krankheit"
+    }
+  ]
+}
