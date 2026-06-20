@@ -1,7 +1,16 @@
 {
   "id": "balid-bloed",
   "forms": [
-    { "lang": "ara", "script": "بَليد", "translit": "balīd", "gloss": "dumm" },
-    { "lang": "deu", "script": "blöd" }
-  ]
+    {
+      "lang": "ara",
+      "script": "بَليد",
+      "translit": "balīd",
+      "gloss": "dumm"
+    },
+    {
+      "lang": "deu",
+      "script": "blöd"
+    }
+  ],
+  "contributor": "kfm"
 }

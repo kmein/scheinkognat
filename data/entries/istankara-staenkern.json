@@ -1,7 +1,16 @@
 {
   "id": "istankara-staenkern",
   "forms": [
-    { "lang": "ara", "script": "استنكر", "translit": "istankara", "gloss": "missbilligen" },
-    { "lang": "deu", "script": "stänkern" }
-  ]
+    {
+      "lang": "ara",
+      "script": "استنكر",
+      "translit": "istankara",
+      "gloss": "missbilligen"
+    },
+    {
+      "lang": "deu",
+      "script": "stänkern"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,18 @@
 {
   "id": "hone-hona",
   "forms": [
-    { "lang": "amh", "script": "ሆን", "translit": "honä", "gloss": "er ist (geworden)" },
-    { "lang": "hin", "script": "होना", "translit": "honā", "gloss": "sein" }
-  ]
+    {
+      "lang": "amh",
+      "script": "ሆን",
+      "translit": "honä",
+      "gloss": "er ist (geworden)"
+    },
+    {
+      "lang": "hin",
+      "script": "होना",
+      "translit": "honā",
+      "gloss": "sein"
+    }
+  ],
+  "contributor": "kfm"
 }

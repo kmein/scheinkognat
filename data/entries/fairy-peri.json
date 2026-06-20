@@ -1,7 +1,16 @@
 {
   "id": "fairy-peri",
   "forms": [
-    { "lang": "eng", "script": "fairy", "gloss": "Fee" },
-    { "lang": "tur", "script": "peri", "gloss": "Fee" }
-  ]
+    {
+      "lang": "eng",
+      "script": "fairy",
+      "gloss": "Fee"
+    },
+    {
+      "lang": "tur",
+      "script": "peri",
+      "gloss": "Fee"
+    }
+  ],
+  "contributor": "kfm"
 }

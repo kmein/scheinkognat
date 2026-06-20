@@ -1,7 +1,18 @@
 {
   "id": "ger-gar",
   "forms": [
-    { "lang": "syc", "script": "ܓܝܪ", "translit": "ger", "gloss": "denn" },
-    { "lang": "grc", "script": "γάρ", "translit": "gár", "gloss": "denn" }
-  ]
+    {
+      "lang": "syc",
+      "script": "ܓܝܪ",
+      "translit": "ger",
+      "gloss": "denn"
+    },
+    {
+      "lang": "grc",
+      "script": "γάρ",
+      "translit": "gár",
+      "gloss": "denn"
+    }
+  ],
+  "contributor": "kfm"
 }

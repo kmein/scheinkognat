@@ -1,10 +1,19 @@
 {
   "id": "perlator-perfero",
   "forms": [
-    { "lang": "deu", "script": "Perlator", "gloss": "Strahlregler am Wasserhahn" },
-    { "lang": "lat", "script": "perlātus", "gloss": "durchgetragen" }
+    {
+      "lang": "deu",
+      "script": "Perlator",
+      "gloss": "Strahlregler am Wasserhahn"
+    },
+    {
+      "lang": "lat",
+      "script": "perlātus",
+      "gloss": "durchgetragen"
+    }
   ],
   "comment": "Ob der Strahlregler so heißt, damit das wasser _perlt_ – oder weil das Wasser dort durchgetragen wird?",
+  "contributor": "kfm",
   "sources": [
     "https://en.wiktionary.org/wiki/perfero#Latin",
     "https://www.perlator.de/perlator/historisches/index.html"

@@ -1,7 +1,17 @@
 {
   "id": "zhe-ci",
   "forms": [
-    { "lang": "lzh", "script": "者", "translit": "zhě", "gloss": "[Nomen-Agentis-Suffix]" },
-    { "lang": "tur", "script": "-ci", "gloss": "[Nomen-Agentis-Suffix]" }
-  ]
+    {
+      "lang": "lzh",
+      "script": "者",
+      "translit": "zhě",
+      "gloss": "[Nomen-Agentis-Suffix]"
+    },
+    {
+      "lang": "tur",
+      "script": "-ci",
+      "gloss": "[Nomen-Agentis-Suffix]"
+    }
+  ],
+  "contributor": "kfm"
 }

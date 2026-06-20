@@ -1,7 +1,18 @@
 {
   "id": "mar-marr",
   "forms": [
-    { "lang": "ita", "dialect": "Lombardei, Tessin", "translit": "mar", "gloss": "bitter" },
-    { "lang": "ara", "script": "مرّ", "translit": "marr", "gloss": "bitter" }
-  ]
+    {
+      "lang": "ita",
+      "dialect": "Lombardei, Tessin",
+      "translit": "mar",
+      "gloss": "bitter"
+    },
+    {
+      "lang": "ara",
+      "script": "مرّ",
+      "translit": "marr",
+      "gloss": "bitter"
+    }
+  ],
+  "contributor": "kfm"
 }

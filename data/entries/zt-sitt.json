@@ -1,7 +1,20 @@
 {
   "id": "zt-sitt",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "𓊃𓏏𓁐", "translit": "zt", "gloss": "Frau" },
-    { "lang": "ara", "dialect": "Syrien", "script": "ست", "translit": "sətt", "gloss": "Frau" }
-  ]
+    {
+      "lang": "egy",
+      "dialect": "Mittelägyptisch",
+      "script": "𓊃𓏏𓁐",
+      "translit": "zt",
+      "gloss": "Frau"
+    },
+    {
+      "lang": "ara",
+      "dialect": "Syrien",
+      "script": "ست",
+      "translit": "sətt",
+      "gloss": "Frau"
+    }
+  ],
+  "contributor": "kfm"
 }

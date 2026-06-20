@@ -1,9 +1,17 @@
 {
   "id": "hodie-heute",
   "forms": [
-    { "lang": "lat", "script": "hodie", "gloss": "heute" },
-    { "lang": "deu", "script": "heute" }
+    {
+      "lang": "lat",
+      "script": "hodie",
+      "gloss": "heute"
+    },
+    {
+      "lang": "deu",
+      "script": "heute"
+    }
   ],
+  "contributor": "kfm",
   "sources": [
     "https://toot.community/@yvanspijk/113380816563965810"
   ]

@@ -1,7 +1,16 @@
 {
   "id": "kele-zelle",
   "forms": [
-    { "lang": "heb", "script": "כֶּלֶא", "translit": "kele", "gloss": "Gefängnis" },
-    { "lang": "deu", "script": "Zelle" }
-  ]
+    {
+      "lang": "heb",
+      "script": "כֶּלֶא",
+      "translit": "kele",
+      "gloss": "Gefängnis"
+    },
+    {
+      "lang": "deu",
+      "script": "Zelle"
+    }
+  ],
+  "contributor": "kfm"
 }

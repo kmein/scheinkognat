@@ -1,8 +1,22 @@
 {
   "id": "alaman-alama",
   "forms": [
-    { "lang": "xlu", "translit": "alaman-", "gloss": "Name" },
-    { "lang": "xlc", "translit": "alãma", "gloss": "Name" },
-    { "lang": "ara", "script": "عَلَامَة", "translit": "ʿalāma", "gloss": "Marke, Zeichen" }
-  ]
+    {
+      "lang": "xlu",
+      "translit": "alaman-",
+      "gloss": "Name"
+    },
+    {
+      "lang": "xlc",
+      "translit": "alãma",
+      "gloss": "Name"
+    },
+    {
+      "lang": "ara",
+      "script": "عَلَامَة",
+      "translit": "ʿalāma",
+      "gloss": "Marke, Zeichen"
+    }
+  ],
+  "contributor": "kfm"
 }

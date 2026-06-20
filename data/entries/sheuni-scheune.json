@@ -1,9 +1,23 @@
 {
   "id": "sheuni-scheune",
   "forms": [
-    { "lang": "cop", "script": "ϣⲉⲩⲛⲓ", "translit": "šeuni", "gloss": "Scheune" },
-    { "lang": "ara", "script": "شُونة", "translit": "šūna", "gloss": "Scheune" },
-    { "lang": "deu", "script": "Scheune" }
+    {
+      "lang": "cop",
+      "script": "ϣⲉⲩⲛⲓ",
+      "translit": "šeuni",
+      "gloss": "Scheune"
+    },
+    {
+      "lang": "ara",
+      "script": "شُونة",
+      "translit": "šūna",
+      "gloss": "Scheune"
+    },
+    {
+      "lang": "deu",
+      "script": "Scheune"
+    }
   ],
-  "comment": "Das koptische *šeuni* wurde ins Arabische als *šūna* entlehnt. Das deutsche *Scheune* ist etymologisch unverbunden."
+  "comment": "Das koptische *šeuni* wurde ins Arabische als *šūna* entlehnt. Das deutsche *Scheune* ist etymologisch unverbunden.",
+  "contributor": "kfm"
 }

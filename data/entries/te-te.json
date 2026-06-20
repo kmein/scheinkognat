@@ -1,7 +1,15 @@
 {
   "id": "te-te",
   "forms": [
-    { "lang": "mri", "script": "te", "gloss": "der/die/das" },
-    { "lang": "eng", "script": "the" }
-  ]
+    {
+      "lang": "mri",
+      "script": "te",
+      "gloss": "der/die/das"
+    },
+    {
+      "lang": "eng",
+      "script": "the"
+    }
+  ],
+  "contributor": "kfm"
 }

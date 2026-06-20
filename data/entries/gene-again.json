@@ -1,7 +1,16 @@
 {
   "id": "gene-again",
   "forms": [
-    { "lang": "tur", "script": "gene", "gloss": "wieder" },
-    { "lang": "eng", "script": "again", "gloss": "wieder" }
-  ]
+    {
+      "lang": "tur",
+      "script": "gene",
+      "gloss": "wieder"
+    },
+    {
+      "lang": "eng",
+      "script": "again",
+      "gloss": "wieder"
+    }
+  ],
+  "contributor": "kfm"
 }

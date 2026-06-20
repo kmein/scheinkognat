@@ -1,7 +1,17 @@
 {
   "id": "coitus-koitos",
   "forms": [
-    { "lang": "lat", "script": "co-itus", "gloss": "Zusammengehen, Geschlechtsverkehr" },
-    { "lang": "grc", "script": "κοῖτος", "translit": "koĩtos", "gloss": "Schlaf, Geschlechtsverkehr" }
-  ]
+    {
+      "lang": "lat",
+      "script": "co-itus",
+      "gloss": "Zusammengehen, Geschlechtsverkehr"
+    },
+    {
+      "lang": "grc",
+      "script": "κοῖτος",
+      "translit": "koĩtos",
+      "gloss": "Schlaf, Geschlechtsverkehr"
+    }
+  ],
+  "contributor": "kfm"
 }

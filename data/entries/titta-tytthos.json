@@ -1,7 +1,17 @@
 {
   "id": "titta-tytthos",
   "forms": [
-    { "lang": "qya", "translit": "titta", "gloss": "klein" },
-    { "lang": "grc", "script": "τύτθος", "translit": "týtthos", "gloss": "klein" }
-  ]
+    {
+      "lang": "qya",
+      "translit": "titta",
+      "gloss": "klein"
+    },
+    {
+      "lang": "grc",
+      "script": "τύτθος",
+      "translit": "týtthos",
+      "gloss": "klein"
+    }
+  ],
+  "contributor": "kfm"
 }

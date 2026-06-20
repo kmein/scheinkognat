@@ -1,7 +1,18 @@
 {
   "id": "yuyutsu-jujutsu",
   "forms": [
-    { "lang": "san", "script": "युयुत्सु", "translit": "yuyutsu", "gloss": "kampflustig" },
-    { "lang": "jpn", "script": "柔術", "translit": "jūjutsu", "gloss": "Jujutsu (japanische Kampfkunst)" }
-  ]
+    {
+      "lang": "san",
+      "script": "युयुत्सु",
+      "translit": "yuyutsu",
+      "gloss": "kampflustig"
+    },
+    {
+      "lang": "jpn",
+      "script": "柔術",
+      "translit": "jūjutsu",
+      "gloss": "Jujutsu (japanische Kampfkunst)"
+    }
+  ],
+  "contributor": "kfm"
 }

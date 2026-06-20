@@ -1,7 +1,15 @@
 {
   "id": "haz-haus",
   "forms": [
-    { "lang": "hun", "script": "ház", "gloss": "Haus" },
-    { "lang": "deu", "script": "Haus" }
-  ]
+    {
+      "lang": "hun",
+      "script": "ház",
+      "gloss": "Haus"
+    },
+    {
+      "lang": "deu",
+      "script": "Haus"
+    }
+  ],
+  "contributor": "kfm"
 }

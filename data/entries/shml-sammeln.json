@@ -1,7 +1,16 @@
 {
   "id": "shml-sammeln",
   "forms": [
-    { "lang": "ara", "script": "شمل", "translit": "šamila", "gloss": "beinhalten" },
-    { "lang": "deu", "script": "sammeln" }
-  ]
+    {
+      "lang": "ara",
+      "script": "شمل",
+      "translit": "šamila",
+      "gloss": "beinhalten"
+    },
+    {
+      "lang": "deu",
+      "script": "sammeln"
+    }
+  ],
+  "contributor": "kfm"
 }

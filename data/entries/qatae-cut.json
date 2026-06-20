@@ -1,7 +1,17 @@
 {
   "id": "qatae-cut",
   "forms": [
-    { "lang": "ara", "script": "قطع", "translit": "qaṭaʿa", "gloss": "schneiden" },
-    { "lang": "eng", "script": "cut", "gloss": "schneiden" }
-  ]
+    {
+      "lang": "ara",
+      "script": "قطع",
+      "translit": "qaṭaʿa",
+      "gloss": "schneiden"
+    },
+    {
+      "lang": "eng",
+      "script": "cut",
+      "gloss": "schneiden"
+    }
+  ],
+  "contributor": "kfm"
 }

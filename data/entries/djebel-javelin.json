@@ -1,8 +1,23 @@
 {
   "id": "djebel-javelin",
   "forms": [
-    { "lang": "cop", "script": "ϫⲉⲃⲏⲗ", "translit": "čebēl", "gloss": "Speer" },
-    { "lang": "eng", "script": "javelin", "gloss": "Wurfspeer" },
-    { "lang": "grc", "script": "σιβύνη", "translit": "sibýnē", "gloss": "Speer" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ϫⲉⲃⲏⲗ",
+      "translit": "čebēl",
+      "gloss": "Speer"
+    },
+    {
+      "lang": "eng",
+      "script": "javelin",
+      "gloss": "Wurfspeer"
+    },
+    {
+      "lang": "grc",
+      "script": "σιβύνη",
+      "translit": "sibýnē",
+      "gloss": "Speer"
+    }
+  ],
+  "contributor": "kfm"
 }

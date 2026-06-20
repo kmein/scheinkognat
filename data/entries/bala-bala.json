@@ -1,7 +1,18 @@
 {
   "id": "bala-bala",
   "forms": [
-    { "lang": "chg", "script": "بالا", "translit": "bala", "gloss": "Kind" },
-    { "lang": "san", "script": "बालः", "translit": "bālaḥ", "gloss": "Kind" }
-  ]
+    {
+      "lang": "chg",
+      "script": "بالا",
+      "translit": "bala",
+      "gloss": "Kind"
+    },
+    {
+      "lang": "san",
+      "script": "बालः",
+      "translit": "bālaḥ",
+      "gloss": "Kind"
+    }
+  ],
+  "contributor": "kfm"
 }

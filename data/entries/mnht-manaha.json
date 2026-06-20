@@ -1,7 +1,22 @@
 {
   "id": "mnht-manaha",
   "forms": [
-    { "lang": "egy", "dialect": "Mittelägyptisch", "script": " 𓏠𓈖𓎛𓏭𓍘𓇋𓆰𓏥", "translit": "mnḥ.t", "gloss": "Geschenk" },
-    { "lang": "ara", "script": "منح", "translit": "manaḥa", "gloss": "schenken, gewähren" }
-  ],"sources":["https://thesaurus-linguae-aegyptiae.de/lemma/71050"]
+    {
+      "lang": "egy",
+      "dialect": "Mittelägyptisch",
+      "script": " 𓏠𓈖𓎛𓏭𓍘𓇋𓆰𓏥",
+      "translit": "mnḥ.t",
+      "gloss": "Geschenk"
+    },
+    {
+      "lang": "ara",
+      "script": "منح",
+      "translit": "manaḥa",
+      "gloss": "schenken, gewähren"
+    }
+  ],
+  "contributor": "kfm",
+  "sources": [
+    "https://thesaurus-linguae-aegyptiae.de/lemma/71050"
+  ]
 }

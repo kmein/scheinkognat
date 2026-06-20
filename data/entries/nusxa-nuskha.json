@@ -1,7 +1,18 @@
 {
   "id": "nusxa-nuskha",
   "forms": [
-    { "lang": "kat", "script": "ნუსხა", "translit": "nusxa", "gloss": "Beleg" },
-    { "lang": "ara", "script": "نُسخَة", "translit": "nusḫa", "gloss": "Kopie" }
-  ]
+    {
+      "lang": "kat",
+      "script": "ნუსხა",
+      "translit": "nusxa",
+      "gloss": "Beleg"
+    },
+    {
+      "lang": "ara",
+      "script": "نُسخَة",
+      "translit": "nusḫa",
+      "gloss": "Kopie"
+    }
+  ],
+  "contributor": "kfm"
 }

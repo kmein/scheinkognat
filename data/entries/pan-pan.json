@@ -1,7 +1,16 @@
 {
   "id": "pan-pan",
   "forms": [
-    { "lang": "zho", "script": "盤", "translit": "pán", "gloss": "Teller" },
-    { "lang": "eng", "script": "pan" }
-  ]
+    {
+      "lang": "zho",
+      "script": "盤",
+      "translit": "pán",
+      "gloss": "Teller"
+    },
+    {
+      "lang": "eng",
+      "script": "pan"
+    }
+  ],
+  "contributor": "kfm"
 }

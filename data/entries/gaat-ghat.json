@@ -1,7 +1,17 @@
 {
   "id": "gaat-ghat",
   "forms": [
-    { "lang": "shk", "translit": "ɡʌ̀ʌt", "gloss": "Flussufer" },
-    { "lang": "hin", "script": "घाट", "translit": "ghāṭ", "gloss": "Anlegestelle, Flusstreppe" }
-  ]
+    {
+      "lang": "shk",
+      "translit": "ɡʌ̀ʌt",
+      "gloss": "Flussufer"
+    },
+    {
+      "lang": "hin",
+      "script": "घाट",
+      "translit": "ghāṭ",
+      "gloss": "Anlegestelle, Flusstreppe"
+    }
+  ],
+  "contributor": "kfm"
 }

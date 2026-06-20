@@ -1,7 +1,16 @@
 {
   "id": "okaso-occasio",
   "forms": [
-    { "lang": "pli", "translit": "okāso", "gloss": "Ort, Gelegenheit" },
-    { "lang": "lat", "script": "occāsiō", "gloss": "Gelegenheit" }
-  ]
+    {
+      "lang": "pli",
+      "translit": "okāso",
+      "gloss": "Ort, Gelegenheit"
+    },
+    {
+      "lang": "lat",
+      "script": "occāsiō",
+      "gloss": "Gelegenheit"
+    }
+  ],
+  "contributor": "kfm"
 }

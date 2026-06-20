@@ -1,7 +1,16 @@
 {
   "id": "malaja-milch",
   "forms": [
-    { "lang": "ara", "script": "ملج", "translit": "malaja", "gloss": "(die Mutterbrust) saugen" },
-    { "lang": "deu", "script": "Milch" }
-  ]
+    {
+      "lang": "ara",
+      "script": "ملج",
+      "translit": "malaja",
+      "gloss": "(die Mutterbrust) saugen"
+    },
+    {
+      "lang": "deu",
+      "script": "Milch"
+    }
+  ],
+  "contributor": "kfm"
 }

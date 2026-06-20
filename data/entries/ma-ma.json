@@ -1,8 +1,18 @@
 {
   "id": "ma-ma",
   "forms": [
-    { "lang": "cop", "script": "ⲙⲁ", "translit": "ma", "gloss": "Ort" },
-    { "lang": "tok", "script": "ma", "gloss": "Land" }
+    {
+      "lang": "cop",
+      "script": "ⲙⲁ",
+      "translit": "ma",
+      "gloss": "Ort"
+    },
+    {
+      "lang": "tok",
+      "script": "ma",
+      "gloss": "Land"
+    }
   ],
-  "comment": "Vgl. *Gog aus dem Lande Ma-gog* (Ez. 38)."
+  "comment": "Vgl. *Gog aus dem Lande Ma-gog* (Ez. 38).",
+  "contributor": "kfm"
 }

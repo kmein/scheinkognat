@@ -1,7 +1,17 @@
 {
   "id": "torr-tur",
   "forms": [
-    { "lang": "ang", "script": "torr", "gloss": "Hügel" },
-    { "lang": "ara", "script": "طُور", "translit": "ṭūr", "gloss": "Berg (v.a. Sinai)" }
-  ]
+    {
+      "lang": "ang",
+      "script": "torr",
+      "gloss": "Hügel"
+    },
+    {
+      "lang": "ara",
+      "script": "طُور",
+      "translit": "ṭūr",
+      "gloss": "Berg (v.a. Sinai)"
+    }
+  ],
+  "contributor": "kfm"
 }

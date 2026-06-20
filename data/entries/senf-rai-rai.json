@@ -1,8 +1,25 @@
 {
   "id": "senf-rai-rai",
   "forms": [
-    { "lang": "deu", "script": "seinen Senf dazugeben", "gloss": "seine Meinung sagen" },
-    { "lang": "hin", "script": "राय", "translit": "rāy", "gloss": "Meinung", "etymology": "< arab. رأي" },
-    { "lang": "hin", "script": "राई", "translit": "rāī", "gloss": "Senf", "etymology": "< skt. राजिका" }
-  ]
+    {
+      "lang": "deu",
+      "script": "seinen Senf dazugeben",
+      "gloss": "seine Meinung sagen"
+    },
+    {
+      "lang": "hin",
+      "script": "राय",
+      "translit": "rāy",
+      "gloss": "Meinung",
+      "etymology": "< arab. رأي"
+    },
+    {
+      "lang": "hin",
+      "script": "राई",
+      "translit": "rāī",
+      "gloss": "Senf",
+      "etymology": "< skt. राजिका"
+    }
+  ],
+  "contributor": "kfm"
 }

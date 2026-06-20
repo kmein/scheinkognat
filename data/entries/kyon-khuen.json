@@ -1,7 +1,17 @@
 {
   "id": "kyon-khuen",
   "forms": [
-    { "lang": "grc", "script": "κύων", "translit": "kýōn", "gloss": "Hund" },
-    { "lang": "ltc", "translit": "*khuen", "gloss": "Hund" }
-  ]
+    {
+      "lang": "grc",
+      "script": "κύων",
+      "translit": "kýōn",
+      "gloss": "Hund"
+    },
+    {
+      "lang": "ltc",
+      "translit": "*khuen",
+      "gloss": "Hund"
+    }
+  ],
+  "contributor": "kfm"
 }

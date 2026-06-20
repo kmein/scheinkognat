@@ -1,7 +1,17 @@
 {
   "id": "ke-kai",
   "forms": [
-    { "lang": "qji", "script": "ke", "gloss": "mit" },
-    { "lang": "grc", "script": "καί", "translit": "kaí", "gloss": "und" }
-  ]
+    {
+      "lang": "qji",
+      "script": "ke",
+      "gloss": "mit"
+    },
+    {
+      "lang": "grc",
+      "script": "καί",
+      "translit": "kaí",
+      "gloss": "und"
+    }
+  ],
+  "contributor": "kfm"
 }

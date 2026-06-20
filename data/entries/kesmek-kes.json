@@ -1,7 +1,16 @@
 {
   "id": "kesmek-kes",
   "forms": [
-    { "lang": "tur", "script": "kes-mek", "gloss": "schneiden" },
-    { "lang": "qpi", "script": "*kes-", "gloss": "schneiden" }
-  ]
+    {
+      "lang": "tur",
+      "script": "kes-mek",
+      "gloss": "schneiden"
+    },
+    {
+      "lang": "qpi",
+      "script": "*kes-",
+      "gloss": "schneiden"
+    }
+  ],
+  "contributor": "kfm"
 }

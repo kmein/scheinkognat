@@ -1,7 +1,19 @@
 {
   "id": "owlt-uth",
   "forms": [
-    { "lang": "hye", "script": "ուղտ", "translit": "owłt", "gloss": "Kamel", "etymology": "← Urartäisch" },
-    { "lang": "hin", "script": "ऊंट", "translit": "ū̃ṭh", "gloss": "Kamel" }
-  ]
+    {
+      "lang": "hye",
+      "script": "ուղտ",
+      "translit": "owłt",
+      "gloss": "Kamel",
+      "etymology": "← Urartäisch"
+    },
+    {
+      "lang": "hin",
+      "script": "ऊंट",
+      "translit": "ū̃ṭh",
+      "gloss": "Kamel"
+    }
+  ],
+  "contributor": "kfm"
 }

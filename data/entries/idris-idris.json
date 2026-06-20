@@ -1,7 +1,18 @@
 {
   "id": "idris-idris",
   "forms": [
-    { "lang": "ara", "script": "إدريس", "translit": "ʾIdrīs", "gloss": "Henoch (Prophetenname)" },
-    { "lang": "grc", "script": "ἴδρις", "translit": "ídris", "gloss": "kundig, erfahren" }
-  ]
+    {
+      "lang": "ara",
+      "script": "إدريس",
+      "translit": "ʾIdrīs",
+      "gloss": "Henoch (Prophetenname)"
+    },
+    {
+      "lang": "grc",
+      "script": "ἴδρις",
+      "translit": "ídris",
+      "gloss": "kundig, erfahren"
+    }
+  ],
+  "contributor": "kfm"
 }

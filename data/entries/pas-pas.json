@@ -1,7 +1,17 @@
 {
   "id": "pas-pas",
   "forms": [
-    { "lang": "hin", "script": "पास", "translit": "pās", "gloss": "bei" },
-    { "lang": "lit", "script": "pas", "gloss": "bei" }
-  ]
+    {
+      "lang": "hin",
+      "script": "पास",
+      "translit": "pās",
+      "gloss": "bei"
+    },
+    {
+      "lang": "lit",
+      "script": "pas",
+      "gloss": "bei"
+    }
+  ],
+  "contributor": "kfm"
 }

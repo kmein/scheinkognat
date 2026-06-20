@@ -1,7 +1,17 @@
 {
   "id": "sipad-shepherd",
   "forms": [
-    { "lang": "sux", "script": "𒉺𒇻", "translit": "sipad", "gloss": "Hirte" },
-    { "lang": "eng", "script": "shepherd", "gloss": "Hirte" }
-  ]
+    {
+      "lang": "sux",
+      "script": "𒉺𒇻",
+      "translit": "sipad",
+      "gloss": "Hirte"
+    },
+    {
+      "lang": "eng",
+      "script": "shepherd",
+      "gloss": "Hirte"
+    }
+  ],
+  "contributor": "kfm"
 }

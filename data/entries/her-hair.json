@@ -1,7 +1,16 @@
 {
   "id": "her-hair",
   "forms": [
-    { "lang": "hye", "script": "հեր", "translit": "her", "gloss": "Haar" },
-    { "lang": "eng", "script": "hair" }
-  ]
+    {
+      "lang": "hye",
+      "script": "հեր",
+      "translit": "her",
+      "gloss": "Haar"
+    },
+    {
+      "lang": "eng",
+      "script": "hair"
+    }
+  ],
+  "contributor": "kfm"
 }

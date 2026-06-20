@@ -1,7 +1,17 @@
 {
   "id": "daraja-degree",
   "forms": [
-    { "lang": "ara", "script": "درجة", "translit": "daraja", "gloss": "Grad, Stufe" },
-    { "lang": "eng", "script": "degree", "gloss": "Grad" }
-  ]
+    {
+      "lang": "ara",
+      "script": "درجة",
+      "translit": "daraja",
+      "gloss": "Grad, Stufe"
+    },
+    {
+      "lang": "eng",
+      "script": "degree",
+      "gloss": "Grad"
+    }
+  ],
+  "contributor": "kfm"
 }

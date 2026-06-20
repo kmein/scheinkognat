@@ -1,7 +1,20 @@
 {
   "id": "ga-ga",
   "forms": [
-    { "lang": "ara", "dialect": "Baghdad (muslim.)", "script": "قاع", "translit": "gāʕ", "gloss": "Boden" },
-    { "lang": "grc", "dialect": "Dorisch", "script": "γᾶ", "translit": "gã", "gloss": "Erde" }
-  ]
+    {
+      "lang": "ara",
+      "dialect": "Baghdad (muslim.)",
+      "script": "قاع",
+      "translit": "gāʕ",
+      "gloss": "Boden"
+    },
+    {
+      "lang": "grc",
+      "dialect": "Dorisch",
+      "script": "γᾶ",
+      "translit": "gã",
+      "gloss": "Erde"
+    }
+  ],
+  "contributor": "kfm"
 }

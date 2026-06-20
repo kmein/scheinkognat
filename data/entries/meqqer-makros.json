@@ -1,9 +1,19 @@
 {
   "id": "meqqer-makros",
   "forms": [
-    { "lang": "auj", "translit": "mə̀qqər", "gloss": "groß sein" },
-    { "lang": "grc", "script": "μακρός", "translit": "makrós", "gloss": "lang, groß" }
+    {
+      "lang": "auj",
+      "translit": "mə̀qqər",
+      "gloss": "groß sein"
+    },
+    {
+      "lang": "grc",
+      "script": "μακρός",
+      "translit": "makrós",
+      "gloss": "lang, groß"
+    }
   ],
+  "contributor": "kfm",
   "sources": [
     "https://scholarlypublications.universiteitleiden.nl/access/item%3A2915419/view"
   ]

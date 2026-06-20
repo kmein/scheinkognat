@@ -1,7 +1,18 @@
 {
   "id": "apsu-apsu",
   "forms": [
-    { "lang": "akk", "script": "𒀊𒍪", "translit": "apsû", "gloss": "unterirdischer Ozean" },
-    { "lang": "san", "script": "अप्सु", "translit": "apsu", "gloss": "in den Wassern" }
-  ]
+    {
+      "lang": "akk",
+      "script": "𒀊𒍪",
+      "translit": "apsû",
+      "gloss": "unterirdischer Ozean"
+    },
+    {
+      "lang": "san",
+      "script": "अप्सु",
+      "translit": "apsu",
+      "gloss": "in den Wassern"
+    }
+  ],
+  "contributor": "kfm"
 }

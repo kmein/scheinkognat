@@ -1,7 +1,19 @@
 {
   "id": "ash-ash",
   "forms": [
-    { "lang": "ara", "dialect": "Baghdad (jüd.)", "script": "أش", "translit": "aš", "gloss": "was" },
-    { "lang": "cop", "script": "ⲁϣ", "translit": "aš", "gloss": "was" }
-  ]
+    {
+      "lang": "ara",
+      "dialect": "Baghdad (jüd.)",
+      "script": "أش",
+      "translit": "aš",
+      "gloss": "was"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲁϣ",
+      "translit": "aš",
+      "gloss": "was"
+    }
+  ],
+  "contributor": "kfm"
 }

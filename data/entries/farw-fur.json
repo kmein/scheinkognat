@@ -1,7 +1,17 @@
 {
   "id": "farw-fur",
   "forms": [
-    { "lang": "ara", "script": "فرو", "translit": "farw", "gloss": "Pelz" },
-    { "lang": "eng", "script": "fur", "gloss": "Pelz" }
-  ]
+    {
+      "lang": "ara",
+      "script": "فرو",
+      "translit": "farw",
+      "gloss": "Pelz"
+    },
+    {
+      "lang": "eng",
+      "script": "fur",
+      "gloss": "Pelz"
+    }
+  ],
+  "contributor": "kfm"
 }

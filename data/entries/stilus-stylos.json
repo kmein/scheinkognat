@@ -1,7 +1,17 @@
 {
   "id": "stilus-stylos",
   "forms": [
-    { "lang": "lat", "script": "stilus", "gloss": "Pfahl, Schreibgriffel" },
-    { "lang": "grc", "script": "στῦλος", "translit": "stỹlos", "gloss": "Pfeiler" }
-  ]
+    {
+      "lang": "lat",
+      "script": "stilus",
+      "gloss": "Pfahl, Schreibgriffel"
+    },
+    {
+      "lang": "grc",
+      "script": "στῦλος",
+      "translit": "stỹlos",
+      "gloss": "Pfeiler"
+    }
+  ],
+  "contributor": "kfm"
 }

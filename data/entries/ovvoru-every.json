@@ -1,7 +1,16 @@
 {
   "id": "ovvoru-every",
   "forms": [
-    { "lang": "tam", "script": "ஒவ்வொரு", "translit": "ovvoru", "gloss": "jede/r/s" },
-    { "lang": "eng", "script": "every" }
-  ]
+    {
+      "lang": "tam",
+      "script": "ஒவ்வொரு",
+      "translit": "ovvoru",
+      "gloss": "jede/r/s"
+    },
+    {
+      "lang": "eng",
+      "script": "every"
+    }
+  ],
+  "contributor": "kfm"
 }

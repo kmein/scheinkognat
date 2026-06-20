@@ -1,7 +1,17 @@
 {
   "id": "faramala-fermata",
   "forms": [
-    { "lang": "ara", "script": "فرملة", "translit": "farmalah", "gloss": "Bremse" },
-    { "lang": "ita", "script": "fermata", "gloss": "Halt, Haltestelle" }
-  ]
+    {
+      "lang": "ara",
+      "script": "فرملة",
+      "translit": "farmalah",
+      "gloss": "Bremse"
+    },
+    {
+      "lang": "ita",
+      "script": "fermata",
+      "gloss": "Halt, Haltestelle"
+    }
+  ],
+  "contributor": "kfm"
 }

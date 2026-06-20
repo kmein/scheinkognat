@@ -1,7 +1,18 @@
 {
   "id": "ewl-oil",
   "forms": [
-    { "lang": "hye", "script": "ևղ", "translit": "ewł", "gloss": "Öl" },
-    { "lang": "eng", "script": "oil", "translit": "/ɔɪl/", "gloss": "Öl" }
-  ]
+    {
+      "lang": "hye",
+      "script": "ևղ",
+      "translit": "ewł",
+      "gloss": "Öl"
+    },
+    {
+      "lang": "eng",
+      "script": "oil",
+      "translit": "/ɔɪl/",
+      "gloss": "Öl"
+    }
+  ],
+  "contributor": "kfm"
 }

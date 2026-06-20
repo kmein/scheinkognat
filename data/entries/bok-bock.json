@@ -1,7 +1,15 @@
 {
   "id": "bok-bock",
   "forms": [
-    { "lang": "bej", "translit": "bók", "gloss": "Ziegenbock" },
-    { "lang": "deu", "script": "Bock" }
-  ]
+    {
+      "lang": "bej",
+      "translit": "bók",
+      "gloss": "Ziegenbock"
+    },
+    {
+      "lang": "deu",
+      "script": "Bock"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "sheriff-sharif",
   "forms": [
-    { "lang": "eng", "script": "sheriff" },
-    { "lang": "ara", "script": "شريف", "translit": "šarīf", "gloss": "edel, vornehm" }
-  ]
+    {
+      "lang": "eng",
+      "script": "sheriff"
+    },
+    {
+      "lang": "ara",
+      "script": "شريف",
+      "translit": "šarīf",
+      "gloss": "edel, vornehm"
+    }
+  ],
+  "contributor": "kfm"
 }

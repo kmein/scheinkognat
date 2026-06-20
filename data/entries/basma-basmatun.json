@@ -1,9 +1,19 @@
 {
   "id": "basma-basmatun",
   "forms": [
-    { "lang": "tur", "script": "bas-ma", "gloss": "Abdruck" },
-    { "lang": "ara", "script": "بَصْمَةٌ", "translit": "baṣmatun", "gloss": "Eindruck, Fingerabdruck" }
+    {
+      "lang": "tur",
+      "script": "bas-ma",
+      "gloss": "Abdruck"
+    },
+    {
+      "lang": "ara",
+      "script": "بَصْمَةٌ",
+      "translit": "baṣmatun",
+      "gloss": "Eindruck, Fingerabdruck"
+    }
   ],
+  "contributor": "kfm",
   "sources": [
     "https://thearabicpages.com/2024/03/24/arabic-turkish-observations-imprinting/"
   ]

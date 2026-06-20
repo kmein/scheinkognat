@@ -1,7 +1,18 @@
 {
   "id": "uhibbu-oheb",
   "forms": [
-    { "lang": "ara", "script": "أُحِبُّ", "translit": "ʾuḥibbu", "gloss": "ich liebe" },
-    { "lang": "heb", "script": "אוֹהֶב", "translit": "ʾōhēv", "gloss": "liebend" }
-  ]
+    {
+      "lang": "ara",
+      "script": "أُحِبُّ",
+      "translit": "ʾuḥibbu",
+      "gloss": "ich liebe"
+    },
+    {
+      "lang": "heb",
+      "script": "אוֹהֶב",
+      "translit": "ʾōhēv",
+      "gloss": "liebend"
+    }
+  ],
+  "contributor": "kfm"
 }

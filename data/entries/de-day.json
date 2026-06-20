@@ -1,7 +1,16 @@
 {
   "id": "de-day",
   "forms": [
-    { "lang": "txg", "translit": "de¹", "gloss": "Tag" },
-    { "lang": "eng", "script": "day", "gloss": "Tag" }
-  ]
+    {
+      "lang": "txg",
+      "translit": "de¹",
+      "gloss": "Tag"
+    },
+    {
+      "lang": "eng",
+      "script": "day",
+      "gloss": "Tag"
+    }
+  ],
+  "contributor": "kfm"
 }

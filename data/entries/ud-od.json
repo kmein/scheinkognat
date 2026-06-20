@@ -1,9 +1,20 @@
 {
   "id": "ud-od",
   "forms": [
-    { "lang": "sux", "script": "𒌓", "translit": "ud", "gloss": "Tag" },
-    { "lang": "tur", "dialect": "Gök-Türkisch", "script": "öd", "gloss": "Zeit" }
+    {
+      "lang": "sux",
+      "script": "𒌓",
+      "translit": "ud",
+      "gloss": "Tag"
+    },
+    {
+      "lang": "tur",
+      "dialect": "Gök-Türkisch",
+      "script": "öd",
+      "gloss": "Zeit"
+    }
   ],
+  "contributor": "kfm",
   "sources": [
     "https://thearabicpages.com/2025/03/10/prepositional-interrogatives-when-does-%d8%b9%d9%8e%d9%85%d9%91%d8%a7-become-%d8%b9%d9%8e%d9%85%d9%8e%d9%91/"
   ]

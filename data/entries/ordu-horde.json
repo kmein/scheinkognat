@@ -1,8 +1,20 @@
 {
   "id": "ordu-horde",
   "forms": [
-    { "lang": "mon", "script": "ordu", "gloss": "Armee, Heerlager" },
-    { "lang": "tur", "script": "ordu", "gloss": "Armee" },
-    { "lang": "deu", "script": "Horde" }
-  ]
+    {
+      "lang": "mon",
+      "script": "ordu",
+      "gloss": "Armee, Heerlager"
+    },
+    {
+      "lang": "tur",
+      "script": "ordu",
+      "gloss": "Armee"
+    },
+    {
+      "lang": "deu",
+      "script": "Horde"
+    }
+  ],
+  "contributor": "kfm"
 }

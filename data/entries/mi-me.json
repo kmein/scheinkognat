@@ -1,8 +1,24 @@
 {
   "id": "mi-me",
   "forms": [
-    { "lang": "txg", "script": "𗅋", "translit": "mi¹", "gloss": "nicht" },
-    { "lang": "grc", "script": "μή", "translit": "mḗ", "gloss": "nicht" },
-    { "lang": "hye", "script": "մի", "translit": "mi", "gloss": "nicht" }
-  ]
+    {
+      "lang": "txg",
+      "script": "𗅋",
+      "translit": "mi¹",
+      "gloss": "nicht"
+    },
+    {
+      "lang": "grc",
+      "script": "μή",
+      "translit": "mḗ",
+      "gloss": "nicht"
+    },
+    {
+      "lang": "hye",
+      "script": "մի",
+      "translit": "mi",
+      "gloss": "nicht"
+    }
+  ],
+  "contributor": "kfm"
 }

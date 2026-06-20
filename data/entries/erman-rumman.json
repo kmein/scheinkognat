@@ -1,7 +1,19 @@
 {
   "id": "erman-rumman",
   "forms": [
-    { "lang": "cop", "dialect": "Bohairisch", "script": "ⲉⲣⲙⲁⲛ", "translit": "erman", "gloss": "Granatapfel" },
-    { "lang": "ara", "script": "رُمّان", "translit": "rummān", "gloss": "Granatapfel" }
-  ]
+    {
+      "lang": "cop",
+      "dialect": "Bohairisch",
+      "script": "ⲉⲣⲙⲁⲛ",
+      "translit": "erman",
+      "gloss": "Granatapfel"
+    },
+    {
+      "lang": "ara",
+      "script": "رُمّان",
+      "translit": "rummān",
+      "gloss": "Granatapfel"
+    }
+  ],
+  "contributor": "kfm"
 }

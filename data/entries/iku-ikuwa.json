@@ -1,7 +1,17 @@
 {
   "id": "iku-ikuwa",
   "forms": [
-    { "lang": "jpn", "script": "行く", "translit": "iku", "gloss": "gehen" },
-    { "lang": "nfl", "script": "ikuwä", "gloss": "ich gehe" }
-  ]
+    {
+      "lang": "jpn",
+      "script": "行く",
+      "translit": "iku",
+      "gloss": "gehen"
+    },
+    {
+      "lang": "nfl",
+      "script": "ikuwä",
+      "gloss": "ich gehe"
+    }
+  ],
+  "contributor": "kfm"
 }

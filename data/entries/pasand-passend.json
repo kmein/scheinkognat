@@ -1,7 +1,16 @@
 {
   "id": "pasand-passend",
   "forms": [
-    { "lang": "fas", "script": "پسند", "translit": "pasand", "gloss": "gefallend" },
-    { "lang": "deu", "script": "passend" }
-  ]
+    {
+      "lang": "fas",
+      "script": "پسند",
+      "translit": "pasand",
+      "gloss": "gefallend"
+    },
+    {
+      "lang": "deu",
+      "script": "passend"
+    }
+  ],
+  "contributor": "kfm"
 }

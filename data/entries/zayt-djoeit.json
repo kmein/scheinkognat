@@ -1,8 +1,19 @@
 {
   "id": "zayt-djoeit",
   "forms": [
-    { "lang": "ara", "script": "زيت", "translit": "zayt", "gloss": "Öl" },
-    { "lang": "cop", "script": "ϫⲟⲉⲓⲧ", "translit": "djoeit", "gloss": "Olive" }
+    {
+      "lang": "ara",
+      "script": "زيت",
+      "translit": "zayt",
+      "gloss": "Öl"
+    },
+    {
+      "lang": "cop",
+      "script": "ϫⲟⲉⲓⲧ",
+      "translit": "djoeit",
+      "gloss": "Olive"
+    }
   ],
-  "comment": "Leider ein Lehnwort."
+  "comment": "Leider ein Lehnwort.",
+  "contributor": "kfm"
 }

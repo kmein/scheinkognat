@@ -1,7 +1,18 @@
 {
   "id": "nasa-nosit",
   "forms": [
-    { "lang": "heb", "script": "נשה", "translit": "nasa", "gloss": "tragen" },
-    { "lang": "rus", "script": "носить", "translit": "nosit'", "gloss": "tragen" }
-  ]
+    {
+      "lang": "heb",
+      "script": "נשה",
+      "translit": "nasa",
+      "gloss": "tragen"
+    },
+    {
+      "lang": "rus",
+      "script": "носить",
+      "translit": "nosit'",
+      "gloss": "tragen"
+    }
+  ],
+  "contributor": "kfm"
 }

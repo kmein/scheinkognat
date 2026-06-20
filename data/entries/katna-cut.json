@@ -1,7 +1,17 @@
 {
   "id": "katna-cut",
   "forms": [
-    { "lang": "hin", "script": "कटना", "translit": "kaṭnā", "gloss": "geschnitten werden" },
-    { "lang": "eng", "script": "cut", "gloss": "schneiden" }
-  ]
+    {
+      "lang": "hin",
+      "script": "कटना",
+      "translit": "kaṭnā",
+      "gloss": "geschnitten werden"
+    },
+    {
+      "lang": "eng",
+      "script": "cut",
+      "gloss": "schneiden"
+    }
+  ],
+  "contributor": "kfm"
 }

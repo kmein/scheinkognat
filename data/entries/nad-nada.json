@@ -1,7 +1,18 @@
 {
   "id": "nad-nada",
   "forms": [
-    { "lang": "san", "script": "नद्", "translit": "nad-", "gloss": "brüllen" },
-    { "lang": "ara", "script": "نادى", "translit": "nādā", "gloss": "rufen" }
-  ]
+    {
+      "lang": "san",
+      "script": "नद्",
+      "translit": "nad-",
+      "gloss": "brüllen"
+    },
+    {
+      "lang": "ara",
+      "script": "نادى",
+      "translit": "nādā",
+      "gloss": "rufen"
+    }
+  ],
+  "contributor": "kfm"
 }

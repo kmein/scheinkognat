@@ -1,8 +1,20 @@
 {
   "id": "sir-shaar",
   "forms": [
-    { "lang": "ara", "script": "سعر", "translit": "siʿr", "gloss": "Preis" },
-    { "lang": "cop", "script": "ϣⲁⲁⲣ", "translit": "šaar", "gloss": "Wert", "etymology": "< *šʕr*" }
+    {
+      "lang": "ara",
+      "script": "سعر",
+      "translit": "siʿr",
+      "gloss": "Preis"
+    },
+    {
+      "lang": "cop",
+      "script": "ϣⲁⲁⲣ",
+      "translit": "šaar",
+      "gloss": "Wert",
+      "etymology": "< *šʕr*"
+    }
   ],
-  "comment": "Leider ein Lehnwort."
+  "comment": "Leider ein Lehnwort.",
+  "contributor": "kfm"
 }

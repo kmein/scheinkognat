@@ -1,8 +1,22 @@
 {
   "id": "sriuba-corba",
   "forms": [
-    { "lang": "lit", "script": "sriuba", "gloss": "Suppe" },
-    { "lang": "tur", "script": "çorba", "gloss": "Suppe" },
-    { "lang": "ara", "script": "شربة", "translit": "šurba", "gloss": "Suppe" }
-  ]
+    {
+      "lang": "lit",
+      "script": "sriuba",
+      "gloss": "Suppe"
+    },
+    {
+      "lang": "tur",
+      "script": "çorba",
+      "gloss": "Suppe"
+    },
+    {
+      "lang": "ara",
+      "script": "شربة",
+      "translit": "šurba",
+      "gloss": "Suppe"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "viya-wie",
   "forms": [
-    { "lang": "pli", "script": "विय", "translit": "viya", "gloss": "wie" },
-    { "lang": "deu", "script": "wie" }
-  ]
+    {
+      "lang": "pli",
+      "script": "विय",
+      "translit": "viya",
+      "gloss": "wie"
+    },
+    {
+      "lang": "deu",
+      "script": "wie"
+    }
+  ],
+  "contributor": "kfm"
 }

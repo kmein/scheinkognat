@@ -1,8 +1,24 @@
 {
   "id": "khuj-khuj",
   "forms": [
-    { "lang": "mon", "script": "хуй", "translit": "xuj", "gloss": "(Schwert-)Scheide" },
-    { "lang": "rus", "script": "хуй", "translit": "xuj", "gloss": "Penis (vulgär)" },
-    { "lang": "hye", "script": "խոյ", "translit": "xoj", "gloss": "Rammbock" }
-  ]
+    {
+      "lang": "mon",
+      "script": "хуй",
+      "translit": "xuj",
+      "gloss": "(Schwert-)Scheide"
+    },
+    {
+      "lang": "rus",
+      "script": "хуй",
+      "translit": "xuj",
+      "gloss": "Penis (vulgär)"
+    },
+    {
+      "lang": "hye",
+      "script": "խոյ",
+      "translit": "xoj",
+      "gloss": "Rammbock"
+    }
+  ],
+  "contributor": "kfm"
 }

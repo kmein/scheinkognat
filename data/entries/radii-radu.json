@@ -1,7 +1,18 @@
 {
   "id": "radii-radu",
   "forms": [
-    { "lang": "ara", "script": "راضي", "translit": "rāḍī", "gloss": "zufrieden" },
-    { "lang": "chu", "script": "радъ", "translit": "radŭ", "gloss": "zufrieden" }
-  ]
+    {
+      "lang": "ara",
+      "script": "راضي",
+      "translit": "rāḍī",
+      "gloss": "zufrieden"
+    },
+    {
+      "lang": "chu",
+      "script": "радъ",
+      "translit": "radŭ",
+      "gloss": "zufrieden"
+    }
+  ],
+  "contributor": "kfm"
 }

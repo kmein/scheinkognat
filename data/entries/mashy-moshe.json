@@ -1,7 +1,18 @@
 {
   "id": "mashy-moshe",
   "forms": [
-    { "lang": "ara", "script": "ماشٍ", "translit": "māšin", "gloss": "gehend" },
-    { "lang": "cop", "script": "ⲙⲟⲟϣⲉ", "translit": "mooše", "gloss": "gehen" }
-  ]
+    {
+      "lang": "ara",
+      "script": "ماشٍ",
+      "translit": "māšin",
+      "gloss": "gehend"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲙⲟⲟϣⲉ",
+      "translit": "mooše",
+      "gloss": "gehen"
+    }
+  ],
+  "contributor": "kfm"
 }

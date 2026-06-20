@@ -1,7 +1,17 @@
 {
   "id": "hin-hen",
   "forms": [
-    { "lang": "kur", "script": "hin", "gloss": "einige > [unbestimmter Artikel Plural]" },
-    { "lang": "cop", "script": "ϩⲉⲛ", "translit": "hen", "gloss": "[unbestimmter Artikel Plural] (ϩⲟⲉⲓⲛⲉ einige)" }
-  ]
+    {
+      "lang": "kur",
+      "script": "hin",
+      "gloss": "einige > [unbestimmter Artikel Plural]"
+    },
+    {
+      "lang": "cop",
+      "script": "ϩⲉⲛ",
+      "translit": "hen",
+      "gloss": "[unbestimmter Artikel Plural] (ϩⲟⲉⲓⲛⲉ einige)"
+    }
+  ],
+  "contributor": "kfm"
 }

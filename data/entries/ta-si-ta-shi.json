@@ -1,8 +1,18 @@
 {
   "id": "ta-si-ta-shi",
   "forms": [
-    { "lang": "gle", "script": "tá sí", "gloss": "sie ist" },
-    { "lang": "zho", "script": "他是", "translit": "tā shì", "gloss": "sie ist" }
+    {
+      "lang": "gle",
+      "script": "tá sí",
+      "gloss": "sie ist"
+    },
+    {
+      "lang": "zho",
+      "script": "他是",
+      "translit": "tā shì",
+      "gloss": "sie ist"
+    }
   ],
+  "contributor": "kfm",
   "added": "2020-06-23"
 }

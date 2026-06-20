@@ -1,8 +1,20 @@
 {
   "id": "stam-stamm",
   "forms": [
-    { "lang": "txb", "translit": "stām", "gloss": "Baum" },
-    { "lang": "xto", "translit": "ṣtām", "gloss": "Baum" },
-    { "lang": "deu", "script": "Stamm" }
-  ]
+    {
+      "lang": "txb",
+      "translit": "stām",
+      "gloss": "Baum"
+    },
+    {
+      "lang": "xto",
+      "translit": "ṣtām",
+      "gloss": "Baum"
+    },
+    {
+      "lang": "deu",
+      "script": "Stamm"
+    }
+  ],
+  "contributor": "kfm"
 }

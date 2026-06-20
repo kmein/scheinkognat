@@ -1,8 +1,17 @@
 {
   "id": "cok-sok",
   "forms": [
-    { "lang": "tur", "script": "çok", "gloss": "viel" },
-    { "lang": "hun", "script": "sok", "gloss": "viel" }
+    {
+      "lang": "tur",
+      "script": "çok",
+      "gloss": "viel"
+    },
+    {
+      "lang": "hun",
+      "script": "sok",
+      "gloss": "viel"
+    }
   ],
-  "comment": "Leider ein Lehnwort."
+  "comment": "Leider ein Lehnwort.",
+  "contributor": "kfm"
 }

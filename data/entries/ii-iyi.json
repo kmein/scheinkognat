@@ -1,7 +1,17 @@
 {
   "id": "ii-iyi",
   "forms": [
-    { "lang": "jpn", "script": "いい", "translit": "ii", "gloss": "gut (umgangssprachlich)" },
-    { "lang": "tur", "script": "iyi", "gloss": "gut" }
-  ]
+    {
+      "lang": "jpn",
+      "script": "いい",
+      "translit": "ii",
+      "gloss": "gut (umgangssprachlich)"
+    },
+    {
+      "lang": "tur",
+      "script": "iyi",
+      "gloss": "gut"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,9 +1,28 @@
 {
   "id": "pise-pesso",
   "forms": [
-    { "lang": "cop", "script": "ⲡⲓⲥⲉ", "translit": "pise", "gloss": "backen" },
-    { "lang": "grc", "script": "πέσσω", "translit": "péssō", "gloss": "kochen, garen" },
-    { "lang": "tur", "script": "piş-mek", "gloss": "garen, reifen" },
-    { "lang": "swa", "script": "mpishi", "gloss": "Koch" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ⲡⲓⲥⲉ",
+      "translit": "pise",
+      "gloss": "backen"
+    },
+    {
+      "lang": "grc",
+      "script": "πέσσω",
+      "translit": "péssō",
+      "gloss": "kochen, garen"
+    },
+    {
+      "lang": "tur",
+      "script": "piş-mek",
+      "gloss": "garen, reifen"
+    },
+    {
+      "lang": "swa",
+      "script": "mpishi",
+      "gloss": "Koch"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,17 @@
 {
   "id": "setase-sessantasei",
   "forms": [
-    { "lang": "cop", "script": "ⲥⲉⲧⲁⲥⲉ", "translit": "setase", "gloss": "66" },
-    { "lang": "ita", "script": "sessantasei", "gloss": "66" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ⲥⲉⲧⲁⲥⲉ",
+      "translit": "setase",
+      "gloss": "66"
+    },
+    {
+      "lang": "ita",
+      "script": "sessantasei",
+      "gloss": "66"
+    }
+  ],
+  "contributor": "kfm"
 }

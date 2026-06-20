@@ -1,7 +1,19 @@
 {
   "id": "ork-horkos",
   "forms": [
-    { "lang": "cop", "dialect": "Sahidisch", "script": "ⲱⲣⲕ̅", "translit": "ōrk", "gloss": "schwören" },
-    { "lang": "grc", "script": "ὅρκος", "translit": "hórkos", "gloss": "der Gegenstand, bei dem man schwört" }
-  ]
+    {
+      "lang": "cop",
+      "dialect": "Sahidisch",
+      "script": "ⲱⲣⲕ̅",
+      "translit": "ōrk",
+      "gloss": "schwören"
+    },
+    {
+      "lang": "grc",
+      "script": "ὅρκος",
+      "translit": "hórkos",
+      "gloss": "der Gegenstand, bei dem man schwört"
+    }
+  ],
+  "contributor": "kfm"
 }

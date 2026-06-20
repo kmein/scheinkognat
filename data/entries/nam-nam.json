@@ -1,7 +1,18 @@
 {
   "id": "nam-nam",
   "forms": [
-    { "lang": "tam", "script": "நம்", "translit": "nam", "gloss": "uns" },
-    { "lang": "rus", "script": "нам", "translit": "nam", "gloss": "uns" }
-  ]
+    {
+      "lang": "tam",
+      "script": "நம்",
+      "translit": "nam",
+      "gloss": "uns"
+    },
+    {
+      "lang": "rus",
+      "script": "нам",
+      "translit": "nam",
+      "gloss": "uns"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,18 @@
 {
   "id": "shitaa-sita",
   "forms": [
-    { "lang": "ara", "script": "شِتَاء", "translit": "šitāʾ", "gloss": "Winter" },
-    { "lang": "san", "script": "शीत", "translit": "śīta", "gloss": "kalt" }
-  ]
+    {
+      "lang": "ara",
+      "script": "شِتَاء",
+      "translit": "šitāʾ",
+      "gloss": "Winter"
+    },
+    {
+      "lang": "san",
+      "script": "शीत",
+      "translit": "śīta",
+      "gloss": "kalt"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "bora-bora",
   "forms": [
-    { "lang": "tur", "script": "bora", "gloss": "Windstoß" },
-    { "lang": "ita", "script": "bora", "gloss": "eine Art kalter Fallwind in der Adria" }
-  ]
+    {
+      "lang": "tur",
+      "script": "bora",
+      "gloss": "Windstoß"
+    },
+    {
+      "lang": "ita",
+      "script": "bora",
+      "gloss": "eine Art kalter Fallwind in der Adria"
+    }
+  ],
+  "contributor": "kfm"
 }

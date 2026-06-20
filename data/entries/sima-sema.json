@@ -1,7 +1,18 @@
 {
   "id": "sima-sema",
   "forms": [
-    { "lang": "ara", "script": "سِمة", "translit": "sima", "gloss": "Zeichen" },
-    { "lang": "grc", "script": "σῆμα", "translit": "sē̃ma", "gloss": "Zeichen" }
-  ]
+    {
+      "lang": "ara",
+      "script": "سِمة",
+      "translit": "sima",
+      "gloss": "Zeichen"
+    },
+    {
+      "lang": "grc",
+      "script": "σῆμα",
+      "translit": "sē̃ma",
+      "gloss": "Zeichen"
+    }
+  ],
+  "contributor": "kfm"
 }

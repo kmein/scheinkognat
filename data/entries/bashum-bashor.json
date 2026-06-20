@@ -1,7 +1,20 @@
 {
   "id": "bashum-bashor",
   "forms": [
-    { "lang": "ara", "dialect": "Sudanesisch", "script": "بعشوم", "translit": "baʕšūm", "gloss": "Fuchs", "etymology": "< Bedscha" },
-    { "lang": "cop", "script": "ⲃⲁϣⲟⲣ", "translit": "bašor", "gloss": "Fuchs" }
-  ]
+    {
+      "lang": "ara",
+      "dialect": "Sudanesisch",
+      "script": "بعشوم",
+      "translit": "baʕšūm",
+      "gloss": "Fuchs",
+      "etymology": "< Bedscha"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲃⲁϣⲟⲣ",
+      "translit": "bašor",
+      "gloss": "Fuchs"
+    }
+  ],
+  "contributor": "kfm"
 }

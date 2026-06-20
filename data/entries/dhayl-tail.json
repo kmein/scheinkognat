@@ -1,7 +1,17 @@
 {
   "id": "dhayl-tail",
   "forms": [
-    { "lang": "ara", "script": "ذَيل", "translit": "ḏayl", "gloss": "Zipfel, Schwanz" },
-    { "lang": "eng", "script": "tail", "gloss": "Schwanz" }
-  ]
+    {
+      "lang": "ara",
+      "script": "ذَيل",
+      "translit": "ḏayl",
+      "gloss": "Zipfel, Schwanz"
+    },
+    {
+      "lang": "eng",
+      "script": "tail",
+      "gloss": "Schwanz"
+    }
+  ],
+  "contributor": "kfm"
 }

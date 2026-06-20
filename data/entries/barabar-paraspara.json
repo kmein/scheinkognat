@@ -1,8 +1,23 @@
 {
   "id": "barabar-paraspara",
   "forms": [
-    { "lang": "fas", "script": "برابر", "translit": "barābar", "gloss": "zusammen" },
-    { "lang": "tur", "script": "beraber", "gloss": "zusammen" },
-    { "lang": "san", "script": "परस्पर", "translit": "paraspara", "gloss": "miteinander" }
-  ]
+    {
+      "lang": "fas",
+      "script": "برابر",
+      "translit": "barābar",
+      "gloss": "zusammen"
+    },
+    {
+      "lang": "tur",
+      "script": "beraber",
+      "gloss": "zusammen"
+    },
+    {
+      "lang": "san",
+      "script": "परस्पर",
+      "translit": "paraspara",
+      "gloss": "miteinander"
+    }
+  ],
+  "contributor": "kfm"
 }

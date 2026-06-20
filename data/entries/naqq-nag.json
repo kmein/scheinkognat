@@ -1,7 +1,17 @@
 {
   "id": "naqq-nag",
   "forms": [
-    { "lang": "ara", "script": "نَقّ", "translit": "naqq", "gloss": "nerven" },
-    { "lang": "eng", "script": "nag", "gloss": "nerven" }
-  ]
+    {
+      "lang": "ara",
+      "script": "نَقّ",
+      "translit": "naqq",
+      "gloss": "nerven"
+    },
+    {
+      "lang": "eng",
+      "script": "nag",
+      "gloss": "nerven"
+    }
+  ],
+  "contributor": "kfm"
 }

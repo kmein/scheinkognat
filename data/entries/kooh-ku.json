@@ -1,7 +1,18 @@
 {
   "id": "kooh-ku",
   "forms": [
-    { "lang": "cop", "script": "ⲕⲟⲟϩ", "translit": "kooh", "gloss": "Ecke" },
-    { "lang": "ara", "script": "كوع", "translit": "kūʿ", "gloss": "Ellenbogen" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ⲕⲟⲟϩ",
+      "translit": "kooh",
+      "gloss": "Ecke"
+    },
+    {
+      "lang": "ara",
+      "script": "كوع",
+      "translit": "kūʿ",
+      "gloss": "Ellenbogen"
+    }
+  ],
+  "contributor": "kfm"
 }

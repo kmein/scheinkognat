@@ -1,8 +1,21 @@
 {
   "id": "itu-it-itu",
   "forms": [
-    { "lang": "tam", "script": "இது", "translit": "itu", "gloss": "es" },
-    { "lang": "eng", "script": "it" },
-    { "lang": "msa", "script": "itu", "gloss": "jene/r/s" }
-  ]
+    {
+      "lang": "tam",
+      "script": "இது",
+      "translit": "itu",
+      "gloss": "es"
+    },
+    {
+      "lang": "eng",
+      "script": "it"
+    },
+    {
+      "lang": "msa",
+      "script": "itu",
+      "gloss": "jene/r/s"
+    }
+  ],
+  "contributor": "kfm"
 }

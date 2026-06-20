@@ -1,7 +1,15 @@
 {
   "id": "titremek-zittern",
   "forms": [
-    { "lang": "tur", "script": "titremek", "gloss": "zittern" },
-    { "lang": "deu", "script": "zittern" }
-  ]
+    {
+      "lang": "tur",
+      "script": "titremek",
+      "gloss": "zittern"
+    },
+    {
+      "lang": "deu",
+      "script": "zittern"
+    }
+  ],
+  "contributor": "kfm"
 }

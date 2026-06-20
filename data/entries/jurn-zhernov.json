@@ -1,7 +1,18 @@
 {
   "id": "jurn-zhernov",
   "forms": [
-    { "lang": "ara", "script": "جُرن", "translit": "jurn", "gloss": "Mörser" },
-    { "lang": "rus", "script": "жёрнов", "translit": "žërnov", "gloss": "Mühlstein" }
-  ]
+    {
+      "lang": "ara",
+      "script": "جُرن",
+      "translit": "jurn",
+      "gloss": "Mörser"
+    },
+    {
+      "lang": "rus",
+      "script": "жёрнов",
+      "translit": "žërnov",
+      "gloss": "Mühlstein"
+    }
+  ],
+  "contributor": "kfm"
 }

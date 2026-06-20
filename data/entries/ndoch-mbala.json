@@ -1,7 +1,17 @@
 {
   "id": "ndoch-mbala",
   "forms": [
-    { "lang": "deu", "script": "doch", "gloss": "doch (oft als [ndoch] gesprochen)" },
-    { "lang": "ara", "script": "بلى", "translit": "balā", "gloss": "doch (oft als [mbala] gesprochen)" }
-  ]
+    {
+      "lang": "deu",
+      "script": "doch",
+      "gloss": "doch (oft als [ndoch] gesprochen)"
+    },
+    {
+      "lang": "ara",
+      "script": "بلى",
+      "translit": "balā",
+      "gloss": "doch (oft als [mbala] gesprochen)"
+    }
+  ],
+  "contributor": "kfm"
 }

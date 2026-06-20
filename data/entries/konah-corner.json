@@ -1,7 +1,17 @@
 {
   "id": "konah-corner",
   "forms": [
-    { "lang": "san", "script": "कोणः", "translit": "koṇaḥ", "gloss": "Ecke" },
-    { "lang": "eng", "script": "corner", "gloss": "Ecke" }
-  ]
+    {
+      "lang": "san",
+      "script": "कोणः",
+      "translit": "koṇaḥ",
+      "gloss": "Ecke"
+    },
+    {
+      "lang": "eng",
+      "script": "corner",
+      "gloss": "Ecke"
+    }
+  ],
+  "contributor": "kfm"
 }

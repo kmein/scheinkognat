@@ -1,7 +1,17 @@
 {
   "id": "muuk-mucus",
   "forms": [
-    { "lang": "tha", "script": "มูก", "translit": "mûuk", "gloss": "Nasenschleim" },
-    { "lang": "lat", "script": "mūcus", "gloss": "Schleim" }
-  ]
+    {
+      "lang": "tha",
+      "script": "มูก",
+      "translit": "mûuk",
+      "gloss": "Nasenschleim"
+    },
+    {
+      "lang": "lat",
+      "script": "mūcus",
+      "gloss": "Schleim"
+    }
+  ],
+  "contributor": "kfm"
 }

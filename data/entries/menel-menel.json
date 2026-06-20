@@ -1,7 +1,16 @@
 {
   "id": "menel-menel",
   "forms": [
-    { "lang": "sjn", "translit": "menel", "gloss": "Himmel" },
-    { "lang": "mdf", "script": "menel", "gloss": "Himmel" }
-  ]
+    {
+      "lang": "sjn",
+      "translit": "menel",
+      "gloss": "Himmel"
+    },
+    {
+      "lang": "mdf",
+      "script": "menel",
+      "gloss": "Himmel"
+    }
+  ],
+  "contributor": "kfm"
 }

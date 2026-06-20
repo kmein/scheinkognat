@@ -1,7 +1,18 @@
 {
   "id": "nwe-noeo",
   "forms": [
-    { "lang": "txg", "script": "𗄻", "translit": "nwə̱¹", "gloss": "wissen" },
-    { "lang": "grc", "script": "νοέω", "translit": "noéō", "gloss": "wahrnehmen, verstehen" }
-  ]
+    {
+      "lang": "txg",
+      "script": "𗄻",
+      "translit": "nwə̱¹",
+      "gloss": "wissen"
+    },
+    {
+      "lang": "grc",
+      "script": "νοέω",
+      "translit": "noéō",
+      "gloss": "wahrnehmen, verstehen"
+    }
+  ],
+  "contributor": "kfm"
 }

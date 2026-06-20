@@ -1,7 +1,16 @@
 {
   "id": "shevuah-schwur",
   "forms": [
-    { "lang": "heb", "script": "שְׁבוּעָה", "translit": "šəḇūʿāh", "gloss": "Schwur" },
-    { "lang": "deu", "script": "Schwur" }
-  ]
+    {
+      "lang": "heb",
+      "script": "שְׁבוּעָה",
+      "translit": "šəḇūʿāh",
+      "gloss": "Schwur"
+    },
+    {
+      "lang": "deu",
+      "script": "Schwur"
+    }
+  ],
+  "contributor": "kfm"
 }

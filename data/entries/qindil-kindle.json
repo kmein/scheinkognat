@@ -1,7 +1,17 @@
 {
   "id": "qindil-kindle",
   "forms": [
-    { "lang": "ara", "script": "قنديل", "translit": "qindīl", "gloss": "Kandelaber, Öllampe" },
-    { "lang": "eng", "script": "kindle", "gloss": "entzünden" }
-  ]
+    {
+      "lang": "ara",
+      "script": "قنديل",
+      "translit": "qindīl",
+      "gloss": "Kandelaber, Öllampe"
+    },
+    {
+      "lang": "eng",
+      "script": "kindle",
+      "gloss": "entzünden"
+    }
+  ],
+  "contributor": "kfm"
 }

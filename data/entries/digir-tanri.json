@@ -1,7 +1,18 @@
 {
   "id": "digir-tanri",
   "forms": [
-    { "lang": "sux", "script": "𒀭", "translit": "DIĜIR", "gloss": "Gott" },
-    { "lang": "tur", "script": "tanrı", "gloss": "Gott", "etymology": "< \\*teŋri" }
-  ]
+    {
+      "lang": "sux",
+      "script": "𒀭",
+      "translit": "DIĜIR",
+      "gloss": "Gott"
+    },
+    {
+      "lang": "tur",
+      "script": "tanrı",
+      "gloss": "Gott",
+      "etymology": "< \\*teŋri"
+    }
+  ],
+  "contributor": "kfm"
 }

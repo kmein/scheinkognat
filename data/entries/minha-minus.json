@@ -1,7 +1,16 @@
 {
   "id": "minha-minus",
   "forms": [
-    { "lang": "fas", "script": "مِنها", "translit": "minhā", "gloss": "minus, davon" },
-    { "lang": "deu", "script": "minus" }
-  ]
+    {
+      "lang": "fas",
+      "script": "مِنها",
+      "translit": "minhā",
+      "gloss": "minus, davon"
+    },
+    {
+      "lang": "deu",
+      "script": "minus"
+    }
+  ],
+  "contributor": "kfm"
 }

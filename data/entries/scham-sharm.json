@@ -1,7 +1,16 @@
 {
   "id": "scham-sharm",
   "forms": [
-    { "lang": "deu", "script": "Scham" },
-    { "lang": "hin", "script": "शर्म", "translit": "śarm", "gloss": "Scham" }
-  ]
+    {
+      "lang": "deu",
+      "script": "Scham"
+    },
+    {
+      "lang": "hin",
+      "script": "शर्म",
+      "translit": "śarm",
+      "gloss": "Scham"
+    }
+  ],
+  "contributor": "kfm"
 }

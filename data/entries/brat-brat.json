@@ -1,7 +1,18 @@
 {
   "id": "brat-brat",
   "forms": [
-    { "lang": "ara", "dialect": "Rijāl Almaʿ", "script": "برت", "translit": "brat", "gloss": "Mädchen" },
-    { "lang": "eng", "script": "brat", "gloss": "Göre, freches Kind" }
-  ]
+    {
+      "lang": "ara",
+      "dialect": "Rijāl Almaʿ",
+      "script": "برت",
+      "translit": "brat",
+      "gloss": "Mädchen"
+    },
+    {
+      "lang": "eng",
+      "script": "brat",
+      "gloss": "Göre, freches Kind"
+    }
+  ],
+  "contributor": "kfm"
 }

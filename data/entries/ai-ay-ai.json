@@ -1,8 +1,23 @@
 {
   "id": "ai-ay-ai",
   "forms": [
-    { "lang": "eng", "script": "I", "translit": "/ai/", "gloss": "ich" },
-    { "lang": "fia", "translit": "ày", "gloss": "ich" },
-    { "lang": "onw", "script": "ⲁⲓ̈", "translit": "ai", "gloss": "ich" }
-  ]
+    {
+      "lang": "eng",
+      "script": "I",
+      "translit": "/ai/",
+      "gloss": "ich"
+    },
+    {
+      "lang": "fia",
+      "translit": "ày",
+      "gloss": "ich"
+    },
+    {
+      "lang": "onw",
+      "script": "ⲁⲓ̈",
+      "translit": "ai",
+      "gloss": "ich"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,8 +1,23 @@
 {
   "id": "den-de-then",
   "forms": [
-    { "lang": "syc", "script": "ܕܝܢ", "translit": "dɛn", "gloss": "aber, denn, dann" },
-    { "lang": "grc", "script": "δέ", "translit": "dé", "gloss": "aber" },
-    { "lang": "eng", "script": "then", "gloss": "dann" }
-  ]
+    {
+      "lang": "syc",
+      "script": "ܕܝܢ",
+      "translit": "dɛn",
+      "gloss": "aber, denn, dann"
+    },
+    {
+      "lang": "grc",
+      "script": "δέ",
+      "translit": "dé",
+      "gloss": "aber"
+    },
+    {
+      "lang": "eng",
+      "script": "then",
+      "gloss": "dann"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,10 +1,31 @@
 {
   "id": "schedon-qarib",
   "forms": [
-    { "lang": "grc", "script": "σχεδόν", "translit": "schedón", "gloss": "nahe" },
-    { "lang": "grc", "script": "σχεδία", "translit": "schedía", "gloss": "Floß" },
-    { "lang": "ara", "script": "قريب", "translit": "qarīb", "gloss": "nahe" },
-    { "lang": "ara", "script": "قارب", "translit": "qārib", "gloss": "Boot" }
+    {
+      "lang": "grc",
+      "script": "σχεδόν",
+      "translit": "schedón",
+      "gloss": "nahe"
+    },
+    {
+      "lang": "grc",
+      "script": "σχεδία",
+      "translit": "schedía",
+      "gloss": "Floß"
+    },
+    {
+      "lang": "ara",
+      "script": "قريب",
+      "translit": "qarīb",
+      "gloss": "nahe"
+    },
+    {
+      "lang": "ara",
+      "script": "قارب",
+      "translit": "qārib",
+      "gloss": "Boot"
+    }
   ],
-  "comment": "Sowohl im Altgriechischen als auch im Arabischen bilden *nahe* und *Floß/Boot* ein lautähnliches Paar — die Koinzidenz ist hier die Parallelität der internen Paare, nicht ein einzelnes Wortpaar."
+  "comment": "Sowohl im Altgriechischen als auch im Arabischen bilden *nahe* und *Floß/Boot* ein lautähnliches Paar — die Koinzidenz ist hier die Parallelität der internen Paare, nicht ein einzelnes Wortpaar.",
+  "contributor": "kfm"
 }

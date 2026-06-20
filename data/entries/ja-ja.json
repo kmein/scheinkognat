@@ -1,7 +1,16 @@
 {
   "id": "ja-ja",
   "forms": [
-    { "lang": "gdm", "translit": "já", "gloss": "ich (maskulin)" },
-    { "lang": "ces", "script": "já", "gloss": "ich" }
-  ]
+    {
+      "lang": "gdm",
+      "translit": "já",
+      "gloss": "ich (maskulin)"
+    },
+    {
+      "lang": "ces",
+      "script": "já",
+      "gloss": "ich"
+    }
+  ],
+  "contributor": "kfm"
 }

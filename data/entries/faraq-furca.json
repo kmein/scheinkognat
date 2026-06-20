@@ -1,7 +1,17 @@
 {
   "id": "faraq-furca",
   "forms": [
-    { "lang": "ara", "script": "فرق", "translit": "faraqa", "gloss": "unterscheiden, trennen" },
-    { "lang": "lat", "script": "furca", "gloss": "Gabelung" }
-  ]
+    {
+      "lang": "ara",
+      "script": "فرق",
+      "translit": "faraqa",
+      "gloss": "unterscheiden, trennen"
+    },
+    {
+      "lang": "lat",
+      "script": "furca",
+      "gloss": "Gabelung"
+    }
+  ],
+  "contributor": "kfm"
 }

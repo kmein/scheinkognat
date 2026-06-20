@@ -1,7 +1,17 @@
 {
   "id": "sette-sette",
   "forms": [
-    { "lang": "sah", "script": "сэттэ", "translit": "sette", "gloss": "sieben" },
-    { "lang": "ita", "script": "sette", "gloss": "sieben" }
-  ]
+    {
+      "lang": "sah",
+      "script": "сэттэ",
+      "translit": "sette",
+      "gloss": "sieben"
+    },
+    {
+      "lang": "ita",
+      "script": "sette",
+      "gloss": "sieben"
+    }
+  ],
+  "contributor": "kfm"
 }

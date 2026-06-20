@@ -1,7 +1,15 @@
 {
   "id": "ehen-ehe",
   "forms": [
-    { "lang": "taq", "script": "éhen", "gloss": "Ehe" },
-    { "lang": "deu", "script": "Ehe" }
-  ]
+    {
+      "lang": "taq",
+      "script": "éhen",
+      "gloss": "Ehe"
+    },
+    {
+      "lang": "deu",
+      "script": "Ehe"
+    }
+  ],
+  "contributor": "kfm"
 }

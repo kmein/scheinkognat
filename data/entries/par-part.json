@@ -1,7 +1,16 @@
 {
   "id": "par-part",
   "forms": [
-    { "lang": "kur", "script": "p'ar", "gloss": "Teil" },
-    { "lang": "fra", "script": "part", "gloss": "Teil" }
-  ]
+    {
+      "lang": "kur",
+      "script": "p'ar",
+      "gloss": "Teil"
+    },
+    {
+      "lang": "fra",
+      "script": "part",
+      "gloss": "Teil"
+    }
+  ],
+  "contributor": "kfm"
 }

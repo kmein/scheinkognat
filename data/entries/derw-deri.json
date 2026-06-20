@@ -1,8 +1,22 @@
 {
   "id": "derw-deri",
   "forms": [
-    { "lang": "grc", "script": "δέρω", "translit": "dérō", "gloss": "häuten, schinden" },
-    { "lang": "tur", "script": "deri", "gloss": "Haut" },
-    { "lang": "tlh", "script": "DIr", "gloss": "Oberfläche, Haut" }
-  ]
+    {
+      "lang": "grc",
+      "script": "δέρω",
+      "translit": "dérō",
+      "gloss": "häuten, schinden"
+    },
+    {
+      "lang": "tur",
+      "script": "deri",
+      "gloss": "Haut"
+    },
+    {
+      "lang": "tlh",
+      "script": "DIr",
+      "gloss": "Oberfläche, Haut"
+    }
+  ],
+  "contributor": "kfm"
 }

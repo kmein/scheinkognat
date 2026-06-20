@@ -1,7 +1,18 @@
 {
   "id": "huic-huic",
   "forms": [
-    { "lang": "lat", "script": "huic", "gloss": "ihm, ihr", "etymology": "< *hui* + *ce*" },
-    { "lang": "glv", "script": "huic", "gloss": "ihr", "etymology": "< *hug* + 3sg" }
-  ]
+    {
+      "lang": "lat",
+      "script": "huic",
+      "gloss": "ihm, ihr",
+      "etymology": "< *hui* + *ce*"
+    },
+    {
+      "lang": "glv",
+      "script": "huic",
+      "gloss": "ihr",
+      "etymology": "< *hug* + 3sg"
+    }
+  ],
+  "contributor": "kfm"
 }

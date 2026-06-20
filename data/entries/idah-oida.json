@@ -1,7 +1,18 @@
 {
   "id": "idah-oida",
   "forms": [
-    { "lang": "syc", "script": "ܝܕܥ", "translit": "īḏaʿ", "gloss": "wusste" },
-    { "lang": "grc", "script": "οἶδα", "translit": "oĩda", "gloss": "wusste" }
-  ]
+    {
+      "lang": "syc",
+      "script": "ܝܕܥ",
+      "translit": "īḏaʿ",
+      "gloss": "wusste"
+    },
+    {
+      "lang": "grc",
+      "script": "οἶδα",
+      "translit": "oĩda",
+      "gloss": "wusste"
+    }
+  ],
+  "contributor": "kfm"
 }

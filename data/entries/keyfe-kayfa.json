@@ -1,8 +1,19 @@
 {
   "id": "keyfe-kayfa",
   "forms": [
-    { "lang": "kur", "dialect": "Zazaki", "script": "keyfê to howl o?", "gloss": "Geht es dir gut? (wörtlich: Zustand dein gut ist?)" },
-    { "lang": "ara", "script": "كيف الحال؟", "translit": "kayfa l-ḥāl?", "gloss": "wie geht es?" }
+    {
+      "lang": "kur",
+      "dialect": "Zazaki",
+      "script": "keyfê to howl o?",
+      "gloss": "Geht es dir gut? (wörtlich: Zustand dein gut ist?)"
+    },
+    {
+      "lang": "ara",
+      "script": "كيف الحال؟",
+      "translit": "kayfa l-ḥāl?",
+      "gloss": "wie geht es?"
+    }
   ],
-  "comment": "Das _keyf_-Wort ist im Arabischen ein Fragewort, im Zazaki bedeutet es 'Zustand' oder 'Befinden'."
+  "comment": "Das _keyf_-Wort ist im Arabischen ein Fragewort, im Zazaki bedeutet es 'Zustand' oder 'Befinden'.",
+  "contributor": "kfm"
 }

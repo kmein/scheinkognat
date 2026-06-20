@@ -1,7 +1,15 @@
 {
   "id": "nas-nass",
   "forms": [
-    { "lang": "zun", "script": "nas", "gloss": "nass" },
-    { "lang": "deu", "script": "nass" }
-  ]
+    {
+      "lang": "zun",
+      "script": "nas",
+      "gloss": "nass"
+    },
+    {
+      "lang": "deu",
+      "script": "nass"
+    }
+  ],
+  "contributor": "kfm"
 }

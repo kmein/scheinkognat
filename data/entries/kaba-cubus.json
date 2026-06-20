@@ -1,7 +1,17 @@
 {
   "id": "kaba-cubus",
   "forms": [
-    { "lang": "ara", "script": "كعبة", "translit": "kaʿba", "gloss": "Würfel, Kaaba" },
-    { "lang": "lat", "script": "cubus", "gloss": "Würfel" }
-  ]
+    {
+      "lang": "ara",
+      "script": "كعبة",
+      "translit": "kaʿba",
+      "gloss": "Würfel, Kaaba"
+    },
+    {
+      "lang": "lat",
+      "script": "cubus",
+      "gloss": "Würfel"
+    }
+  ],
+  "contributor": "kfm"
 }

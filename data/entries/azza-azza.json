@@ -1,7 +1,17 @@
 {
   "id": "azza-azza",
   "forms": [
-    { "lang": "xlu", "translit": "azza-", "gloss": "begünstigen" },
-    { "lang": "ara", "script": "عَزَّ", "translit": "ʿazza", "gloss": "teuer, geliebt sein" }
-  ]
+    {
+      "lang": "xlu",
+      "translit": "azza-",
+      "gloss": "begünstigen"
+    },
+    {
+      "lang": "ara",
+      "script": "عَزَّ",
+      "translit": "ʿazza",
+      "gloss": "teuer, geliebt sein"
+    }
+  ],
+  "contributor": "kfm"
 }

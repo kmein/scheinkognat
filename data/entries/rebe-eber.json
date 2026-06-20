@@ -1,10 +1,27 @@
 {
   "id": "rebe-eber",
   "forms": [
-    { "lang": "deu", "script": "Rebe" },
-    { "lang": "deu", "script": "Eber" },
-    { "lang": "grc", "script": "καπρός", "translit": "kaprós", "gloss": "Eber" },
-    { "lang": "grc", "script": "κάρπος", "translit": "kárpos", "gloss": "Frucht" }
+    {
+      "lang": "deu",
+      "script": "Rebe"
+    },
+    {
+      "lang": "deu",
+      "script": "Eber"
+    },
+    {
+      "lang": "grc",
+      "script": "καπρός",
+      "translit": "kaprós",
+      "gloss": "Eber"
+    },
+    {
+      "lang": "grc",
+      "script": "κάρπος",
+      "translit": "kárpos",
+      "gloss": "Frucht"
+    }
   ],
-  "comment": "Beide Sprachen verfügen über ein Ähnliches Paar aus Flora und Fauna."
+  "comment": "Beide Sprachen verfügen über ein Ähnliches Paar aus Flora und Fauna.",
+  "contributor": "kfm"
 }

@@ -1,7 +1,17 @@
 {
   "id": "jarra-jar",
   "forms": [
-    { "lang": "ara", "script": "جَرّة", "translit": "jarra", "gloss": "Krug" },
-    { "lang": "eng", "script": "jar", "gloss": "Krug, Gefäß" }
-  ]
+    {
+      "lang": "ara",
+      "script": "جَرّة",
+      "translit": "jarra",
+      "gloss": "Krug"
+    },
+    {
+      "lang": "eng",
+      "script": "jar",
+      "gloss": "Krug, Gefäß"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "mikros-mickrig",
   "forms": [
-    { "lang": "grc", "script": "μικρός", "translit": "mikrós", "gloss": "klein" },
-    { "lang": "deu", "script": "mickrig" }
-  ]
+    {
+      "lang": "grc",
+      "script": "μικρός",
+      "translit": "mikrós",
+      "gloss": "klein"
+    },
+    {
+      "lang": "deu",
+      "script": "mickrig"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "am-em",
   "forms": [
-    { "lang": "xto", "translit": "-äṃ", "gloss": "sie (Objekt)" },
-    { "lang": "eng", "script": "'em", "gloss": "them (Klitikon)" }
-  ]
+    {
+      "lang": "xto",
+      "translit": "-äṃ",
+      "gloss": "sie (Objekt)"
+    },
+    {
+      "lang": "eng",
+      "script": "'em",
+      "gloss": "them (Klitikon)"
+    }
+  ],
+  "contributor": "kfm"
 }

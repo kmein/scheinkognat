@@ -1,8 +1,19 @@
 {
   "id": "kila-kella",
   "forms": [
-    { "lang": "swa", "script": "kila", "gloss": "jede, alle" },
-    { "lang": "ara", "dialect": "Damaskus", "script": "كلّا", "translit": "kəlla", "gloss": "ganz" }
+    {
+      "lang": "swa",
+      "script": "kila",
+      "gloss": "jede, alle"
+    },
+    {
+      "lang": "ara",
+      "dialect": "Damaskus",
+      "script": "كلّا",
+      "translit": "kəlla",
+      "gloss": "ganz"
+    }
   ],
-  "comment": "Leider entlehnt."
+  "comment": "Leider entlehnt.",
+  "contributor": "kfm"
 }

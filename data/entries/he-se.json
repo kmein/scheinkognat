@@ -1,11 +1,26 @@
 {
   "id": "he-se",
   "forms": [
-    { "lang": "gdq", "translit": "hē", "gloss": "er" },
-    { "lang": "gdq", "translit": "sē", "gloss": "sie" },
-    { "lang": "eng", "script": "he" },
-    { "lang": "eng", "script": "she" }
+    {
+      "lang": "gdq",
+      "translit": "hē",
+      "gloss": "er"
+    },
+    {
+      "lang": "gdq",
+      "translit": "sē",
+      "gloss": "sie"
+    },
+    {
+      "lang": "eng",
+      "script": "he"
+    },
+    {
+      "lang": "eng",
+      "script": "she"
+    }
   ],
+  "contributor": "kfm",
   "sources": [
     "Weninger 2011, *The Semitic Languages: An International Handbook*, p. 167"
   ]

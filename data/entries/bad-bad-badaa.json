@@ -1,8 +1,22 @@
 {
   "id": "bad-bad-badaa",
   "forms": [
-    { "lang": "fas", "script": "بَد", "translit": "bad", "gloss": "schlecht" },
-    { "lang": "eng", "script": "bad", "gloss": "schlecht" },
-    { "lang": "orm", "script": "badaa", "gloss": "schlecht" }
-  ]
+    {
+      "lang": "fas",
+      "script": "بَد",
+      "translit": "bad",
+      "gloss": "schlecht"
+    },
+    {
+      "lang": "eng",
+      "script": "bad",
+      "gloss": "schlecht"
+    },
+    {
+      "lang": "orm",
+      "script": "badaa",
+      "gloss": "schlecht"
+    }
+  ],
+  "contributor": "kfm"
 }

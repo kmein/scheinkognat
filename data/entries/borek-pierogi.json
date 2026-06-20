@@ -1,7 +1,16 @@
 {
   "id": "borek-pierogi",
   "forms": [
-    { "lang": "tur", "script": "börek", "gloss": "gefüllte Teigtasche" },
-    { "lang": "pol", "script": "pierogi", "gloss": "gefüllte Teigtaschen" }
-  ]
+    {
+      "lang": "tur",
+      "script": "börek",
+      "gloss": "gefüllte Teigtasche"
+    },
+    {
+      "lang": "pol",
+      "script": "pierogi",
+      "gloss": "gefüllte Teigtaschen"
+    }
+  ],
+  "contributor": "kfm"
 }

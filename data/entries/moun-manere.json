@@ -1,7 +1,17 @@
 {
   "id": "moun-manere",
   "forms": [
-    { "lang": "cop", "script": "ⲙⲟⲩⲛ", "translit": "moun", "gloss": "bleiben" },
-    { "lang": "lat", "script": "manere", "gloss": "bleiben" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ⲙⲟⲩⲛ",
+      "translit": "moun",
+      "gloss": "bleiben"
+    },
+    {
+      "lang": "lat",
+      "script": "manere",
+      "gloss": "bleiben"
+    }
+  ],
+  "contributor": "kfm"
 }

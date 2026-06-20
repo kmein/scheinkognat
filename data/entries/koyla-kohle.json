@@ -1,7 +1,16 @@
 {
   "id": "koyla-kohle",
   "forms": [
-    { "lang": "hin", "script": "कोयला", "translit": "koylā", "gloss": "Kohle" },
-    { "lang": "deu", "script": "Kohle" }
-  ]
+    {
+      "lang": "hin",
+      "script": "कोयला",
+      "translit": "koylā",
+      "gloss": "Kohle"
+    },
+    {
+      "lang": "deu",
+      "script": "Kohle"
+    }
+  ],
+  "contributor": "kfm"
 }

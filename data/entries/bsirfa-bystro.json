@@ -1,7 +1,19 @@
 {
   "id": "bsirfa-bystro",
   "forms": [
-    { "lang": "ara", "dialect": "Libanon", "script": "بسرعة", "translit": "bsərʕa", "gloss": "schnell" },
-    { "lang": "rus", "script": "быстро", "translit": "bystro", "gloss": "schnell" }
-  ]
+    {
+      "lang": "ara",
+      "dialect": "Libanon",
+      "script": "بسرعة",
+      "translit": "bsərʕa",
+      "gloss": "schnell"
+    },
+    {
+      "lang": "rus",
+      "script": "быстро",
+      "translit": "bystro",
+      "gloss": "schnell"
+    }
+  ],
+  "contributor": "kfm"
 }

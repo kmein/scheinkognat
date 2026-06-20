@@ -1,7 +1,16 @@
 {
   "id": "theka-theke",
   "forms": [
-    { "lang": "hin", "script": "ठेका", "translit": "ṭhekā", "gloss": "Alkoholgeschäft" },
-    { "lang": "deu", "script": "Theke" }
-  ]
+    {
+      "lang": "hin",
+      "script": "ठेका",
+      "translit": "ṭhekā",
+      "gloss": "Alkoholgeschäft"
+    },
+    {
+      "lang": "deu",
+      "script": "Theke"
+    }
+  ],
+  "contributor": "kfm"
 }

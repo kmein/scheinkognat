@@ -1,7 +1,16 @@
 {
   "id": "cock-cook",
   "forms": [
-    { "lang": "cop", "script": "ϭⲱϭ", "translit": "cōc", "gloss": "kochen" },
-    { "lang": "eng", "script": "cook" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ϭⲱϭ",
+      "translit": "cōc",
+      "gloss": "kochen"
+    },
+    {
+      "lang": "eng",
+      "script": "cook"
+    }
+  ],
+  "contributor": "kfm"
 }

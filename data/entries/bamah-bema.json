@@ -1,7 +1,18 @@
 {
   "id": "bamah-bema",
   "forms": [
-    { "lang": "heb", "script": "בָּמָה", "translit": "bāmā", "gloss": "Anhöhe" },
-    { "lang": "grc", "script": "βῆμα", "translit": "bē̃ma", "gloss": "Plattform" }
-  ]
+    {
+      "lang": "heb",
+      "script": "בָּמָה",
+      "translit": "bāmā",
+      "gloss": "Anhöhe"
+    },
+    {
+      "lang": "grc",
+      "script": "βῆμα",
+      "translit": "bē̃ma",
+      "gloss": "Plattform"
+    }
+  ],
+  "contributor": "kfm"
 }

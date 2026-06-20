@@ -1,7 +1,18 @@
 {
   "id": "qittu-qitsuk",
   "forms": [
-    { "lang": "ara", "script": "قِطٌّ", "translit": "qiṭṭu", "gloss": "Katze" },
-    { "lang": "kal", "script": "qitsuk", "gloss": "Katze", "etymology": "< 'kratzen', das Tier ist eine 'Kratze'" }
-  ]
+    {
+      "lang": "ara",
+      "script": "قِطٌّ",
+      "translit": "qiṭṭu",
+      "gloss": "Katze"
+    },
+    {
+      "lang": "kal",
+      "script": "qitsuk",
+      "gloss": "Katze",
+      "etymology": "< 'kratzen', das Tier ist eine 'Kratze'"
+    }
+  ],
+  "contributor": "kfm"
 }

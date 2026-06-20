@@ -1,7 +1,18 @@
 {
   "id": "tmaio-timao",
   "forms": [
-    { "lang": "cop", "script": "ⲧⲙⲁⲓⲟ", "translit": "tmaio", "gloss": "rechtfertigen" },
-    { "lang": "grc", "script": "τιμάω", "translit": "timáō", "gloss": "wertschätzen" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ⲧⲙⲁⲓⲟ",
+      "translit": "tmaio",
+      "gloss": "rechtfertigen"
+    },
+    {
+      "lang": "grc",
+      "script": "τιμάω",
+      "translit": "timáō",
+      "gloss": "wertschätzen"
+    }
+  ],
+  "contributor": "kfm"
 }

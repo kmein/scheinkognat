@@ -1,7 +1,16 @@
 {
   "id": "toprak-tobrag",
   "forms": [
-    { "lang": "tur", "script": "toprak", "gloss": "Erde" },
-    { "lang": "mon", "translit": "tobraɣ", "gloss": "Boden, Staub" }
-  ]
+    {
+      "lang": "tur",
+      "script": "toprak",
+      "gloss": "Erde"
+    },
+    {
+      "lang": "mon",
+      "translit": "tobraɣ",
+      "gloss": "Boden, Staub"
+    }
+  ],
+  "contributor": "kfm"
 }

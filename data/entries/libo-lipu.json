@@ -1,7 +1,17 @@
 {
   "id": "libo-lipu",
   "forms": [
-    { "lang": "xbc", "script": "λιβο", "translit": "libu", "gloss": "Dokument, Text" },
-    { "lang": "tok", "script": "lipu", "gloss": "Dokument, Blatt" }
-  ]
+    {
+      "lang": "xbc",
+      "script": "λιβο",
+      "translit": "libu",
+      "gloss": "Dokument, Text"
+    },
+    {
+      "lang": "tok",
+      "script": "lipu",
+      "gloss": "Dokument, Blatt"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,18 @@
 {
   "id": "ni-ni",
   "forms": [
-    { "lang": "tam", "script": "நீ", "translit": "nī", "gloss": "du" },
-    { "lang": "zho", "script": "你", "translit": "nǐ", "gloss": "du" }
-  ]
+    {
+      "lang": "tam",
+      "script": "நீ",
+      "translit": "nī",
+      "gloss": "du"
+    },
+    {
+      "lang": "zho",
+      "script": "你",
+      "translit": "nǐ",
+      "gloss": "du"
+    }
+  ],
+  "contributor": "kfm"
 }

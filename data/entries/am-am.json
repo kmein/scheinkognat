@@ -1,7 +1,18 @@
 {
   "id": "am-am",
   "forms": [
-    { "lang": "ara", "script": "عام", "translit": "ʿām", "gloss": "Jahr" },
-    { "lang": "hye", "script": "ամ", "translit": "am", "gloss": "Jahr" }
-  ]
+    {
+      "lang": "ara",
+      "script": "عام",
+      "translit": "ʿām",
+      "gloss": "Jahr"
+    },
+    {
+      "lang": "hye",
+      "script": "ամ",
+      "translit": "am",
+      "gloss": "Jahr"
+    }
+  ],
+  "contributor": "kfm"
 }

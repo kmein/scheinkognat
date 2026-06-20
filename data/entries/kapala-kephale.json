@@ -1,7 +1,18 @@
 {
   "id": "kapala-kephale",
   "forms": [
-    { "lang": "san", "script": "कपाल", "translit": "kapāla", "gloss": "Schädel" },
-    { "lang": "grc", "script": "κεφαλή", "translit": "kephalḗ", "gloss": "Kopf" }
-  ]
+    {
+      "lang": "san",
+      "script": "कपाल",
+      "translit": "kapāla",
+      "gloss": "Schädel"
+    },
+    {
+      "lang": "grc",
+      "script": "κεφαλή",
+      "translit": "kephalḗ",
+      "gloss": "Kopf"
+    }
+  ],
+  "contributor": "kfm"
 }

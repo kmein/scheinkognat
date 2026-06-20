@@ -1,7 +1,18 @@
 {
   "id": "ettu-eight",
   "forms": [
-    { "lang": "mal", "script": "എട്ട്", "translit": "eṭṭu", "gloss": "acht" },
-    { "lang": "eng", "script": "eight", "translit": "/eɪt/", "gloss": "acht" }
-  ]
+    {
+      "lang": "mal",
+      "script": "എട്ട്",
+      "translit": "eṭṭu",
+      "gloss": "acht"
+    },
+    {
+      "lang": "eng",
+      "script": "eight",
+      "translit": "/eɪt/",
+      "gloss": "acht"
+    }
+  ],
+  "contributor": "kfm"
 }

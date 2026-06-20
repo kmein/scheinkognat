@@ -1,7 +1,17 @@
 {
   "id": "fwoot-ftoou",
   "forms": [
-    { "lang": "qga", "translit": "fwóót˺", "gloss": "vier" },
-    { "lang": "cop", "script": "ϥⲧⲟⲟⲩ", "translit": "ftoou", "gloss": "vier" }
-  ]
+    {
+      "lang": "qga",
+      "translit": "fwóót˺",
+      "gloss": "vier"
+    },
+    {
+      "lang": "cop",
+      "script": "ϥⲧⲟⲟⲩ",
+      "translit": "ftoou",
+      "gloss": "vier"
+    }
+  ],
+  "contributor": "kfm"
 }

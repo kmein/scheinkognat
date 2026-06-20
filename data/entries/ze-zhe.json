@@ -1,9 +1,28 @@
 {
   "id": "ze-zhe",
   "forms": [
-    { "lang": "ces", "script": "že", "gloss": "dass" },
-    { "lang": "pol", "script": "że", "gloss": "dass" },
-    { "lang": "cop", "script": "ϫⲉ", "translit": "dje", "gloss": "dass" },
-    { "lang": "heb", "script": "ש", "translit": "še", "gloss": "dass" }
-  ]
+    {
+      "lang": "ces",
+      "script": "že",
+      "gloss": "dass"
+    },
+    {
+      "lang": "pol",
+      "script": "że",
+      "gloss": "dass"
+    },
+    {
+      "lang": "cop",
+      "script": "ϫⲉ",
+      "translit": "dje",
+      "gloss": "dass"
+    },
+    {
+      "lang": "heb",
+      "script": "ש",
+      "translit": "še",
+      "gloss": "dass"
+    }
+  ],
+  "contributor": "kfm"
 }

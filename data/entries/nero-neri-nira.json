@@ -1,8 +1,24 @@
 {
   "id": "nero-neri-nira",
   "forms": [
-    { "lang": "grc", "script": "νερό", "translit": "neró", "gloss": "Wasser" },
-    { "lang": "ett", "script": "𐌍𐌄𐌓𐌉", "translit": "neri", "gloss": "Wasser" },
-    { "lang": "san", "script": "नीर", "translit": "nīra", "gloss": "Wasser" }
-  ]
+    {
+      "lang": "grc",
+      "script": "νερό",
+      "translit": "neró",
+      "gloss": "Wasser"
+    },
+    {
+      "lang": "ett",
+      "script": "𐌍𐌄𐌓𐌉",
+      "translit": "neri",
+      "gloss": "Wasser"
+    },
+    {
+      "lang": "san",
+      "script": "नीर",
+      "translit": "nīra",
+      "gloss": "Wasser"
+    }
+  ],
+  "contributor": "kfm"
 }

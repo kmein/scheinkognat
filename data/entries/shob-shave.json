@@ -1,7 +1,17 @@
 {
   "id": "shob-shave",
   "forms": [
-    { "lang": "cop", "script": "ϣⲱⲃ", "translit": "šōb", "gloss": "rasieren" },
-    { "lang": "eng", "script": "shave", "gloss": "rasieren" }
-  ]
+    {
+      "lang": "cop",
+      "script": "ϣⲱⲃ",
+      "translit": "šōb",
+      "gloss": "rasieren"
+    },
+    {
+      "lang": "eng",
+      "script": "shave",
+      "gloss": "rasieren"
+    }
+  ],
+  "contributor": "kfm"
 }

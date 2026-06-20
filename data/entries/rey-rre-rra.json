@@ -1,8 +1,23 @@
 {
   "id": "rey-rre-rra",
   "forms": [
-    { "lang": "spa", "script": "rey", "gloss": "König" },
-    { "lang": "kho", "script": "rre", "gloss": "König" },
-    { "lang": "cop", "dialect": "Achmimisch", "script": "ⲣ̄ⲣⲁ", "translit": "rra", "gloss": "König" }
-  ]
+    {
+      "lang": "spa",
+      "script": "rey",
+      "gloss": "König"
+    },
+    {
+      "lang": "kho",
+      "script": "rre",
+      "gloss": "König"
+    },
+    {
+      "lang": "cop",
+      "dialect": "Achmimisch",
+      "script": "ⲣ̄ⲣⲁ",
+      "translit": "rra",
+      "gloss": "König"
+    }
+  ],
+  "contributor": "kfm"
 }

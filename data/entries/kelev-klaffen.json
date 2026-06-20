@@ -1,7 +1,16 @@
 {
   "id": "kelev-klaffen",
   "forms": [
-    { "lang": "heb", "script": "כֶּלֶב", "translit": "kelev", "gloss": "Hund" },
-    { "lang": "deu", "script": "kläffen" }
-  ]
+    {
+      "lang": "heb",
+      "script": "כֶּלֶב",
+      "translit": "kelev",
+      "gloss": "Hund"
+    },
+    {
+      "lang": "deu",
+      "script": "kläffen"
+    }
+  ],
+  "contributor": "kfm"
 }

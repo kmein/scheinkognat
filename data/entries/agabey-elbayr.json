@@ -1,7 +1,17 @@
 {
   "id": "agabey-elbayr",
   "forms": [
-    { "lang": "tur", "script": "ağabey", "gloss": "älterer Bruder" },
-    { "lang": "hye", "script": "եղբայր", "translit": "ełbayr", "gloss": "Bruder" }
-  ]
+    {
+      "lang": "tur",
+      "script": "ağabey",
+      "gloss": "älterer Bruder"
+    },
+    {
+      "lang": "hye",
+      "script": "եղբայր",
+      "translit": "ełbayr",
+      "gloss": "Bruder"
+    }
+  ],
+  "contributor": "kfm"
 }

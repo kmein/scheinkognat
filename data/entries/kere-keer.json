@@ -1,7 +1,16 @@
 {
   "id": "kere-keer",
   "forms": [
-    { "lang": "tur", "script": "kere", "gloss": "Mal (z. B. fünf Mal)" },
-    { "lang": "nld", "script": "keer", "gloss": "Mal (z. B. fünf Mal)" }
-  ]
+    {
+      "lang": "tur",
+      "script": "kere",
+      "gloss": "Mal (z. B. fünf Mal)"
+    },
+    {
+      "lang": "nld",
+      "script": "keer",
+      "gloss": "Mal (z. B. fünf Mal)"
+    }
+  ],
+  "contributor": "kfm"
 }

@@ -1,7 +1,16 @@
 {
   "id": "meqqoret-maiorem",
   "forms": [
-    { "lang": "taq", "translit": "meqqôret", "gloss": "groß" },
-    { "lang": "lat", "script": "maiorem", "gloss": "größer" }
-  ]
+    {
+      "lang": "taq",
+      "translit": "meqqôret",
+      "gloss": "groß"
+    },
+    {
+      "lang": "lat",
+      "script": "maiorem",
+      "gloss": "größer"
+    }
+  ],
+  "contributor": "kfm"
 }
