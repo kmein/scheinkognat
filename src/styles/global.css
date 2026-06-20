@@ -22,7 +22,7 @@
   --bg: #f5f1ea;
   --bg-alt: #ebe7dd;
   --border: #d2cdc0;
-  --accent: #a8322f;
+  --accent: #6e3052;
 
   --font-body: 'Junicode', Georgia, 'Times New Roman', serif;
   --font-mono: ui-monospace, 'SF Mono', Consolas, 'JetBrains Mono', 'Liberation Mono', monospace;
@@ -39,7 +39,7 @@
     --bg: #0e121f;
     --bg-alt: #181c2a;
     --border: #2a2d3a;
-    --accent: #e0584f;
+    --accent: #a86284;
   }
 }
 
