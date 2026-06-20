@@ -21,7 +21,7 @@ const hasMeta = Boolean(entry.added || entry.contributor);
   data-langs={langCodes.join(',')}
   data-contributor={entry.contributor ?? ''}
 >
-  <a class="entry-anchor" href={`${base}eintrag/${entry.id}/`} aria-label={`Eintrag ${entry.id}`}>*</a>
+  <a class="entry-anchor" href={`${base}eintrag/${entry.id}/`} aria-label={`Eintrag ${entry.id}`}>※</a>
   <div class="entry-content">
     {hasMeta && (
       <div class="entry-meta">
