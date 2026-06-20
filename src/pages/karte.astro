@@ -41,6 +41,55 @@ for (const [code, count] of langCounts) {
 }
 const pointByCode = new Map(points.map((p) => [p.code, p]));
 
+// --- 2b. Jitter: Dots, die geografisch übereinanderliegen, auseinanderdrücken
+// Vorab kleinen deterministischen Offset pro Code, damit exakte Duplikate
+// (z. B. die 11 Sprachen auf [0, 0]) garantiert in unterschiedliche Richtungen
+// gestoßen werden.
+const hash = (s: string) => {
+  let h = 0;
+  for (const c of s) h = (h * 31 + c.charCodeAt(0)) | 0;
+  return ((h >>> 0) % 10000) / 10000;
+};
+for (const p of points) {
+  const a = hash(p.code) * 2 * Math.PI;
+  p.x += Math.cos(a) * 0.6;
+  p.y += Math.sin(a) * 0.6;
+}
+
+// Kollisions-Relaxation in Pixel-Space.
+const maxPointCt = Math.max(1, ...points.map((p) => p.count));
+const r = (c: number) => 2.5 + 5 * Math.sqrt(c / maxPointCt);
+const PAD = 1.5;
+for (let iter = 0; iter < 80; iter++) {
+  let moved = false;
+  for (let i = 0; i < points.length; i++) {
+    for (let j = i + 1; j < points.length; j++) {
+      const a = points[i]!;
+      const b = points[j]!;
+      let dx = b.x - a.x;
+      let dy = b.y - a.y;
+      let dist = Math.sqrt(dx * dx + dy * dy);
+      const minDist = r(a.count) + r(b.count) + PAD;
+      if (dist >= minDist) continue;
+      if (dist === 0) {
+        const angle = (i / points.length) * 2 * Math.PI;
+        dx = Math.cos(angle);
+        dy = Math.sin(angle);
+        dist = 1;
+      }
+      const push = (minDist - dist) / 2;
+      const ux = dx / dist;
+      const uy = dy / dist;
+      a.x -= ux * push;
+      a.y -= uy * push;
+      b.x += ux * push;
+      b.y += uy * push;
+      moved = true;
+    }
+  }
+  if (!moved) break;
+}
+
 // --- 3. Kanten: pro Eintrag alle Paare; Gewicht = Häufigkeit ----------------
 type Edge = { a: Point; b: Point; weight: number };
 
@@ -67,10 +116,9 @@ for (const [key, weight] of edgeCounts) {
 edges.sort((x, y) => x.weight - y.weight); // dünn zuerst, dick liegt oben
 
 const maxEdge = Math.max(1, ...edges.map((e) => e.weight));
-const maxPoint = Math.max(1, ...points.map((p) => p.count));
 
 const strokeWidth = (w: number) => 0.5 + 4 * (w / maxEdge);
-const radius = (c: number) => 2.5 + 5 * Math.sqrt(c / maxPoint);
+const radius = r;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -84,9 +132,18 @@ const base = import.meta.env.BASE_URL;
     konzentrisch auf <em>Null Island</em> (0°, 0°).
   </p>
 
+  <div class="karte-wrap">
+    <div class="karte-controls" aria-hidden="false">
+      <button type="button" id="zoom-in"  aria-label="Hineinzoomen">+</button>
+      <button type="button" id="zoom-out" aria-label="Herauszoomen">−</button>
+      <button type="button" id="zoom-reset" aria-label="Zurücksetzen">↺</button>
+    </div>
+
   <svg
     class="karte"
     viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+    data-w={WIDTH}
+    data-h={HEIGHT}
     role="img"
     aria-label="Weltkarte der im Korpus enthaltenen Sprachen"
   >
@@ -121,28 +178,61 @@ const base = import.meta.env.BASE_URL;
       ))}
     </g>
   </svg>
+  </div>
 
   <div id="tooltip" hidden></div>
 </Base>
 
 <style>
-  .karte {
-    display: block;
+  .karte-wrap {
+    position: relative;
     width: calc(100% + 8rem);
     margin-left: -4rem;
-    max-width: none;
-    height: auto;
-    background: transparent;
+    overflow: hidden;
+    touch-action: none;
   }
   @media (max-width: 880px) {
-    .karte { width: 100%; margin-left: 0; }
+    .karte-wrap { width: 100%; margin-left: 0; }
   }
+  .karte-controls {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    z-index: 2;
+  }
+  .karte-controls button {
+    font: inherit;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+    line-height: 1;
+  }
+  .karte-controls button:hover { border-color: var(--accent); color: var(--accent); }
+
+  .karte {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    cursor: grab;
+    user-select: none;
+  }
+  .karte.dragging { cursor: grabbing; }
   .karte .ocean { fill: var(--bg-alt); }
   .karte .land  { fill: #d8d3c5; stroke: none; opacity: 0.55; }
   .karte .edges line {
     stroke: var(--accent);
     stroke-opacity: 0.32;
     stroke-linecap: round;
+    pointer-events: none;
   }
   .karte .points circle {
     fill: var(--accent);
@@ -150,7 +240,7 @@ const base = import.meta.env.BASE_URL;
     stroke: var(--bg);
     stroke-width: 1.2;
     cursor: pointer;
-    transition: r 0.12s, fill-opacity 0.12s;
+    transition: fill-opacity 0.12s;
   }
   .karte .points a:hover circle,
   .karte .points a:focus circle {
@@ -171,6 +261,7 @@ const base = import.meta.env.BASE_URL;
 </style>
 
 <script>
+  // --- Tooltip -------------------------------------------------------------
   const tooltip = document.getElementById('tooltip') as HTMLElement;
   const circles = document.querySelectorAll<SVGCircleElement>('.karte circle');
   for (const c of circles) {
@@ -186,4 +277,96 @@ const base = import.meta.env.BASE_URL;
       tooltip.hidden = true;
     });
   }
+
+  // --- Zoom & Pan via SVG viewBox -----------------------------------------
+  const svg = document.querySelector<SVGSVGElement>('.karte')!;
+  const W = parseFloat(svg.dataset.w!);
+  const H = parseFloat(svg.dataset.h!);
+
+  let vbX = 0, vbY = 0, vbW = W, vbH = H;
+  const MIN_W = 50;
+  const MAX_W = W;
+
+  const apply = () => svg.setAttribute('viewBox', `${vbX} ${vbY} ${vbW} ${vbH}`);
+  const reset = () => { vbX = 0; vbY = 0; vbW = W; vbH = H; apply(); };
+
+  function zoomBy(factor: number, anchorCX?: number, anchorCY?: number) {
+    const newW = Math.max(MIN_W, Math.min(MAX_W, vbW * factor));
+    if (newW === vbW) return;
+    const newH = newW * (H / W);
+    // wenn ein Anker (Cursor) übergeben: dort verankern. Sonst Zentrum.
+    const rect = svg.getBoundingClientRect();
+    const px = anchorCX !== undefined
+      ? ((anchorCX - rect.left) / rect.width) * vbW + vbX
+      : vbX + vbW / 2;
+    const py = anchorCY !== undefined
+      ? ((anchorCY - rect.top) / rect.height) * vbH + vbY
+      : vbY + vbH / 2;
+    vbX = px - (px - vbX) * (newW / vbW);
+    vbY = py - (py - vbY) * (newH / vbH);
+    vbW = newW;
+    vbH = newH;
+    clampToBounds();
+    apply();
+  }
+
+  function clampToBounds() {
+    // Erlaube etwas Overscroll, aber halte den Großteil der Welt sichtbar
+    const margin = vbW / 4;
+    vbX = Math.max(-margin, Math.min(W - vbW + margin, vbX));
+    vbY = Math.max(-margin, Math.min(H - vbH + margin, vbY));
+  }
+
+  // Wheel: am Cursor verankert zoomen
+  svg.addEventListener('wheel', (e: WheelEvent) => {
+    e.preventDefault();
+    const factor = e.deltaY > 0 ? 1.18 : 1 / 1.18;
+    zoomBy(factor, e.clientX, e.clientY);
+  }, { passive: false });
+
+  // Pan via Maus/Touch (Pointer-Events)
+  let panning = false;
+  let startCX = 0, startCY = 0, startVBX = 0, startVBY = 0;
+  let dragMoved = false;
+
+  svg.addEventListener('pointerdown', (e: PointerEvent) => {
+    // Klick auf einen Dot/Link nicht abfangen
+    const target = e.target as Element;
+    if (target.closest('.point-link')) return;
+    panning = true;
+    dragMoved = false;
+    startCX = e.clientX; startCY = e.clientY;
+    startVBX = vbX; startVBY = vbY;
+    svg.classList.add('dragging');
+    svg.setPointerCapture(e.pointerId);
+  });
+  svg.addEventListener('pointermove', (e: PointerEvent) => {
+    if (!panning) return;
+    const rect = svg.getBoundingClientRect();
+    const dx = (e.clientX - startCX) / rect.width  * vbW;
+    const dy = (e.clientY - startCY) / rect.height * vbH;
+    vbX = startVBX - dx;
+    vbY = startVBY - dy;
+    clampToBounds();
+    apply();
+    if (Math.abs(e.clientX - startCX) + Math.abs(e.clientY - startCY) > 3) dragMoved = true;
+  });
+  const endPan = (e: PointerEvent) => {
+    if (!panning) return;
+    panning = false;
+    svg.classList.remove('dragging');
+    try { svg.releasePointerCapture(e.pointerId); } catch {}
+  };
+  svg.addEventListener('pointerup', endPan);
+  svg.addEventListener('pointercancel', endPan);
+
+  // Dot-Links: nicht navigieren, wenn der User panned hat
+  for (const a of svg.querySelectorAll<HTMLAnchorElement>('.point-link')) {
+    a.addEventListener('click', (e) => { if (dragMoved) e.preventDefault(); });
+  }
+
+  // Buttons
+  document.getElementById('zoom-in')!.addEventListener('click', () => zoomBy(1 / 1.5));
+  document.getElementById('zoom-out')!.addEventListener('click', () => zoomBy(1.5));
+  document.getElementById('zoom-reset')!.addEventListener('click', reset);
 </script>
