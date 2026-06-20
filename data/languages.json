@@ -222,9 +222,10 @@
   "fas": {
     "name": "Persisch",
     "rtl": true,
+    "glottocode": "fars1254",
     "coords": [
-      0,
-      0
+      37.24538474190638,
+      50.26938429326292
     ]
   },
   "fia": {
@@ -362,9 +363,10 @@
   "iku": {
     "name": "Inuktitut",
     "rtl": false,
+    "glottocode": "east2534",
     "coords": [
-      0,
-      0
+      62.1735,
+      -75.6139
     ]
   },
   "ipk": {
@@ -583,10 +585,10 @@
   "orm": {
     "name": "Oromo",
     "rtl": false,
-    "glottocode": "orom1252",
+    "glottocode": "nucl1736",
     "coords": [
-      0,
-      0
+      6.392060624999999,
+      38.44119375
     ]
   },
   "oss": {
@@ -951,8 +953,8 @@
     "name": "Gali",
     "rtl": false,
     "coords": [
-      0,
-      0
+      28.5,
+      94.5
     ]
   },
   "qpi": {
@@ -967,8 +969,8 @@
     "name": "Pueblo",
     "rtl": false,
     "coords": [
-      0,
-      0
+      35.687,
+      -105.938
     ]
   },
   "qun": {

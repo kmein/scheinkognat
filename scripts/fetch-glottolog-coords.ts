@@ -54,6 +54,9 @@ for (const [iso, lang] of Object.entries(langs)) {
   if (coords) {
     lang.coords = coords;
     matched++;
+  } else if (lang.coords && (lang.coords[0] !== 0 || lang.coords[1] !== 0)) {
+    // Manuell gesetzte Koordinaten beibehalten
+    matched++;
   } else {
     lang.coords = [0, 0];
     fallbacks.push(`${iso} (${(lang as any).name})`);
