@@ -516,9 +516,6 @@
     "name": "Mongolisch",
     "rtl": false,
     "glottocode": "mong1331",
-    "dialects": [
-      "Jirim"
-    ],
     "coords": [
       45.77047900000001,
       87.25413566666667
@@ -953,6 +950,10 @@
       0,
       0
     ]
+  },
+  "qji": {
+    "name": "Jirim",
+    "rtl": false
   },
   "qga": {
     "name": "Gali",

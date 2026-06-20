@@ -1,7 +1,7 @@
 {
   "id": "ke-kai",
   "forms": [
-    { "lang": "mon", "dialect": "Jirim", "script": "ke", "gloss": "mit" },
+    { "lang": "qji", "script": "ke", "gloss": "mit" },
     { "lang": "grc", "script": "καί", "translit": "kaí", "gloss": "und" }
   ]
 }
