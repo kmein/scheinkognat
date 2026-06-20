@@ -1,0 +1,10 @@
+{
+  "id": "rebe-eber",
+  "forms": [
+    { "lang": "deu", "script": "Rebe" },
+    { "lang": "deu", "script": "Eber" },
+    { "lang": "grc", "script": "καπρός", "translit": "kaprós", "gloss": "Eber" },
+    { "lang": "grc", "script": "κάρπος", "translit": "kárpos", "gloss": "Frucht" }
+  ],
+  "comment": "Im Deutschen ein Klang-Paar Rebe ≈ Eber; im Altgriechischen analog καπρός (Eber) ≈ κάρπος (Frucht) — beide Sprachen tragen das gleiche near-rhyme Schweinepaar."
+}

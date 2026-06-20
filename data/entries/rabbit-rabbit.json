@@ -1,0 +1,8 @@
+{
+  "id": "rabbit-rabbit",
+  "forms": [
+    { "lang": "ara", "script": "رَبِّت", "translit": "rabbit", "gloss": "streichle! (Imperativ)" },
+    { "lang": "eng", "script": "rabbit", "gloss": "Kaninchen" }
+  ],
+  "comment": "🐇"
+}

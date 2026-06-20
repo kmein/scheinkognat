@@ -1,0 +1,10 @@
+{
+  "id": "sarg-sarkophag",
+  "forms": [
+    { "lang": "deu", "script": "Sarg" },
+    { "lang": "deu", "script": "Sarkophag" },
+    { "lang": "grc", "script": "σαρκοφάγος", "translit": "sarkophágos", "gloss": "Fleischfresser" }
+  ],
+  "comment": "Beide deutschen Wörter gehen letztlich auf dasselbe griechische *σαρκοφάγος* zurück — Sarg über eine starke Lautverkürzung im Mittelalter. Liest sich wie ein interner Scheinkognat.",
+  "contributor": "johannes-schuetz"
+}

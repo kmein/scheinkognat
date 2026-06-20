@@ -273,6 +273,15 @@
       -4.45437
     ]
   },
+  "gdq": {
+    "name": "Mehri",
+    "rtl": true,
+    "glottocode": "mehr1241",
+    "coords": [
+      16.793,
+      52.473
+    ]
+  },
   "got": {
     "name": "Gotisch",
     "rtl": false,
