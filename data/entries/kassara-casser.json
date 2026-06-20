@@ -1,0 +1,7 @@
+{
+  "id": "kassara-casser",
+  "forms": [
+    { "lang": "ara", "script": "كسّر", "translit": "kassara", "gloss": "zerschlagen" },
+    { "lang": "fra", "script": "casser", "gloss": "(Knochen) brechen" }
+  ]
+}

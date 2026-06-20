@@ -1,0 +1,12 @@
+{
+  "id": "mallah-malach",
+  "forms": [
+    { "lang": "ara", "script": "ملّاح", "translit": "mallāḥ", "gloss": "Seemann" },
+    { "lang": "ara", "script": "ملح", "translit": "milḥ", "gloss": "Salz" },
+    { "lang": "heb", "script": "מלח", "translit": "malaḥ", "gloss": "Seemann" },
+    { "lang": "heb", "script": "מלח", "translit": "melaḥ", "gloss": "Salz" },
+    { "lang": "grc", "script": "ἅλς", "translit": "háls", "gloss": "Salz, Meer" },
+    { "lang": "sux", "script": "𒈣𒁻", "translit": "ma₂-laḫ₄", "gloss": "Seemann" }
+  ],
+  "comment": "Im Arabischen und Hebräischen koinzidiert *Seemann* und *Salz* in derselben Wurzel. Das Griechische trägt das Wortpaar in einem einzigen Wort. Das Sumerische *ma-laḫ* fügt sich verblüffend genau ein."
+}

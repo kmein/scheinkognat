@@ -1,0 +1,7 @@
+{
+  "id": "bok-bock",
+  "forms": [
+    { "lang": "bej", "script": "bók", "gloss": "Ziegenbock" },
+    { "lang": "deu", "script": "Bock" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "das-das",
+  "forms": [
+    { "lang": "udm", "script": "дас", "translit": "das", "gloss": "zehn" },
+    { "lang": "hin", "script": "दस", "translit": "das", "gloss": "zehn" },
+    { "lang": "urd", "script": "دس", "translit": "das", "gloss": "zehn" }
+  ]
+}

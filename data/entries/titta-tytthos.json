@@ -1,0 +1,7 @@
+{
+  "id": "titta-tytthos",
+  "forms": [
+    { "lang": "qya", "script": "titta", "gloss": "klein" },
+    { "lang": "grc", "script": "τύτθος", "translit": "týtthos", "gloss": "klein" }
+  ]
+}

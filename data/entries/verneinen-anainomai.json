@@ -1,0 +1,8 @@
+{
+  "id": "verneinen-anainomai",
+  "forms": [
+    { "lang": "deu", "script": "verneinen" },
+    { "lang": "grc", "script": "ἀναίνομαι", "translit": "anaínomai", "gloss": "ablehnen, verweigern" }
+  ],
+  "contributor": "johann-christoph-adelung"
+}

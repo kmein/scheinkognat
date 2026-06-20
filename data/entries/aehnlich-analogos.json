@@ -1,0 +1,8 @@
+{
+  "id": "aehnlich-analogos",
+  "forms": [
+    { "lang": "deu", "script": "ähnlich" },
+    { "lang": "grc", "script": "ἀνάλογος", "translit": "análogos", "gloss": "entsprechend" }
+  ],
+  "contributor": "johann-christoph-adelung"
+}

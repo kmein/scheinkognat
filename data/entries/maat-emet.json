@@ -1,0 +1,7 @@
+{
+  "id": "maat-emet",
+  "forms": [
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "mꜣꜥ.t", "gloss": "Wahrheit" },
+    { "lang": "heb", "script": "אמת", "translit": "ʾemet", "gloss": "Wahrheit" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sumtak-syntax",
+  "forms": [
+    { "lang": "bod", "script": "སུམ་རྟགས", "translit": "sum.tak", "gloss": "Grammatik (wörtlich: drei Zeichen)" },
+    { "lang": "deu", "script": "Syntax" }
+  ],
+  "sources": [
+    "https://tibetanlanguage.school/resources/traditional-grammar/the-sumtak/"
+  ]
+}
