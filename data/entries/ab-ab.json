@@ -1,0 +1,8 @@
+{
+  "id": "ab-ab",
+  "forms": [
+    { "lang": "sux", "script": "𒀊", "translit": "ab", "gloss": "Meer" },
+    { "lang": "fas", "script": "آب", "translit": "āb", "gloss": "Wasser" }
+  ],
+  "contributor": "kfm"
+}
