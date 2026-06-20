@@ -77,7 +77,7 @@ export function contributorName(id: string): string {
   return contributors[id]?.name ?? id;
 }
 
-const FULL_NAME_CONTRIBUTORS = new Set(['jf', 'jca', 'mk', 'yvs']);
+const FULL_NAME_CONTRIBUTORS = new Set(['jf', 'jca', 'mk', 'yvs', 'kw']);
 
 export function contributorDisplay(id: string): string {
   const c = contributors[id];
