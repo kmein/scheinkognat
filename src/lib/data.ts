@@ -28,6 +28,7 @@ export interface Language {
   dialects?: string[];
   wikipedia?: string | null;
   glottocode?: string | null;
+  coords?: [number, number];
 }
 
 export interface Contributor {
