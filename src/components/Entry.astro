@@ -1,14 +1,13 @@
 ---
 import { marked } from 'marked';
 import type { Entry as EntryT } from '../lib/data.ts';
-import { languageName, contributorName, isRtl, bcp47, languages } from '../lib/data.ts';
+import { contributorName, isRtl, bcp47, languages } from '../lib/data.ts';
 
 export interface Props {
   entry: EntryT;
-  detail?: boolean;
 }
 
-const { entry, detail = false } = Astro.props;
+const { entry } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
 const langCodes = Array.from(new Set(entry.forms.map((f) => f.lang)));
@@ -20,28 +19,22 @@ const commentHtml = entry.comment ? marked.parse(entry.comment, { async: false }
   data-langs={langCodes.join(',')}
   data-contributor={entry.contributor ?? ''}
 >
-  <header>
-    <h2>
-      <a href={`${base}eintrag/${entry.id}/`}>
-        {langCodes.map((c) => languageName(c)).join(' ↔ ')}
-      </a>
-    </h2>
-    <div class="meta">
+  <div class="entry-meta">
+    <a class="mono" href={`${base}eintrag/${entry.id}/`}>{entry.id}</a>
+    <span>
       {entry.added && <time datetime={entry.added}>{entry.added}</time>}
+      {entry.added && entry.contributor && <span> · </span>}
       {entry.contributor && (
-        <>
-          {entry.added && <span> · </span>}
-          <a href={`${base}beitrager/${entry.contributor}/`}>{contributorName(entry.contributor)}</a>
-        </>
+        <a href={`${base}beitrager/${entry.contributor}/`}>{contributorName(entry.contributor)}</a>
       )}
-    </div>
-  </header>
+    </span>
+  </div>
 
   <ul class="forms">
     {entry.forms.map((f) => (
       <li class="form">
         <div class="lang-tag">
-          <a href={`${base}sprache/${f.lang}/`}>{languageName(f.lang)}</a>
+          <a href={`${base}sprache/${f.lang}/`}>{languages[f.lang]?.name ?? f.lang}</a>
           {f.dialect && <span class="dialect">{f.dialect}</span>}
         </div>
         <div class="form-body">
@@ -60,7 +53,6 @@ const commentHtml = entry.comment ? marked.parse(entry.comment, { async: false }
 
   {entry.sources && entry.sources.length > 0 && (
     <div class="sources">
-      Quellen:
       <ul>
         {entry.sources.map((s) => {
           const isUrl = s.startsWith('http://') || s.startsWith('https://');
