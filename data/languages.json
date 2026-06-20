@@ -693,8 +693,8 @@
     "constructed": true,
     "creator": "J.R.R. Tolkien",
     "coords": [
-      -78,
-      0
+      51.752,
+      -1.2577
     ]
   },
   "slv": {
@@ -812,8 +812,8 @@
     "constructed": true,
     "creator": "Sonja Lang",
     "coords": [
-      -78,
-      0
+      46.5,
+      -66.5
     ]
   },
   "tur": {
@@ -932,8 +932,8 @@
     "constructed": true,
     "creator": "J.R.R. Tolkien",
     "coords": [
-      -78,
-      0
+      51.752,
+      -1.2577
     ]
   },
   "zho": {
@@ -960,8 +960,8 @@
     "constructed": true,
     "creator": "J.R.R. Tolkien",
     "coords": [
-      -78,
-      0
+      51.752,
+      -1.2577
     ]
   },
   "qji": {
@@ -986,8 +986,8 @@
     "name": "Proto-Indogermanisch",
     "rtl": false,
     "coords": [
-      -78,
-      0
+      48.0,
+      45.0
     ]
   },
   "qpu": {
@@ -1010,8 +1010,8 @@
     "name": "Urgermanisch",
     "rtl": false,
     "coords": [
-      -1.36727,
-      -78.8521
+      55.0,
+      10.0
     ]
   }
 }
