@@ -1,9 +1,18 @@
 {
   "id": "whore-bitch",
   "forms": [
-    { "lang": "cop", "script": "ⲟⲩϩⲱⲣⲉ", "translit": "ouhōre", "gloss": "Hündin" },
-    { "lang": "eng", "script": "bitch", "gloss": "Hündin, Hure" }
+    {
+      "lang": "cop",
+      "script": "ⲟⲩϩⲱⲣⲉ",
+      "translit": "ouhōre",
+      "gloss": "Hündin"
+    },
+    {
+      "lang": "eng",
+      "script": "bitch",
+      "gloss": "Hündin, Hure"
+    }
   ],
-  "contributor": "christian-casey",
+  "contributor": "cc",
   "added": "2024-02-15"
 }

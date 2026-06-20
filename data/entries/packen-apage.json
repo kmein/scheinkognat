@@ -1,8 +1,16 @@
 {
   "id": "packen-apage",
   "forms": [
-    { "lang": "deu", "script": "packen" },
-    { "lang": "grc", "script": "ἄπαγε", "translit": "ápage", "gloss": "weg!" }
+    {
+      "lang": "deu",
+      "script": "packen"
+    },
+    {
+      "lang": "grc",
+      "script": "ἄπαγε",
+      "translit": "ápage",
+      "gloss": "weg!"
+    }
   ],
-  "contributor": "johann-christoph-adelung"
+  "contributor": "jca"
 }

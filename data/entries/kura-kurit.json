@@ -1,8 +1,17 @@
 {
   "id": "kura-kurit",
   "forms": [
-    { "lang": "qji", "script": "kura", "gloss": "Pfeife (zum Rauchen)" },
-    { "lang": "rus", "script": "курить", "translit": "kurit'", "gloss": "rauchen" }
+    {
+      "lang": "qji",
+      "script": "kura",
+      "gloss": "Pfeife (zum Rauchen)"
+    },
+    {
+      "lang": "rus",
+      "script": "курить",
+      "translit": "kurit'",
+      "gloss": "rauchen"
+    }
   ],
-  "contributor": "olga-olina"
+  "contributor": "oo"
 }

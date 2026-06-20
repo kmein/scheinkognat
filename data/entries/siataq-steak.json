@@ -1,8 +1,16 @@
 {
   "id": "siataq-steak",
   "forms": [
-    { "lang": "kal", "script": "siataq", "gloss": "Steak (wörtlich: das Gebratene)", "etymology": "< *siap* + *-TAQ*" },
-    { "lang": "eng", "script": "steak" }
+    {
+      "lang": "kal",
+      "script": "siataq",
+      "gloss": "Steak (wörtlich: das Gebratene)",
+      "etymology": "< *siap* + *-TAQ*"
+    },
+    {
+      "lang": "eng",
+      "script": "steak"
+    }
   ],
-  "contributor": "kenneth-wehr"
+  "contributor": "kw"
 }

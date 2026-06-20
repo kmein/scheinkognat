@@ -1,9 +1,23 @@
 {
   "id": "da-te-eta",
   "forms": [
-    { "lang": "kat", "script": "და", "translit": "da", "gloss": "und" },
-    { "lang": "grc", "script": "τε", "translit": "te", "gloss": "und" },
-    { "lang": "eus", "script": "eta", "gloss": "und" }
+    {
+      "lang": "kat",
+      "script": "და",
+      "translit": "da",
+      "gloss": "und"
+    },
+    {
+      "lang": "grc",
+      "script": "τε",
+      "translit": "te",
+      "gloss": "und"
+    },
+    {
+      "lang": "eus",
+      "script": "eta",
+      "gloss": "und"
+    }
   ],
-  "contributor": "mortimer-drach"
+  "contributor": "md"
 }

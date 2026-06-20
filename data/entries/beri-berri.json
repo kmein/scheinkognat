@@ -1,8 +1,18 @@
 {
   "id": "beri-berri",
   "forms": [
-    { "lang": "cop", "dialect": "Bohairisch", "script": "ⲃⲉⲣⲓ", "translit": "beri", "gloss": "neu" },
-    { "lang": "eus", "script": "berri", "gloss": "neu" }
+    {
+      "lang": "cop",
+      "dialect": "Bohairisch",
+      "script": "ⲃⲉⲣⲓ",
+      "translit": "beri",
+      "gloss": "neu"
+    },
+    {
+      "lang": "eus",
+      "script": "berri",
+      "gloss": "neu"
+    }
   ],
-  "contributor": "gordon-chavez"
+  "contributor": "gc"
 }

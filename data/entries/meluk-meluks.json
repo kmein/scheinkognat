@@ -1,8 +1,16 @@
 {
   "id": "meluk-meluks",
   "forms": [
-    { "lang": "qun", "translit": "*məluk-", "gloss": "saugen (Milch)" },
-    { "lang": "qug", "translit": "*meluk-s", "gloss": "Milch" }
+    {
+      "lang": "qun",
+      "translit": "*məluk-",
+      "gloss": "saugen (Milch)"
+    },
+    {
+      "lang": "qug",
+      "translit": "*meluk-s",
+      "gloss": "Milch"
+    }
   ],
-  "contributor": "kenneth-wehr"
+  "contributor": "kw"
 }

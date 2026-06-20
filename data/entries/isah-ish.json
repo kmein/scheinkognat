@@ -1,8 +1,18 @@
 {
   "id": "isah-ish",
   "forms": [
-    { "lang": "san", "script": "ईशः", "translit": "īśaḥ", "gloss": "Herr, Gebieter" },
-    { "lang": "heb", "script": "אִישׁ", "translit": "ʾiš", "gloss": "Mann" }
+    {
+      "lang": "san",
+      "script": "ईशः",
+      "translit": "īśaḥ",
+      "gloss": "Herr, Gebieter"
+    },
+    {
+      "lang": "heb",
+      "script": "אִישׁ",
+      "translit": "ʾiš",
+      "gloss": "Mann"
+    }
   ],
-  "contributor": "johann-christoph-adelung"
+  "contributor": "jca"
 }

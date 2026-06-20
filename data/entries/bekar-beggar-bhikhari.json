@@ -1,9 +1,22 @@
 {
   "id": "bekar-beggar-bhikhari",
   "forms": [
-    { "lang": "tur", "script": "bekar", "gloss": "ohne Arbeit, ledig" },
-    { "lang": "eng", "script": "beggar", "gloss": "Bettler" },
-    { "lang": "hin", "script": "भिखारी", "translit": "bhikhārī", "gloss": "Bettler" }
+    {
+      "lang": "tur",
+      "script": "bekar",
+      "gloss": "ohne Arbeit, ledig"
+    },
+    {
+      "lang": "eng",
+      "script": "beggar",
+      "gloss": "Bettler"
+    },
+    {
+      "lang": "hin",
+      "script": "भिखारी",
+      "translit": "bhikhārī",
+      "gloss": "Bettler"
+    }
   ],
-  "contributor": "angelo-papenhoff"
+  "contributor": "ap"
 }

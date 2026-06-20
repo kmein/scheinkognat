@@ -1,8 +1,16 @@
 {
   "id": "riha-riechen",
   "forms": [
-    { "lang": "ara", "script": "ريحة", "translit": "rīḥa", "gloss": "Duft" },
-    { "lang": "deu", "script": "riechen" }
+    {
+      "lang": "ara",
+      "script": "ريحة",
+      "translit": "rīḥa",
+      "gloss": "Duft"
+    },
+    {
+      "lang": "deu",
+      "script": "riechen"
+    }
   ],
-  "contributor": "johannes-schuetz"
+  "contributor": "js"
 }

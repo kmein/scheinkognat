@@ -1,8 +1,17 @@
 {
   "id": "sat-sato",
   "forms": [
-    { "lang": "ron", "script": "sat", "gloss": "Dorf" },
-    { "lang": "jpn", "script": "郷", "translit": "sato", "gloss": "Dorf, Heimat" }
+    {
+      "lang": "ron",
+      "script": "sat",
+      "gloss": "Dorf"
+    },
+    {
+      "lang": "jpn",
+      "script": "郷",
+      "translit": "sato",
+      "gloss": "Dorf, Heimat"
+    }
   ],
-  "contributor": "johannes-schuetz"
+  "contributor": "js"
 }

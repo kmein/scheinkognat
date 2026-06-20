@@ -1,8 +1,16 @@
 {
   "id": "qajaq-kayik",
   "forms": [
-    { "lang": "kal", "script": "qajaq", "gloss": "Kajak" },
-    { "lang": "tur", "script": "kayık", "gloss": "Boot" }
+    {
+      "lang": "kal",
+      "script": "qajaq",
+      "gloss": "Kajak"
+    },
+    {
+      "lang": "tur",
+      "script": "kayık",
+      "gloss": "Boot"
+    }
   ],
-  "contributor": "kenneth-wehr"
+  "contributor": "kw"
 }

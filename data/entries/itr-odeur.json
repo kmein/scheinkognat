@@ -1,9 +1,22 @@
 {
   "id": "itr-odeur",
   "forms": [
-    { "lang": "ara", "script": "عِطر", "translit": "ʿiṭr", "gloss": "Parfum" },
-    { "lang": "fra", "script": "odeur", "gloss": "Geruch" },
-    { "lang": "lat", "script": "odor", "gloss": "Geruch" }
+    {
+      "lang": "ara",
+      "script": "عِطر",
+      "translit": "ʿiṭr",
+      "gloss": "Parfum"
+    },
+    {
+      "lang": "fra",
+      "script": "odeur",
+      "gloss": "Geruch"
+    },
+    {
+      "lang": "lat",
+      "script": "odor",
+      "gloss": "Geruch"
+    }
   ],
-  "contributor": "bruno-behling"
+  "contributor": "bb"
 }

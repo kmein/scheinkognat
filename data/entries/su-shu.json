@@ -1,8 +1,17 @@
 {
   "id": "su-shu",
   "forms": [
-    { "lang": "kal", "script": "su-, su-na", "gloss": "was?" },
-    { "lang": "guj", "script": "શું", "translit": "śũ", "gloss": "was?" }
+    {
+      "lang": "kal",
+      "script": "su-, su-na",
+      "gloss": "was?"
+    },
+    {
+      "lang": "guj",
+      "script": "શું",
+      "translit": "śũ",
+      "gloss": "was?"
+    }
   ],
-  "contributor": "kenneth-wehr"
+  "contributor": "kw"
 }

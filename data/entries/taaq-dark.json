@@ -1,8 +1,17 @@
 {
   "id": "taaq-dark",
   "forms": [
-    { "lang": "kal", "script": "taaq", "translit": "[tɑːq]", "gloss": "Dunkelheit" },
-    { "lang": "eng", "script": "dark", "gloss": "dunkel" }
+    {
+      "lang": "kal",
+      "script": "taaq",
+      "translit": "[tɑːq]",
+      "gloss": "Dunkelheit"
+    },
+    {
+      "lang": "eng",
+      "script": "dark",
+      "gloss": "dunkel"
+    }
   ],
-  "contributor": "kenneth-wehr"
+  "contributor": "kw"
 }
