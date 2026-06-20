@@ -1,0 +1,7 @@
+{
+  "id": "ela-alla",
+  "forms": [
+    { "lang": "syc", "script": "ܐܠܐ", "translit": "ʾela", "gloss": "sondern" },
+    { "lang": "grc", "script": "ἀλλά", "translit": "allá", "gloss": "sondern" }
+  ]
+}
