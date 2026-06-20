@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Entry from '../components/Entry.astro';
-import { entries, languages, contributors, languageFrequencies, entriesByContributor } from '../lib/data.ts';
+import { entries, languages, contributorDisplay, languageFrequencies, entriesByContributor } from '../lib/data.ts';
 
 const langFreq = languageFrequencies().map((l) => ({
   code: l.code,
@@ -12,7 +12,7 @@ const langFreq = languageFrequencies().map((l) => ({
 const topLangs = langFreq.slice(0, 30);
 
 const contributorsWithEntries = [...entriesByContributor().keys()]
-  .map((id) => ({ id, name: contributors[id]?.name ?? id }))
+  .map((id) => ({ id, name: contributorDisplay(id) }))
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 ---
 <Base description="Linguistische Koinzidenzen — sammelt zufällige Wortähnlichkeiten zwischen Sprachen.">
