@@ -1,7 +1,7 @@
 {
   "id": "pirveli-perviy",
   "forms": [
-    { "lang": "kat", "script": "პირველი", "translit": "pirveli", "gloss": "erster" },
+    { "lang": "kat", "script": "პირველი", "translit": "p'irveli", "gloss": "erster" },
     { "lang": "rus", "script": "первый", "translit": "pervyj", "gloss": "erster" }
   ]
 }
