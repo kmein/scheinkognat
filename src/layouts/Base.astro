@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE } from '../lib/config.ts';
+import { entries, contributors } from '../lib/data.ts';
 
 export interface Props {
   title?: string;
@@ -9,6 +10,10 @@ export interface Props {
 
 const { title, description = SITE.description } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.title}` : SITE.title;
+const entryCount = entries.length;
+const langCount = new Set(entries.flatMap((e) => e.forms.map((f) => f.lang))).size;
+const contribCount = new Set(entries.map((e) => e.contributor).filter(Boolean)).size;
+void contributors;
 ---
 <!doctype html>
 <html lang="de">
@@ -32,7 +37,38 @@ const pageTitle = title ? `${title} — ${SITE.title}` : SITE.title;
       <slot />
     </main>
     <footer class="site">
-      Code & Daten unter <a href={`https://github.com/${SITE.github.owner}/${SITE.github.repo}`}>GitHub</a>.
+      <div class="footer-grid">
+        <section>
+          <h4>Scheinkognat</h4>
+          <p>
+            Eine fortlaufend kuratierte Sammlung linguistischer Koinzidenzen — Wörter zwischen
+            unverwandten Sprachen, die einander zufällig ähneln. {entryCount}&nbsp;Einträge,
+            {' '}{langCount}&nbsp;Sprachen, {contribCount}&nbsp;Beiträger:innen.
+          </p>
+        </section>
+        <section>
+          <h4>Quellen</h4>
+          <p>
+            Sprachgeografie und Glottocodes aus <a href="https://glottolog.org/">Glottolog</a>.
+            Schriften:
+            <a href="https://psb1558.github.io/Junicode-font/">Junicode</a>,
+            <a href="https://notofonts.github.io/syriac">Noto Sans Syriac Western</a>,
+            <a href="https://www.evertype.com/fonts/coptic/">Antinoou</a>.
+          </p>
+        </section>
+        <section>
+          <h4>Code &amp; Daten</h4>
+          <p>
+            Quelltext unter
+            <a href={`https://github.com/${SITE.github.owner}/${SITE.github.repo}`}>
+              {SITE.github.owner}/{SITE.github.repo}
+            </a>.
+            Daten <a href="https://creativecommons.org/licenses/by/4.0/">CC&nbsp;BY&nbsp;4.0</a>,
+            Code <a href="https://opensource.org/licenses/MIT">MIT</a>.
+            Vorschläge willkommen über die <a href={`${import.meta.env.BASE_URL}einreichen/`}>Einreichen-Seite</a>.
+          </p>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
