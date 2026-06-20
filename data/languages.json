@@ -1,9 +1,49 @@
 {
-  "ady": { "name": "Tscherkessisch", "rtl": false, "glottocode": "adyg1241" },
-  "aii": { "name": "Neuostaramäisch", "rtl": true, "glottocode": "assy1241" },
-  "akk": { "name": "Akkadisch", "rtl": false, "glottocode": "akka1240" },
-  "amh": { "name": "Amharisch", "rtl": false, "glottocode": "amha1245" },
-  "ang": { "name": "Altenglisch", "rtl": false, "glottocode": "olde1238" },
+  "ady": {
+    "name": "Tscherkessisch",
+    "rtl": false,
+    "glottocode": "adyg1241",
+    "coords": [
+      44,
+      39.33
+    ]
+  },
+  "aii": {
+    "name": "Neuostaramäisch",
+    "rtl": true,
+    "glottocode": "assy1241",
+    "coords": [
+      36.75,
+      43
+    ]
+  },
+  "akk": {
+    "name": "Akkadisch",
+    "rtl": false,
+    "glottocode": "akka1240",
+    "coords": [
+      33.1,
+      44.1
+    ]
+  },
+  "amh": {
+    "name": "Amharisch",
+    "rtl": false,
+    "glottocode": "amha1245",
+    "coords": [
+      11.708182,
+      39.543456
+    ]
+  },
+  "ang": {
+    "name": "Altenglisch",
+    "rtl": false,
+    "glottocode": "olde1238",
+    "coords": [
+      51.06,
+      -1.31
+    ]
+  },
   "ara": {
     "name": "Arabisch",
     "rtl": true,
@@ -17,140 +57,882 @@
       "Baghdad (jüd.)",
       "Syrisch",
       "Rijāl Almaʿ"
+    ],
+    "coords": [
+      28.293689418964068,
+      35.871537655605096
     ]
   },
-  "arc": { "name": "Aramäisch", "rtl": true, "glottocode": "impe1235" },
-  "auj": { "name": "Awjila-Berber", "rtl": false, "glottocode": "awji1241" },
-  "ber": { "name": "Berber", "rtl": false, "glottocode": "berb1260" },
-  "bej": { "name": "Bedscha", "rtl": false, "glottocode": "beja1238" },
-  "bod": { "name": "Tibetisch", "rtl": false, "glottocode": "tibe1272" },
-  "ces": { "name": "Tschechisch", "rtl": false, "glottocode": "czec1258" },
-  "chg": { "name": "Tschagataiisch", "rtl": true, "glottocode": "chag1247" },
+  "arc": {
+    "name": "Aramäisch",
+    "rtl": true,
+    "glottocode": "impe1235",
+    "coords": [
+      33.905,
+      42.185
+    ]
+  },
+  "auj": {
+    "name": "Awjila-Berber",
+    "rtl": false,
+    "glottocode": "awji1241",
+    "coords": [
+      29.2341,
+      21.1819
+    ]
+  },
+  "ber": {
+    "name": "Berber",
+    "rtl": false,
+    "glottocode": "berb1260",
+    "coords": [
+      25.94570960218301,
+      1.4534005733607511
+    ]
+  },
+  "bej": {
+    "name": "Bedscha",
+    "rtl": false,
+    "glottocode": "beja1238",
+    "coords": [
+      17.2436,
+      36.6666
+    ]
+  },
+  "bod": {
+    "name": "Tibetisch",
+    "rtl": false,
+    "glottocode": "tibe1272",
+    "coords": [
+      28.3681,
+      90.1872
+    ]
+  },
+  "ces": {
+    "name": "Tschechisch",
+    "rtl": false,
+    "glottocode": "czec1258",
+    "coords": [
+      49.873398,
+      15.10437
+    ]
+  },
+  "chg": {
+    "name": "Tschagataiisch",
+    "rtl": true,
+    "glottocode": "chag1247",
+    "coords": [
+      38.21146,
+      57.88758
+    ]
+  },
   "cop": {
     "name": "Koptisch",
     "rtl": false,
     "glottocode": "copt1239",
-    "dialects": ["Sahidisch", "Bohairisch", "Achmimisch"]
+    "dialects": [
+      "Sahidisch",
+      "Bohairisch",
+      "Achmimisch"
+    ],
+    "coords": [
+      29.472,
+      31.2053
+    ]
   },
-  "cym": { "name": "Walisisch", "rtl": false, "glottocode": "wels1247" },
+  "cym": {
+    "name": "Walisisch",
+    "rtl": false,
+    "glottocode": "wels1247",
+    "coords": [
+      52,
+      -4
+    ]
+  },
   "deu": {
     "name": "Deutsch",
     "rtl": false,
     "glottocode": "stan1295",
-    "dialects": ["Sächsisch"]
+    "dialects": [
+      "Sächsisch"
+    ],
+    "coords": [
+      48.649,
+      12.4676
+    ]
   },
   "egy": {
     "name": "Ägyptisch",
     "rtl": true,
     "glottocode": "egyp1246",
-    "dialects": ["Mittelägyptisch", "Neuägyptisch"]
+    "dialects": [
+      "Mittelägyptisch",
+      "Neuägyptisch"
+    ],
+    "coords": [
+      28.381735,
+      30.834959
+    ]
   },
-  "ell": { "name": "Neugriechisch", "rtl": false, "glottocode": "mode1248" },
-  "eng": { "name": "Englisch", "rtl": false, "glottocode": "stan1293" },
-  "ett": { "name": "Etruskisch", "rtl": false, "glottocode": "etru1241" },
-  "eus": { "name": "Baskisch", "rtl": false, "glottocode": "basq1248" },
-  "fas": { "name": "Persisch", "rtl": true },
-  "fia": { "name": "Nobiin", "rtl": false, "glottocode": "nobi1240" },
-  "fra": { "name": "Französisch", "rtl": false, "glottocode": "stan1290" },
-  "gdm": { "name": "Laal", "rtl": false, "glottocode": "laal1242" },
-  "gle": { "name": "Irisch", "rtl": false, "glottocode": "iris1253" },
-  "glv": { "name": "Manx", "rtl": false, "glottocode": "manx1243" },
-  "got": { "name": "Gotisch", "rtl": false, "glottocode": "goth1244" },
+  "ell": {
+    "name": "Neugriechisch",
+    "rtl": false,
+    "glottocode": "mode1248",
+    "coords": [
+      38.36,
+      23.13
+    ]
+  },
+  "eng": {
+    "name": "Englisch",
+    "rtl": false,
+    "glottocode": "stan1293",
+    "coords": [
+      53,
+      -1
+    ]
+  },
+  "ett": {
+    "name": "Etruskisch",
+    "rtl": false,
+    "glottocode": "etru1241",
+    "coords": [
+      41.9,
+      12.4833
+    ]
+  },
+  "eus": {
+    "name": "Baskisch",
+    "rtl": false,
+    "glottocode": "basq1248",
+    "coords": [
+      43.2787,
+      -1.31622
+    ]
+  },
+  "fas": {
+    "name": "Persisch",
+    "rtl": true,
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "fia": {
+    "name": "Nobiin",
+    "rtl": false,
+    "glottocode": "nobi1240",
+    "coords": [
+      22.8142,
+      31.8376
+    ]
+  },
+  "fra": {
+    "name": "Französisch",
+    "rtl": false,
+    "glottocode": "stan1290",
+    "coords": [
+      48,
+      2
+    ]
+  },
+  "gdm": {
+    "name": "Laal",
+    "rtl": false,
+    "glottocode": "laal1242",
+    "coords": [
+      10.0063,
+      17.6143
+    ]
+  },
+  "gle": {
+    "name": "Irisch",
+    "rtl": false,
+    "glottocode": "iris1253",
+    "coords": [
+      53.2186,
+      -7.61509
+    ]
+  },
+  "glv": {
+    "name": "Manx",
+    "rtl": false,
+    "glottocode": "manx1243",
+    "coords": [
+      54.2604,
+      -4.45437
+    ]
+  },
+  "got": {
+    "name": "Gotisch",
+    "rtl": false,
+    "glottocode": "goth1244",
+    "coords": [
+      46.9304,
+      29.9786
+    ]
+  },
   "grc": {
     "name": "Altgriechisch",
     "rtl": false,
     "glottocode": "anci1242",
-    "dialects": ["Dorisch", "Homerisch"]
+    "dialects": [
+      "Dorisch",
+      "Homerisch"
+    ],
+    "coords": [
+      39.8155,
+      21.9129
+    ]
   },
-  "hbs": { "name": "Serbokroatisch", "rtl": false },
-  "heb": { "name": "Hebräisch", "rtl": true, "glottocode": "hebr1245" },
+  "hbs": {
+    "name": "Serbokroatisch",
+    "rtl": false,
+    "coords": [
+      44.15,
+      18.81
+    ]
+  },
+  "heb": {
+    "name": "Hebräisch",
+    "rtl": true,
+    "glottocode": "hebr1245",
+    "coords": [
+      31.1056,
+      35.0179
+    ]
+  },
   "hin": {
     "name": "Hindi",
     "rtl": false,
     "glottocode": "hind1269",
-    "dialects": ["Chattisgarhi"]
+    "dialects": [
+      "Chattisgarhi"
+    ],
+    "coords": [
+      25,
+      77
+    ]
   },
-  "hit": { "name": "Hethitisch", "rtl": false, "glottocode": "hitt1242" },
-  "hun": { "name": "Ungarisch", "rtl": false, "glottocode": "hung1274" },
-  "hye": { "name": "Armenisch", "rtl": false, "glottocode": "nucl1235" },
-  "iku": { "name": "Inuktitut", "rtl": false },
-  "ipk": { "name": "Iñupiatun", "rtl": false },
-  "isl": { "name": "Isländisch", "rtl": false, "glottocode": "icel1247" },
-  "ita": { "name": "Italienisch", "rtl": false, "glottocode": "ital1282" },
-  "jpn": { "name": "Japanisch", "rtl": false, "glottocode": "nucl1643" },
-  "kal": { "name": "Grönländisch", "rtl": false, "glottocode": "kala1399" },
-  "kat": { "name": "Georgisch", "rtl": false, "glottocode": "nucl1302" },
-  "kho": { "name": "Khotan-Sakisch", "rtl": false, "glottocode": "khot1251" },
-  "kls": { "name": "Nuristani (Kalasha)", "rtl": false, "glottocode": "kala1372" },
+  "hit": {
+    "name": "Hethitisch",
+    "rtl": false,
+    "glottocode": "hitt1242",
+    "coords": [
+      40,
+      35
+    ]
+  },
+  "hun": {
+    "name": "Ungarisch",
+    "rtl": false,
+    "glottocode": "hung1274",
+    "coords": [
+      46.9068585714,
+      19.6555271429
+    ]
+  },
+  "hye": {
+    "name": "Armenisch",
+    "rtl": false,
+    "glottocode": "nucl1235",
+    "coords": [
+      40,
+      45
+    ]
+  },
+  "iku": {
+    "name": "Inuktitut",
+    "rtl": false,
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "ipk": {
+    "name": "Iñupiatun",
+    "rtl": false,
+    "coords": [
+      68.3217,
+      -133.532
+    ]
+  },
+  "isl": {
+    "name": "Isländisch",
+    "rtl": false,
+    "glottocode": "icel1247",
+    "coords": [
+      63.4837,
+      -19.0212
+    ]
+  },
+  "ita": {
+    "name": "Italienisch",
+    "rtl": false,
+    "glottocode": "ital1282",
+    "coords": [
+      43.0464,
+      12.6489
+    ]
+  },
+  "jpn": {
+    "name": "Japanisch",
+    "rtl": false,
+    "glottocode": "nucl1643",
+    "coords": [
+      35,
+      135
+    ]
+  },
+  "kal": {
+    "name": "Grönländisch",
+    "rtl": false,
+    "glottocode": "kala1399",
+    "coords": [
+      69.3761,
+      -52.864
+    ]
+  },
+  "kat": {
+    "name": "Georgisch",
+    "rtl": false,
+    "glottocode": "nucl1302",
+    "coords": [
+      41.850397,
+      43.78613
+    ]
+  },
+  "kho": {
+    "name": "Khotan-Sakisch",
+    "rtl": false,
+    "glottocode": "khot1251",
+    "coords": [
+      38.33,
+      79.04
+    ]
+  },
+  "kls": {
+    "name": "Nuristani (Kalasha)",
+    "rtl": false,
+    "glottocode": "kala1372",
+    "coords": [
+      35.6415,
+      71.6657
+    ]
+  },
   "kur": {
     "name": "Kurdisch",
     "rtl": false,
     "glottocode": "kurd1259",
-    "dialects": ["Zazaki", "Nordkurdisch"]
+    "dialects": [
+      "Zazaki",
+      "Nordkurdisch"
+    ],
+    "coords": [
+      35.18386666666667,
+      45.13510000000001
+    ]
   },
-  "lat": { "name": "Latein", "rtl": false, "glottocode": "lati1261" },
-  "lit": { "name": "Litauisch", "rtl": false, "glottocode": "lith1251" },
-  "mal": { "name": "Malayalam", "rtl": false, "glottocode": "mala1464" },
-  "mdf": { "name": "Mokscha-Mordwinisch", "rtl": false, "glottocode": "moks1248" },
+  "lat": {
+    "name": "Latein",
+    "rtl": false,
+    "glottocode": "lati1261",
+    "coords": [
+      41.9026,
+      12.4502
+    ]
+  },
+  "lit": {
+    "name": "Litauisch",
+    "rtl": false,
+    "glottocode": "lith1251",
+    "coords": [
+      55.1429,
+      23.9601
+    ]
+  },
+  "mal": {
+    "name": "Malayalam",
+    "rtl": false,
+    "glottocode": "mala1464",
+    "coords": [
+      9.59208,
+      76.7651
+    ]
+  },
+  "mdf": {
+    "name": "Mokscha-Mordwinisch",
+    "rtl": false,
+    "glottocode": "moks1248",
+    "coords": [
+      54.1855,
+      42.6728
+    ]
+  },
   "mon": {
     "name": "Mongolisch",
     "rtl": false,
     "glottocode": "mong1331",
-    "dialects": ["Jirim"]
+    "dialects": [
+      "Jirim"
+    ],
+    "coords": [
+      45.77047900000001,
+      87.25413566666667
+    ]
   },
-  "mri": { "name": "Maori", "rtl": false, "glottocode": "maor1246" },
-  "msa": { "name": "Malaiisch", "rtl": false, "glottocode": "stan1306" },
-  "naq": { "name": "Nama", "rtl": false, "glottocode": "nama1264" },
-  "nfl": { "name": "Äiwoo", "rtl": false, "glottocode": "aiwo1241" },
-  "nld": { "name": "Niederländisch", "rtl": false, "glottocode": "dutc1256" },
-  "non": { "name": "Altisländisch", "rtl": false, "glottocode": "oldn1244" },
-  "onw": { "name": "Altnubisch", "rtl": false, "glottocode": "oldn1245" },
-  "orm": { "name": "Oromo", "rtl": false, "glottocode": "orom1252" },
-  "oss": { "name": "Ossetisch", "rtl": false, "glottocode": "osse1243" },
-  "pli": { "name": "Pali", "rtl": false, "glottocode": "pali1273" },
-  "pol": { "name": "Polnisch", "rtl": false, "glottocode": "poli1260" },
-  "prg": { "name": "Altpreußisch", "rtl": false, "glottocode": "prus1238" },
-  "ron": { "name": "Rumänisch", "rtl": false, "glottocode": "roma1327" },
-  "rus": { "name": "Russisch", "rtl": false, "glottocode": "russ1263" },
-  "sah": { "name": "Jakutisch", "rtl": false, "glottocode": "yaku1245" },
-  "san": { "name": "Sanskrit", "rtl": false, "glottocode": "sans1269" },
-  "shk": { "name": "Shilluk", "rtl": false, "glottocode": "shil1264" },
-  "sjn": { "name": "Sindarin", "rtl": false, "constructed": true, "creator": "J.R.R. Tolkien" },
-  "slv": { "name": "Slowenisch", "rtl": false, "glottocode": "slov1268" },
-  "smo": { "name": "Samoanisch", "rtl": false, "glottocode": "samo1305" },
-  "som": { "name": "Somali", "rtl": false, "glottocode": "soma1255" },
-  "spa": { "name": "Spanisch", "rtl": false, "glottocode": "stan1288" },
-  "sqi": { "name": "Albanisch", "rtl": false, "glottocode": "alba1267" },
-  "sux": { "name": "Sumerisch", "rtl": false, "glottocode": "sume1241" },
-  "swa": { "name": "Swahili", "rtl": false, "glottocode": "swah1253" },
-  "syc": { "name": "Syrisch", "rtl": true, "glottocode": "clas1252" },
-  "tam": { "name": "Tamil", "rtl": false, "glottocode": "tami1289" },
-  "taq": { "name": "Tamaschek", "rtl": false, "glottocode": "tama1365" },
-  "tha": { "name": "Thai", "rtl": false, "glottocode": "thai1261" },
-  "tlh": { "name": "Klingonisch", "rtl": false, "constructed": true, "creator": "Marc Okrand" },
-  "tok": { "name": "toki pona", "rtl": false, "constructed": true, "creator": "Sonja Lang" },
+  "mri": {
+    "name": "Maori",
+    "rtl": false,
+    "glottocode": "maor1246",
+    "coords": [
+      -38.2881,
+      176.541
+    ]
+  },
+  "msa": {
+    "name": "Malaiisch",
+    "rtl": false,
+    "glottocode": "stan1306",
+    "coords": [
+      3.08896,
+      101.699
+    ]
+  },
+  "naq": {
+    "name": "Nama",
+    "rtl": false,
+    "glottocode": "nama1264",
+    "coords": [
+      -25.0747,
+      17.9767
+    ]
+  },
+  "nfl": {
+    "name": "Äiwoo",
+    "rtl": false,
+    "glottocode": "aiwo1241",
+    "coords": [
+      -10.30387,
+      166.32344
+    ]
+  },
+  "nld": {
+    "name": "Niederländisch",
+    "rtl": false,
+    "glottocode": "dutc1256",
+    "coords": [
+      52,
+      5
+    ]
+  },
+  "non": {
+    "name": "Altisländisch",
+    "rtl": false,
+    "glottocode": "oldn1244",
+    "coords": [
+      63.42,
+      10.38
+    ]
+  },
+  "onw": {
+    "name": "Altnubisch",
+    "rtl": false,
+    "glottocode": "oldn1245",
+    "coords": [
+      18.760713,
+      31.748657
+    ]
+  },
+  "orm": {
+    "name": "Oromo",
+    "rtl": false,
+    "glottocode": "orom1252",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "oss": {
+    "name": "Ossetisch",
+    "rtl": false,
+    "glottocode": "osse1243",
+    "coords": [
+      42.98,
+      44.61
+    ]
+  },
+  "pli": {
+    "name": "Pali",
+    "rtl": false,
+    "glottocode": "pali1273",
+    "coords": [
+      24.5271,
+      82.251
+    ]
+  },
+  "pol": {
+    "name": "Polnisch",
+    "rtl": false,
+    "glottocode": "poli1260",
+    "coords": [
+      51.8439,
+      18.6255
+    ]
+  },
+  "prg": {
+    "name": "Altpreußisch",
+    "rtl": false,
+    "glottocode": "prus1238",
+    "coords": [
+      52.394,
+      14.757
+    ]
+  },
+  "ron": {
+    "name": "Rumänisch",
+    "rtl": false,
+    "glottocode": "roma1327",
+    "coords": [
+      46.3913,
+      24.2256
+    ]
+  },
+  "rus": {
+    "name": "Russisch",
+    "rtl": false,
+    "glottocode": "russ1263",
+    "coords": [
+      59,
+      50
+    ]
+  },
+  "sah": {
+    "name": "Jakutisch",
+    "rtl": false,
+    "glottocode": "yaku1245",
+    "coords": [
+      61.69744,
+      133.98031
+    ]
+  },
+  "san": {
+    "name": "Sanskrit",
+    "rtl": false,
+    "glottocode": "sans1269",
+    "coords": [
+      20,
+      77
+    ]
+  },
+  "shk": {
+    "name": "Shilluk",
+    "rtl": false,
+    "glottocode": "shil1264",
+    "coords": [
+      -7.91416,
+      29.5238
+    ]
+  },
+  "sjn": {
+    "name": "Sindarin",
+    "rtl": false,
+    "constructed": true,
+    "creator": "J.R.R. Tolkien",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "slv": {
+    "name": "Slowenisch",
+    "rtl": false,
+    "glottocode": "slov1268",
+    "coords": [
+      46.2543,
+      14.7766
+    ]
+  },
+  "smo": {
+    "name": "Samoanisch",
+    "rtl": false,
+    "glottocode": "samo1305",
+    "coords": [
+      -13.92,
+      -171.83
+    ]
+  },
+  "som": {
+    "name": "Somali",
+    "rtl": false,
+    "glottocode": "soma1255",
+    "coords": [
+      4.778704,
+      45.152856
+    ]
+  },
+  "spa": {
+    "name": "Spanisch",
+    "rtl": false,
+    "glottocode": "stan1288",
+    "coords": [
+      40.4414,
+      -1.11788
+    ]
+  },
+  "sqi": {
+    "name": "Albanisch",
+    "rtl": false,
+    "glottocode": "alba1267",
+    "coords": [
+      40.99952028050002,
+      20.791828239250023
+    ]
+  },
+  "sux": {
+    "name": "Sumerisch",
+    "rtl": false,
+    "glottocode": "sume1241",
+    "coords": [
+      31.3,
+      45.6667
+    ]
+  },
+  "swa": {
+    "name": "Swahili",
+    "rtl": false,
+    "glottocode": "swah1253",
+    "coords": [
+      -8.25605,
+      37.624
+    ]
+  },
+  "syc": {
+    "name": "Syrisch",
+    "rtl": true,
+    "glottocode": "clas1252",
+    "coords": [
+      37.1129,
+      42.1432
+    ]
+  },
+  "tam": {
+    "name": "Tamil",
+    "rtl": false,
+    "glottocode": "tami1289",
+    "coords": [
+      10.520219,
+      78.825989
+    ]
+  },
+  "taq": {
+    "name": "Tamaschek",
+    "rtl": false,
+    "glottocode": "tama1365",
+    "coords": [
+      14.2038,
+      -2.41269
+    ]
+  },
+  "tha": {
+    "name": "Thai",
+    "rtl": false,
+    "glottocode": "thai1261",
+    "coords": [
+      14.192,
+      100.671
+    ]
+  },
+  "tlh": {
+    "name": "Klingonisch",
+    "rtl": false,
+    "constructed": true,
+    "creator": "Marc Okrand",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "tok": {
+    "name": "toki pona",
+    "rtl": false,
+    "constructed": true,
+    "creator": "Sonja Lang",
+    "coords": [
+      0,
+      0
+    ]
+  },
   "tur": {
     "name": "Türkisch",
     "rtl": false,
     "glottocode": "nucl1301",
-    "dialects": ["Gök-Türkisch"]
+    "dialects": [
+      "Gök-Türkisch"
+    ],
+    "coords": [
+      39.8667,
+      32.8667
+    ]
   },
-  "txb": { "name": "Tocharisch B", "rtl": false, "glottocode": "tokh1242" },
-  "txg": { "name": "Tangut", "rtl": false, "glottocode": "tang1334" },
-  "udm": { "name": "Udmurtisch", "rtl": false, "glottocode": "udmu1245" },
-  "urd": { "name": "Urdu", "rtl": true, "glottocode": "urdu1245" },
-  "vmb": { "name": "Mbabaram", "rtl": false, "glottocode": "mbab1239" },
-  "xbc": { "name": "Baktrisch", "rtl": false, "glottocode": "bact1239" },
-  "xhu": { "name": "Hurritisch", "rtl": false, "glottocode": "hurr1240" },
-  "xlc": { "name": "Lykisch", "rtl": false, "glottocode": "lyci1241" },
-  "xlu": { "name": "Luwisch", "rtl": false },
-  "xto": { "name": "Tocharisch A", "rtl": false, "glottocode": "tokh1243" },
-  "xur": { "name": "Urartäisch", "rtl": false, "glottocode": "urar1245" },
-  "qya": { "name": "Quenya", "rtl": false, "constructed": true, "creator": "J.R.R. Tolkien" },
-  "zho": { "name": "Chinesisch", "rtl": false, "glottocode": "mand1415" },
-  "zun": { "name": "Zuni", "rtl": false, "glottocode": "zuni1245" },
-  "qel": { "name": "Elbisch", "rtl": false, "constructed": true, "creator": "J.R.R. Tolkien" },
-  "qga": { "name": "Gali", "rtl": false },
-  "qpi": { "name": "Proto-Indogermanisch", "rtl": false },
-  "qpu": { "name": "Pueblo", "rtl": false }
+  "txb": {
+    "name": "Tocharisch B",
+    "rtl": false,
+    "glottocode": "tokh1242",
+    "coords": [
+      42.98,
+      89.18
+    ]
+  },
+  "txg": {
+    "name": "Tangut",
+    "rtl": false,
+    "glottocode": "tang1334",
+    "coords": [
+      38.894904,
+      102.246464
+    ]
+  },
+  "udm": {
+    "name": "Udmurtisch",
+    "rtl": false,
+    "glottocode": "udmu1245",
+    "coords": [
+      56.12921,
+      52.63548
+    ]
+  },
+  "urd": {
+    "name": "Urdu",
+    "rtl": true,
+    "glottocode": "urdu1245",
+    "coords": [
+      25,
+      67
+    ]
+  },
+  "vmb": {
+    "name": "Mbabaram",
+    "rtl": false,
+    "glottocode": "mbab1239",
+    "coords": [
+      -17.41547,
+      145.37661
+    ]
+  },
+  "xbc": {
+    "name": "Baktrisch",
+    "rtl": false,
+    "glottocode": "bact1239",
+    "coords": [
+      36.81,
+      66.85
+    ]
+  },
+  "xhu": {
+    "name": "Hurritisch",
+    "rtl": false,
+    "glottocode": "hurr1240",
+    "coords": [
+      40.7339,
+      43.3154
+    ]
+  },
+  "xlc": {
+    "name": "Lykisch",
+    "rtl": false,
+    "glottocode": "lyci1241",
+    "coords": [
+      36.517,
+      29.764
+    ]
+  },
+  "xlu": {
+    "name": "Luwisch",
+    "rtl": false,
+    "coords": [
+      38,
+      36
+    ]
+  },
+  "xto": {
+    "name": "Tocharisch A",
+    "rtl": false,
+    "glottocode": "tokh1243",
+    "coords": [
+      41.65,
+      82.9
+    ]
+  },
+  "xur": {
+    "name": "Urartäisch",
+    "rtl": false,
+    "glottocode": "urar1245",
+    "coords": [
+      38.5,
+      43.3425
+    ]
+  },
+  "qya": {
+    "name": "Quenya",
+    "rtl": false,
+    "constructed": true,
+    "creator": "J.R.R. Tolkien",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "zho": {
+    "name": "Chinesisch",
+    "rtl": false,
+    "glottocode": "mand1415",
+    "coords": [
+      40.0209,
+      116.228
+    ]
+  },
+  "zun": {
+    "name": "Zuni",
+    "rtl": false,
+    "glottocode": "zuni1245",
+    "coords": [
+      35.0056,
+      -108.782
+    ]
+  },
+  "qel": {
+    "name": "Elbisch",
+    "rtl": false,
+    "constructed": true,
+    "creator": "J.R.R. Tolkien",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "qga": {
+    "name": "Gali",
+    "rtl": false,
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "qpi": {
+    "name": "Proto-Indogermanisch",
+    "rtl": false,
+    "coords": [
+      0,
+      0
+    ]
+  },
+  "qpu": {
+    "name": "Pueblo",
+    "rtl": false,
+    "coords": [
+      0,
+      0
+    ]
+  }
 }

@@ -1,0 +1,189 @@
+---
+import Base from '../layouts/Base.astro';
+import { entries, languages } from '../lib/data.ts';
+import { geoEquirectangular, geoPath } from 'd3-geo';
+import { feature } from 'topojson-client';
+import worldRaw from 'world-atlas/countries-110m.json';
+
+// --- 1. Weltumriss als SVG-Pfad (build-time) --------------------------------
+const WIDTH = 1000;
+const HEIGHT = 500;
+
+const projection = geoEquirectangular()
+  .scale(WIDTH / (2 * Math.PI))
+  .translate([WIDTH / 2, HEIGHT / 2]);
+const path = geoPath(projection);
+
+const world = worldRaw as any;
+const land = feature(world, world.objects.countries) as any;
+const landPath = path(land) ?? '';
+
+// --- 2. Punkte: pro Sprache mit Einträgen Position + Häufigkeit -------------
+type Point = { code: string; name: string; x: number; y: number; count: number };
+
+const langCounts = new Map<string, number>();
+for (const e of entries) {
+  for (const f of e.forms) {
+    langCounts.set(f.lang, (langCounts.get(f.lang) ?? 0) + 1);
+  }
+}
+
+const points: Point[] = [];
+for (const [code, count] of langCounts) {
+  const lang = languages[code];
+  if (!lang) continue;
+  const coords = (lang as any).coords as [number, number] | undefined;
+  if (!coords) continue;
+  const [lat, lng] = coords;
+  const xy = projection([lng, lat]);
+  if (!xy) continue;
+  points.push({ code, name: lang.name, x: xy[0], y: xy[1], count });
+}
+const pointByCode = new Map(points.map((p) => [p.code, p]));
+
+// --- 3. Kanten: pro Eintrag alle Paare; Gewicht = Häufigkeit ----------------
+type Edge = { a: Point; b: Point; weight: number };
+
+const edgeCounts = new Map<string, number>();
+for (const e of entries) {
+  const langs = [...new Set(e.forms.map((f) => f.lang))];
+  for (let i = 0; i < langs.length; i++) {
+    for (let j = i + 1; j < langs.length; j++) {
+      const a = langs[i]!;
+      const b = langs[j]!;
+      const key = a < b ? `${a}|${b}` : `${b}|${a}`;
+      edgeCounts.set(key, (edgeCounts.get(key) ?? 0) + 1);
+    }
+  }
+}
+
+const edges: Edge[] = [];
+for (const [key, weight] of edgeCounts) {
+  const [a, b] = key.split('|');
+  const pa = pointByCode.get(a!);
+  const pb = pointByCode.get(b!);
+  if (pa && pb) edges.push({ a: pa, b: pb, weight });
+}
+edges.sort((x, y) => x.weight - y.weight); // dünn zuerst, dick liegt oben
+
+const maxEdge = Math.max(1, ...edges.map((e) => e.weight));
+const maxPoint = Math.max(1, ...points.map((p) => p.count));
+
+const strokeWidth = (w: number) => 0.5 + 4 * (w / maxEdge);
+const radius = (c: number) => 2.5 + 5 * Math.sqrt(c / maxPoint);
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="Karte" description="Geografische Verteilung der Sprachen im Korpus, mit Linien zwischen koinzidenten Paaren.">
+  <h1>Karte</h1>
+  <p class="index-summary">
+    Geografische Verteilung der {points.length} Sprachen mit Einträgen, plus {edges.length} Verbindungen
+    zwischen Sprachpaaren, die mindestens einmal gemeinsam in einer Koinzidenz vorkommen.
+    Strichstärke skaliert mit der Häufigkeit des Paares, Punktgröße mit der Zahl der Einträge.
+    Sprachen ohne bekannte Koordinate (Konlangs, Proto-Sprachen, Pueblo) liegen
+    konzentrisch auf <em>Null Island</em> (0°, 0°).
+  </p>
+
+  <svg
+    class="karte"
+    viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+    role="img"
+    aria-label="Weltkarte der im Korpus enthaltenen Sprachen"
+  >
+    <rect x="0" y="0" width={WIDTH} height={HEIGHT} class="ocean" />
+    <path d={landPath} class="land" />
+
+    <g class="edges">
+      {edges.map((e) => (
+        <line
+          x1={e.a.x}
+          y1={e.a.y}
+          x2={e.b.x}
+          y2={e.b.y}
+          stroke-width={strokeWidth(e.weight)}
+          data-weight={e.weight}
+        />
+      ))}
+    </g>
+
+    <g class="points">
+      {points.map((p) => (
+        <a href={`${base}sprache/${p.code}/`} class="point-link">
+          <circle
+            cx={p.x}
+            cy={p.y}
+            r={radius(p.count)}
+            data-name={p.name}
+            data-code={p.code}
+            data-count={p.count}
+          />
+        </a>
+      ))}
+    </g>
+  </svg>
+
+  <div id="tooltip" hidden></div>
+</Base>
+
+<style>
+  .karte {
+    display: block;
+    width: calc(100% + 8rem);
+    margin-left: -4rem;
+    max-width: none;
+    height: auto;
+    background: transparent;
+  }
+  @media (max-width: 880px) {
+    .karte { width: 100%; margin-left: 0; }
+  }
+  .karte .ocean { fill: var(--bg-alt); }
+  .karte .land  { fill: #d8d3c5; stroke: none; opacity: 0.55; }
+  .karte .edges line {
+    stroke: var(--accent);
+    stroke-opacity: 0.32;
+    stroke-linecap: round;
+  }
+  .karte .points circle {
+    fill: var(--accent);
+    fill-opacity: 0.85;
+    stroke: var(--bg);
+    stroke-width: 1.2;
+    cursor: pointer;
+    transition: r 0.12s, fill-opacity 0.12s;
+  }
+  .karte .points a:hover circle,
+  .karte .points a:focus circle {
+    fill-opacity: 1;
+    stroke-width: 2;
+  }
+  #tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--fg);
+    color: var(--bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    z-index: 10;
+    white-space: nowrap;
+  }
+</style>
+
+<script>
+  const tooltip = document.getElementById('tooltip') as HTMLElement;
+  const circles = document.querySelectorAll<SVGCircleElement>('.karte circle');
+  for (const c of circles) {
+    c.addEventListener('mousemove', (e) => {
+      const name = c.dataset.name ?? '';
+      const count = c.dataset.count ?? '0';
+      tooltip.textContent = `${name} · ${count} ${count === '1' ? 'Eintrag' : 'Einträge'}`;
+      tooltip.hidden = false;
+      tooltip.style.left = `${(e as MouseEvent).clientX + 12}px`;
+      tooltip.style.top  = `${(e as MouseEvent).clientY + 12}px`;
+    });
+    c.addEventListener('mouseleave', () => {
+      tooltip.hidden = true;
+    });
+  }
+</script>

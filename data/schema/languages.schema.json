@@ -22,6 +22,13 @@
         "type": ["string", "null"],
         "pattern": "^[a-z]{4}\\d{4}$",
         "description": "Glottolog languoid ID, z. B. arab1395."
+      },
+      "coords": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": { "type": "number" },
+        "description": "[Latitude, Longitude] aus Glottolog; [0,0] = unbekannt."
       }
     }
   }
