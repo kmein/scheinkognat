@@ -1,0 +1,7 @@
+{
+  "id": "avus-ave",
+  "forms": [
+    { "lang": "lat", "script": "avus", "gloss": "Großvater" },
+    { "lang": "non", "script": "ave", "gloss": "Großvater" }
+  ]
+}

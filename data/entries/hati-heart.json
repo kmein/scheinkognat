@@ -1,0 +1,9 @@
+{
+  "id": "hati-heart",
+  "forms": [
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "ḥꜣtꞽ", "gloss": "Herz" },
+    { "lang": "cop", "script": "ϩⲏⲧ", "translit": "hēt", "gloss": "Herz" },
+    { "lang": "eng", "script": "heart", "translit": "[hɑːt]", "gloss": "Herz" }
+  ],
+  "comment": "Mittelägyptisches *ḥꜣtꞽ* entwickelt sich regulär ins koptische *hēt*; das englische *heart* in englischer Aussprache [hɑːt] klingt zufällig sehr ähnlich."
+}

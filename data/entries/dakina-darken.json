@@ -1,0 +1,7 @@
+{
+  "id": "dakina-darken",
+  "forms": [
+    { "lang": "ara", "script": "دَكِنَ", "translit": "dakina", "gloss": "verdunkeln" },
+    { "lang": "eng", "script": "darken", "gloss": "verdunkeln" }
+  ]
+}

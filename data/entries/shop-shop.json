@@ -1,0 +1,7 @@
+{
+  "id": "shop-shop",
+  "forms": [
+    { "lang": "cop", "script": "ϣⲱⲡ", "translit": "šōp", "gloss": "kaufen" },
+    { "lang": "eng", "script": "shop", "gloss": "Geschäft, einkaufen" }
+  ]
+}

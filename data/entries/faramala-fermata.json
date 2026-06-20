@@ -1,0 +1,7 @@
+{
+  "id": "faramala-fermata",
+  "forms": [
+    { "lang": "ara", "script": "فرملة", "translit": "faramla", "gloss": "Bremse" },
+    { "lang": "ita", "script": "fermata", "gloss": "Halt, Haltestelle" }
+  ]
+}

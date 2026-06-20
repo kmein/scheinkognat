@@ -1,0 +1,7 @@
+{
+  "id": "ragil-regular",
+  "forms": [
+    { "lang": "heb", "script": "רָגִיל", "translit": "rāgīl", "gloss": "normal, gewöhnlich" },
+    { "lang": "eng", "script": "regular", "gloss": "regelmäßig" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "shir-shir",
+  "forms": [
+    { "lang": "ara", "script": "شِعر", "translit": "šiʿr", "gloss": "Dichtung" },
+    { "lang": "heb", "script": "שִׂיר", "translit": "šīr", "gloss": "Lied" }
+  ]
+}
