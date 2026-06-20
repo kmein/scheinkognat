@@ -77,6 +77,25 @@ export function contributorName(id: string): string {
   return contributors[id]?.name ?? id;
 }
 
+const FULL_NAME_CONTRIBUTORS = new Set([
+  'johannes-friedrich',
+  'johann-christoph-adelung',
+  'm-kahir',
+  'yoin-van-spijk',
+]);
+
+export function contributorDisplay(id: string): string {
+  const c = contributors[id];
+  if (!c) return id;
+  if (FULL_NAME_CONTRIBUTORS.has(id)) return c.name;
+  return c.name
+    .split(/\s+/)
+    .map((w) => w.replace(/[^\p{L}]/gu, ''))
+    .filter(Boolean)
+    .map((w) => w[0]!.toUpperCase())
+    .join('. ') + '.';
+}
+
 // BCP-47 for HTML lang attr. Falls back to the ISO 639-3 code.
 export function bcp47(code: string): string {
   // ISO 639-3 alpha-3 is valid as a language subtag.

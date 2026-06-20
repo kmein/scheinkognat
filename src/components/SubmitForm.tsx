@@ -132,7 +132,7 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
               <input
                 list="langlist"
                 value={f.lang}
-                placeholder={'z. B. „Arabisch", „ara" oder Freitext'}
+                placeholder={'z. B. „Arabisch“, „ara“ oder Freitext'}
                 onInput={(e) => update(i, { lang: (e.target as HTMLInputElement).value })}
               />
               <span class="help">
@@ -145,7 +145,7 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
             </label>
 
             <label>
-              Dialekt / Sprachstufe <span class="help">(optional, z. B. „Bohairisch", „Mittelägyptisch")</span>
+              Dialekt / Sprachstufe <span class="help">(optional, z. B. „Bohairisch“, „Mittelägyptisch“)</span>
               <input
                 value={f.dialect}
                 onInput={(e) => update(i, { dialect: (e.target as HTMLInputElement).value })}
@@ -177,7 +177,7 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
             </label>
 
             <label>
-              Etymologie <span class="help">{'(optional, z. B. „< Old French coste")'}</span>
+              Etymologie <span class="help">{'(optional, z. B. „< Old French coste“)'}</span>
               <input
                 value={f.etymology}
                 onInput={(e) => update(i, { etymology: (e.target as HTMLInputElement).value })}

@@ -1,7 +1,7 @@
 ---
 import { marked } from 'marked';
 import type { Entry as EntryT } from '../lib/data.ts';
-import { contributorName, isRtl, bcp47, languages } from '../lib/data.ts';
+import { contributorDisplay, isRtl, bcp47, languages } from '../lib/data.ts';
 
 export interface Props {
   entry: EntryT;
@@ -28,7 +28,7 @@ const hasMeta = Boolean(entry.added || entry.contributor);
         {entry.added && <time datetime={entry.added}>{entry.added}</time>}
         {entry.added && entry.contributor && <span>·</span>}
         {entry.contributor && (
-          <a href={`${base}beitrager/${entry.contributor}/`}>{contributorName(entry.contributor)}</a>
+          <a href={`${base}beitrager/${entry.contributor}/`}>{contributorDisplay(entry.contributor)}</a>
         )}
       </div>
     )}
