@@ -14,6 +14,14 @@
   src: url('/scheinkognat/fonts/JunicodeVF-Italic.woff2') format('woff2-variations'),
        url('/scheinkognat/fonts/JunicodeVF-Italic.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Noto Sans Syriac Western';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/scheinkognat/fonts/NotoSansSyriacWestern-VF.woff2') format('woff2-variations'),
+       url('/scheinkognat/fonts/NotoSansSyriacWestern-VF.woff2') format('woff2');
+}
 
 :root {
   --fg: #1a1f3a;
@@ -476,8 +484,11 @@ form.einreichen .help {
 
 /* ---------- Skript-spezifische Fonts ---------- */
 
-[lang|='ara'], [lang|='heb'], [lang|='syc'], [lang|='arc'], [lang|='aii'] {
+[lang|='ara'], [lang|='heb'], [lang|='arc'] {
   font-family: 'Amiri', 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Junicode', serif;
+}
+[lang|='syc'], [lang|='aii'] {
+  font-family: 'Noto Sans Syriac Western', 'Noto Sans Syriac', serif;
 }
 [lang|='san'], [lang|='hin'], [lang|='pli'] {
   font-family: 'Noto Sans Devanagari', 'Junicode', serif;
