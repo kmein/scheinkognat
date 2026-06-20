@@ -1,0 +1,7 @@
+{
+  "id": "mnht-manaha",
+  "forms": [
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "mnh.t", "gloss": "Geschenk" },
+    { "lang": "ara", "script": "منح", "translit": "manaḥa", "gloss": "schenken, gewähren" }
+  ]
+}

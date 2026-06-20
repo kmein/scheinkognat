@@ -1,0 +1,8 @@
+{
+  "id": "stam-stamm",
+  "forms": [
+    { "lang": "txb", "script": "stām", "gloss": "Baum" },
+    { "lang": "xto", "script": "ṣtām", "gloss": "Baum" },
+    { "lang": "deu", "script": "Stamm" }
+  ]
+}

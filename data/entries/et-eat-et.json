@@ -1,0 +1,8 @@
+{
+  "id": "et-eat-et",
+  "forms": [
+    { "lang": "hun", "script": "ét", "gloss": "Essen" },
+    { "lang": "eng", "script": "eat", "gloss": "essen" },
+    { "lang": "tur", "script": "et", "gloss": "Fleisch" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "mi-me",
+  "forms": [
+    { "lang": "txg", "script": "𗅋", "translit": "mi¹", "gloss": "nicht" },
+    { "lang": "grc", "script": "μή", "translit": "mḗ", "gloss": "nicht" }
+  ]
+}

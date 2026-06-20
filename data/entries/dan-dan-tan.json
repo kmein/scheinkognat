@@ -1,0 +1,8 @@
+{
+  "id": "dan-dan-tan",
+  "forms": [
+    { "lang": "tur", "script": "-dan", "gloss": "von … her (Ablativ)" },
+    { "lang": "kat", "script": "-დან", "translit": "dan", "gloss": "von … her" },
+    { "lang": "xhu", "script": "-tan", "gloss": "von … her" }
+  ]
+}

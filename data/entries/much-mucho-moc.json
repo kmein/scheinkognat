@@ -1,0 +1,8 @@
+{
+  "id": "much-mucho-moc",
+  "forms": [
+    { "lang": "eng", "script": "much", "gloss": "viel" },
+    { "lang": "spa", "script": "mucho", "gloss": "viel" },
+    { "lang": "ces", "script": "moc", "gloss": "viel" }
+  ]
+}

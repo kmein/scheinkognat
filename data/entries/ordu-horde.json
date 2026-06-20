@@ -1,0 +1,8 @@
+{
+  "id": "ordu-horde",
+  "forms": [
+    { "lang": "mon", "script": "ordu", "gloss": "Armee, Heerlager" },
+    { "lang": "tur", "script": "ordu", "gloss": "Armee" },
+    { "lang": "deu", "script": "Horde" }
+  ]
+}

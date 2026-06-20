@@ -1,0 +1,7 @@
+{
+  "id": "ibri-ueber",
+  "forms": [
+    { "lang": "heb", "script": "עבר", "translit": "ʿavar", "gloss": "vorübergehen, hinüber" },
+    { "lang": "deu", "script": "über", "gloss": "via, hinüber" }
+  ]
+}

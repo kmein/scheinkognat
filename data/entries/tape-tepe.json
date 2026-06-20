@@ -1,0 +1,8 @@
+{
+  "id": "tape-tepe",
+  "forms": [
+    { "lang": "cop", "script": "ⲧⲁⲡⲉ", "translit": "tape", "gloss": "Kopf" },
+    { "lang": "egy", "dialect": "Mittelägyptisch", "script": "tpy", "gloss": "Kopf" },
+    { "lang": "tur", "script": "tepe", "gloss": "Hügel" }
+  ]
+}
