@@ -952,9 +952,10 @@
   "qga": {
     "name": "Gali",
     "rtl": false,
+    "glottocode": "milt1241",
     "coords": [
-      28.5,
-      94.5
+      10.2347,
+      17.4126
     ]
   },
   "qpi": {
