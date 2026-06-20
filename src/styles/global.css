@@ -488,8 +488,11 @@ form.einreichen .help {
 
 /* ---------- Skript-spezifische Fonts ---------- */
 
-[lang|='ara'], [lang|='heb'], [lang|='arc'] {
-  font-family: 'Amiri', 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Junicode', serif;
+[lang|='ara'], [lang|='fas'], [lang|='urd'], [lang|='chg'] {
+  font-family: 'Amiri', 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Junicode', serif;
+}
+[lang|='heb'], [lang|='arc'] {
+  font-family: 'Noto Serif Hebrew', 'Noto Sans Hebrew', 'Junicode', serif;
 }
 [lang|='syc'], [lang|='aii'] {
   font-family: 'Noto Sans Syriac Western', 'Noto Sans Syriac', serif;
