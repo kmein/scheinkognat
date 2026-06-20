@@ -1,12 +1,14 @@
 {
   "kw": {
-    "name": "Kenneth Wehr"
+    "name": "Kenneth Wehr",
+    "url": "https://researchprofiles.ku.dk/da/persons/kenneth-wehr/"
   },
   "js": {
     "name": "Johannes Schütz"
   },
   "cc": {
-    "name": "Christian Casey"
+    "name": "Christian Casey",
+    "url": "https://www.caseyegyptologist.com/"
   },
   "ag": {
     "name": "Anne Grischeck"
@@ -15,7 +17,8 @@
     "name": "Bruno Behling"
   },
   "ap": {
-    "name": "Angelo Papenhoff"
+    "name": "Angelo Papenhoff",
+    "url": "http://aap.papnet.eu/"
   },
   "gc": {
     "name": "Gordon Chavez"
@@ -51,6 +54,7 @@
     "url": "https://www.linktr.ee/yvanspijk"
   },
   "kfm": {
-    "name": "Kierán Meinhardt"
+    "name": "Kierán Meinhardt",
+    "url": "https://kieranmeinhardt.de"
   }
 }
