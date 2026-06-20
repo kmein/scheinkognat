@@ -1,7 +1,7 @@
 {
   "id": "mar-marr",
   "forms": [
-    { "lang": "ita", "translit": "[mar]", "gloss": "bitter (Lombardei, Tessin)" },
+    { "lang": "ita", "dialect": "Lombardei, Tessin", "translit": "mar", "gloss": "bitter" },
     { "lang": "ara", "script": "مرّ", "translit": "marr", "gloss": "bitter" }
   ]
 }

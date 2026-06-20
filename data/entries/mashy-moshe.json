@@ -1,7 +1,7 @@
 {
   "id": "mashy-moshe",
   "forms": [
-    { "lang": "ara", "translit": "māšy", "gloss": "gehen" },
-    { "lang": "cop", "script": "ⲙⲟⲟϣⲉ", "translit": "moošē", "gloss": "gehen" }
+    { "lang": "ara", "script": "ماشٍ", "translit": "māšin", "gloss": "gehend" },
+    { "lang": "cop", "script": "ⲙⲟⲟϣⲉ", "translit": "mooše", "gloss": "gehen" }
   ]
 }

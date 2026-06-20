@@ -22,6 +22,20 @@
   src: url('/scheinkognat/fonts/NotoSansSyriacWestern-VF.woff2') format('woff2-variations'),
        url('/scheinkognat/fonts/NotoSansSyriacWestern-VF.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Antinoou';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/scheinkognat/fonts/Antinoou.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Antinoou';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/scheinkognat/fonts/AntinoouItalic.ttf') format('truetype');
+}
 
 :root {
   --fg: #1a1f3a;
@@ -499,6 +513,9 @@ form.einreichen .help {
 }
 [lang|='san'], [lang|='hin'], [lang|='pli'] {
   font-family: 'Noto Sans Devanagari', 'Junicode', serif;
+}
+[lang|='cop'] {
+  font-family: 'Antinoou', 'New Athena Unicode', 'Noto Sans Coptic', 'Junicode', serif;
 }
 [lang|='egy'] {
   font-family: 'Aegyptus', 'Noto Sans Egyptian Hieroglyphs', serif;

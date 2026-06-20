@@ -2,6 +2,6 @@
   "id": "mamsam-myaso",
   "forms": [
     { "lang": "san", "script": "मांसम्", "translit": "māṃsam", "gloss": "Fleisch" },
-    { "lang": "rus", "script": "мясо", "translit": "myaso", "gloss": "Fleisch" }
+    { "lang": "rus", "script": "мясо", "translit": "mjaso", "gloss": "Fleisch" }
   ]
 }
