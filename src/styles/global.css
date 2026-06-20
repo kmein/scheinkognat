@@ -185,9 +185,10 @@ li.form {
   display: grid;
   grid-template-columns: var(--lang-col) 1fr;
   gap: 1.25rem;
-  padding: 0.1rem 0;
+  padding: 0.5rem 0;
   align-items: baseline;
 }
+li.form + li.form { margin-top: 0; }
 
 li.form .lang-tag {
   font-variant: small-caps;
@@ -216,7 +217,7 @@ li.form .form-body {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.6rem 1rem;
+  gap: 0.2rem 1rem;
 }
 li.form .script {
   font-size: 1.375rem;
@@ -239,7 +240,7 @@ li.form .etymology {
   font-style: italic;
   font-size: 0.875rem;
   color: var(--fg-quiet);
-  margin-top: 0.125rem;
+  margin-top: 0;
 }
 
 .entry .comment {
