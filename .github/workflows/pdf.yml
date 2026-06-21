@@ -1,0 +1,40 @@
+name: pdf
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'pdf/**'
+      - 'scripts/build-pdf-data.mjs'
+      - 'flake.nix'
+      - 'flake.lock'
+      - '.github/workflows/pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: Build PDF
+        run: nix build .#pdf
+
+      - name: Upload as release asset (tag "latest")
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view latest >/dev/null 2>&1 \
+            || gh release create latest \
+                 --title "Aktuelles PDF" \
+                 --notes "Wird automatisch bei jedem Push auf main aktualisiert." \
+                 --latest=false
+          gh release upload latest result/scheinkognat.pdf --clobber

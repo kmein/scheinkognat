@@ -40,6 +40,46 @@
             exec ${cmd} "$@"
           '');
         };
+
+        # Schriften-Closure für die PDF-Generierung. Enthält alles, was im
+        # Korpus auftaucht (Latein, Griechisch, Arabisch, Hebräisch, Syriac,
+        # Cuneiform, Devanagari, CJK, Old Italic, Kharoshthi, …) plus die
+        # selbstgehosteten Fonts aus public/fonts (Junicode, Antinoou,
+        # NotoSansSyriacWestern).
+        pdfFonts = pkgs.symlinkJoin {
+          name = "scheinkognat-pdf-fonts";
+          paths = [
+            pkgs.noto-fonts
+            pkgs.noto-fonts-cjk-sans
+            pkgs.junicode
+            (pkgs.runCommand "scheinkognat-public-fonts" { } ''
+              mkdir -p $out/share/fonts/truetype
+              cp ${./public/fonts}/*.ttf $out/share/fonts/truetype/
+            '')
+          ];
+        };
+
+        pdf = pkgs.stdenvNoCC.mkDerivation {
+          pname = "scheinkognat-pdf";
+          version = "0";
+          src = ./.;
+          nativeBuildInputs = [ pkgs.typst pkgs.nodejs_22 ];
+          buildPhase = ''
+            runHook preBuild
+            mkdir -p pdf
+            node scripts/build-pdf-data.mjs > pdf/entries.json
+            typst compile \
+              --ignore-system-fonts \
+              --font-path ${pdfFonts}/share/fonts \
+              pdf/scheinkognat.typ pdf/scheinkognat.pdf
+            runHook postBuild
+          '';
+          installPhase = ''
+            runHook preInstall
+            install -Dm644 pdf/scheinkognat.pdf $out/scheinkognat.pdf
+            runHook postInstall
+          '';
+        };
       in
       {
         devShells.default = pkgs.mkShell {
@@ -58,6 +98,11 @@
           dev = mkApp "dev" "pnpm exec astro dev";
           build = mkApp "build" "pnpm run build";
           default = mkApp "new-entry" "pnpm exec tsx scripts/new-entry.ts";
+        };
+
+        packages = {
+          inherit pdf;
+          default = pdf;
         };
       });
 }
