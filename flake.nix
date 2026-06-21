@@ -54,6 +54,7 @@
             pkgs.junicode
             pkgs.amiri
             pkgs.gentium
+            pkgs.ezra-sil
             (pkgs.runCommand "scheinkognat-public-fonts" { } ''
               mkdir -p $out/share/fonts/truetype
               cp ${./public/fonts}/*.ttf $out/share/fonts/truetype/
