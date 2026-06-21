@@ -1,0 +1,16 @@
+{
+  "id": "gera-ger",
+  "forms": [
+    {
+      "lang": "syc",
+      "script": "ܓܶܐܪܳܐ",
+      "translit": "gērā",
+      "gloss": "Pfeil"
+    },
+    {
+      "lang": "deu",
+      "script": "Ger",
+      "gloss": "Speer"
+    }
+  ]
+}
