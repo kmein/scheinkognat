@@ -89,7 +89,9 @@ sh(`git config user.email "41898282+github-actions[bot]@users.noreply.github.com
 sh(`git checkout -b ${branch}`);
 sh(`git add ${filePath}`);
 sh(`git commit -m "submission: ${id} (closes #${issueNumber})"`);
-sh(`git push --set-upstream origin ${branch}`);
+// Force-with-lease: bei Wiederholung desselben Issues überschreiben wir
+// den eigenen Bot-Branch; gegen Race-Conditions schützt --force-with-lease.
+sh(`git push --force-with-lease --set-upstream origin ${branch}`);
 
 const prBody = [
   `Automatisch erstellt aus Issue #${issueNumber}.`,
@@ -107,9 +109,19 @@ fs.writeFileSync('/tmp/pr-body.md', prBody);
 
 const draftFlag = errors.length ? '--draft' : '';
 const title = errors.length ? `Vorschlag: ${id} (Review nötig)` : `Vorschlag: ${id}`;
-const prUrl = sh(
-  `gh pr create --title ${JSON.stringify(title)} --body-file /tmp/pr-body.md --base main --head ${branch} ${draftFlag}`
-).trim();
+
+// PR existiert evtl. bereits von einem vorherigen Lauf — dann nicht neu anlegen,
+// sondern Body aktualisieren.
+const existingPr = sh(`gh pr list --head ${branch} --state open --json url -q '.[0].url'`).trim();
+let prUrl: string;
+if (existingPr) {
+  sh(`gh pr edit ${existingPr} --title ${JSON.stringify(title)} --body-file /tmp/pr-body.md`);
+  prUrl = existingPr;
+} else {
+  prUrl = sh(
+    `gh pr create --title ${JSON.stringify(title)} --body-file /tmp/pr-body.md --base main --head ${branch} ${draftFlag}`
+  ).trim();
+}
 
 // --- 7. Issue kommentieren ---------------------------------------------------
 const note = errors.length
