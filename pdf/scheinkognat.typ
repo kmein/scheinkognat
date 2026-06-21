@@ -139,7 +139,6 @@
     bits.push(text(
       font: script-font(form.lang),
       lang: form.lang,
-      weight: "bold",
       form.script,
     ))
   }
@@ -160,8 +159,8 @@
 #let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
 
 #let render-entry(num, entry) = {
-  let head = text(weight: "bold", size: 8pt)[#num]
-  let forms = entry.forms.map(render-form).join(text(weight: "bold")[ ‖ ])
+  let head = text(size: 7.5pt, fill: gray)[#num]
+  let forms = entry.forms.map(render-form).join[ ‖ ]
   let comment = if entry.at("comment", default: none) != none [ #text(style: "italic")[ — #trim-trailing-period(entry.comment)]] else []
   [#head #h(0.3em)#forms#comment.]
 }
@@ -211,7 +210,7 @@
 
 #columns(1)[
   #for code in lang-codes-sorted [
-    #text(weight: "bold")[#lang-name(code)]
+    #smallcaps[#lang-name(code)]
     #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(code)] —
     #lang-to-nums.at(code).map(n => str(n)).join(", ").#parbreak()
   ]
@@ -227,7 +226,7 @@
 
 #columns(1)[
   #for id in contrib-ids-sorted [
-    #text(weight: "bold")[#contrib-name(id)]
+    #smallcaps[#contrib-name(id)]
     #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(initials(contrib-name(id)))] —
     #contrib-to-nums.at(id).map(n => str(n)).join(", ").#parbreak()
   ]
