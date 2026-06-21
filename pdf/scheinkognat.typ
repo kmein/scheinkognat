@@ -88,18 +88,18 @@
 
 #set document(title: "Scheinkognat", author: "Scheinkognat-Beiträger")
 #set page(
-  paper: "a4",
-  margin: (top: 2cm, bottom: 1.8cm, left: 1.6cm, right: 1.6cm),
+  paper: "a5",
+  margin: (top: 1.5cm, bottom: 1.3cm, left: 1.3cm, right: 1.3cm),
   numbering: "1",
   number-align: center,
 )
 #set text(
   font: ("Junicode", "Noto Serif"),
-  size: 9pt,
+  size: 10pt,
   lang: "de",
   hyphenate: true,
 )
-#set par(justify: true, leading: 0.45em, first-line-indent: 0pt, spacing: 0.3em)
+#set par(justify: true, leading: 0.5em, first-line-indent: 0pt, spacing: 0.35em)
 
 // --- Titelseite ---------------------------------------------------------------
 #set page(numbering: none)
@@ -159,21 +159,28 @@
 
 #let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
 
-#let render-entry(num, entry) = {
+#let render-entry(num, entry, show-credit) = {
   let head = text(weight: "bold", size: 8pt)[#num]
   let forms = entry.forms.map(render-form).join(text(weight: "bold")[ ‖ ])
   let comment = if entry.at("comment", default: none) != none [ #text(style: "italic")[ — #trim-trailing-period(entry.comment)]] else []
   let cn = contrib-initials(entry.at("contributor", default: none))
-  let credit = if cn != none [ #h(0.4em)#text(size: 7pt, fill: gray)[#cn]] else []
+  let credit = if show-credit and cn != none [ #h(0.4em)#text(size: 7pt, fill: gray)[#cn]] else []
   [#head #h(0.3em)#forms#comment.#credit]
 }
 
-#set par(hanging-indent: 1em, justify: true, leading: 0.45em, spacing: 0.4em)
+#set par(hanging-indent: 1em, justify: true, leading: 0.5em, spacing: 0.4em)
 
-#columns(3, gutter: 0.9em)[
-  #for (i, entry) in data.entries.enumerate() [
-    #render-entry(i + 1, entry)#parbreak()
-  ]
+#columns(2, gutter: 1em)[
+  #{
+    let prev = none
+    for (i, entry) in data.entries.enumerate() {
+      let c = entry.at("contributor", default: none)
+      let show-credit = c != none and c != prev
+      render-entry(i + 1, entry, show-credit)
+      parbreak()
+      prev = c
+    }
+  }
 ]
 
 // --- Indizes ------------------------------------------------------------------
@@ -211,7 +218,7 @@
 
 #let lang-codes-sorted = lang-to-nums.keys().sorted(key: c => lang-name(c))
 
-#columns(2, gutter: 1.2em)[
+#columns(1)[
   #for code in lang-codes-sorted [
     #text(weight: "bold")[#lang-name(code)]
     #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(code)] —
@@ -227,7 +234,7 @@
 
 #let contrib-ids-sorted = contrib-to-nums.keys().sorted(key: id => contrib-name(id))
 
-#columns(2, gutter: 1.2em)[
+#columns(1)[
   #for id in contrib-ids-sorted [
     #text(weight: "bold")[#contrib-name(id)]
     #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(initials(contrib-name(id)))] —
