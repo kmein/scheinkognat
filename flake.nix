@@ -52,6 +52,8 @@
             pkgs.noto-fonts
             pkgs.noto-fonts-cjk-sans
             pkgs.junicode
+            pkgs.amiri
+            pkgs.gentium
             (pkgs.runCommand "scheinkognat-public-fonts" { } ''
               mkdir -p $out/share/fonts/truetype
               cp ${./public/fonts}/*.ttf $out/share/fonts/truetype/
