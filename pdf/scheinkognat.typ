@@ -89,7 +89,7 @@
 #set document(title: "Scheinkognat", author: "Scheinkognat-Beiträger")
 #set page(
   paper: "a5",
-  margin: (top: 1.5cm, bottom: 1.3cm, left: 1.3cm, right: 1.3cm),
+  margin: (top: 1.8cm, bottom: 1.6cm, left: 1.6cm, right: 1.6cm),
   numbering: "1",
   number-align: center,
 )
@@ -99,7 +99,7 @@
   lang: "de",
   hyphenate: true,
 )
-#set par(justify: true, leading: 0.5em, first-line-indent: 0pt, spacing: 0.35em)
+#set par(justify: true, leading: 0.65em, first-line-indent: 0pt, spacing: 0.55em)
 
 // --- Titelseite ---------------------------------------------------------------
 #set page(numbering: none)
@@ -186,9 +186,9 @@
   [#head #h(0.3em)#forms#comment.]
 }
 
-#set par(hanging-indent: 1em, justify: true, leading: 0.5em, spacing: 0.4em)
+#set par(hanging-indent: 1em, justify: true, leading: 0.65em, spacing: 0.7em)
 
-#columns(2, gutter: 1em)[
+#columns(2, gutter: 1.4em)[
   #for (i, entry) in data.entries.enumerate() [
     #render-entry(i + 1, entry)#parbreak()
   ]
@@ -225,7 +225,7 @@
 #align(center)[#text(size: 16pt, weight: "regular", tracking: 1pt)[#smallcaps[Sprachen]]]
 #v(0.8em)
 
-#set par(hanging-indent: 1em, justify: true, leading: 0.5em, spacing: 0.35em)
+#set par(hanging-indent: 1em, justify: true, leading: 0.65em, spacing: 0.6em)
 
 #let lang-codes-sorted = lang-to-nums.keys().sorted(key: c => lang-name(c))
 
