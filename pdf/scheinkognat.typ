@@ -128,7 +128,26 @@
 #pagebreak()
 
 // --- Einträge -----------------------------------------------------------------
-#set page(numbering: "1", number-align: center)
+#set page(
+  numbering: "1",
+  number-align: center,
+  header: context {
+    let page-loc = here()
+    let markers = query(<entry-marker>).filter(m => m.location().page() == page-loc.page())
+    if markers.len() == 0 { return }
+    let first = markers.first().value
+    let last = markers.last().value
+    set text(size: 8pt, fill: gray)
+    set par(leading: 0pt)
+    grid(
+      columns: (1fr, 1fr),
+      align(left)[#first],
+      align(right)[#last],
+    )
+    v(-0.5em)
+    line(length: 100%, stroke: 0.3pt + gray)
+  },
+)
 #counter(page).update(1)
 
 #let lang-abbr(code) = upper(code)
@@ -158,9 +177,11 @@
 
 #let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
 
+#let sep = text(fill: gray)[ ‖ ]
+
 #let render-entry(num, entry) = {
-  let head = text(size: 7.5pt, fill: gray)[#num]
-  let forms = entry.forms.map(render-form).join[ ‖ ]
+  let head = text(size: 7.5pt, fill: gray)[#num] + [#metadata(num)<entry-marker>]
+  let forms = entry.forms.map(render-form).join(sep)
   let comment = if entry.at("comment", default: none) != none [ #text(style: "italic")[ — #trim-trailing-period(entry.comment)]] else []
   [#head #h(0.3em)#forms#comment.]
 }
