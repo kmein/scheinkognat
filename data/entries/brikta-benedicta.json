@@ -1,0 +1,17 @@
+{
+  "id": "brikta-benedicta",
+  "forms": [
+    {
+      "lang": "syc",
+      "script": "ܒܪܝܟܬܐ",
+      "translit": "brīḵtā",
+      "gloss": "gesegnete (f.)"
+    },
+    {
+      "lang": "lat",
+      "script": "benedicta",
+      "gloss": "gesegnete (f.)"
+    }
+  ],
+  "contributor": "kfm"
+}
