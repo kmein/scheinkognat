@@ -20,4 +20,7 @@ const entries = fs
   .map((f) => JSON.parse(fs.readFileSync(path.join(entriesDir, f), 'utf8')))
   .sort((a, b) => a.id.localeCompare(b.id, 'de'));
 
-process.stdout.write(JSON.stringify({ entries, languages, contributors }, null, 0));
+const buildDate = new Date().toISOString().slice(0, 10);
+process.stdout.write(
+  JSON.stringify({ entries, languages, contributors, meta: { buildDate } }, null, 0)
+);

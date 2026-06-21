@@ -1,4 +1,5 @@
-// PDF-Ausgabe aller Scheinkognat-Einträge.
+// PDF-Ausgabe aller Scheinkognat-Einträge im Stil eines traditionellen
+// Wörterbuchs: dreispaltig, run-in-Einträge, fortlaufend numeriert.
 // Daten kommen aus pdf/entries.json (von scripts/build-pdf-data.mjs erzeugt).
 // Kompiliert via `nix build .#pdf` (Schriften kommen aus dem Nix-Closure).
 
@@ -70,43 +71,56 @@
   if l == none { code } else { l.name }
 }
 
-#let contrib-name(id) = {
-  if id == none { none } else {
-    let c = data.contributors.at(id, default: none)
-    if c == none { id } else { c.name }
-  }
+#let initials(name) = {
+  // "Johann Christoph Adelung" → "JCA"; "M. Kahir" → "MK".
+  name.split(regex("\s+"))
+    .map(w => w.replace(regex("[^\p{L}]"), ""))
+    .filter(w => w.len() > 0)
+    .map(w => upper(w.first()))
+    .join("")
+}
+
+#let contrib-initials(id) = {
+  if id == none { return none }
+  let c = data.contributors.at(id, default: none)
+  if c == none { id } else { initials(c.name) }
 }
 
 #set document(title: "Scheinkognat", author: "Scheinkognat-Beiträger")
-#set page(paper: "a4", margin: (x: 2.2cm, y: 2.4cm), numbering: none)
-#set text(font: ("Junicode", "Noto Serif"), size: 10pt, lang: "de", hyphenate: true)
-#set par(justify: true, leading: 0.55em, first-line-indent: 0pt)
-#show heading.where(level: 1): set text(size: 22pt, weight: "bold")
-#show heading.where(level: 2): set text(size: 11pt, weight: "bold")
-#show heading.where(level: 2): set block(above: 1em, below: 0.4em)
-#show link: set text(fill: rgb("#6e3052"))
+#set page(
+  paper: "a4",
+  margin: (top: 2cm, bottom: 1.8cm, left: 1.6cm, right: 1.6cm),
+  numbering: "1",
+  number-align: center,
+)
+#set text(
+  font: ("Junicode", "Noto Serif"),
+  size: 9pt,
+  lang: "de",
+  hyphenate: true,
+)
+#set par(justify: true, leading: 0.45em, first-line-indent: 0pt, spacing: 0.3em)
 
 // --- Titelseite ---------------------------------------------------------------
+#set page(numbering: none)
 #align(center + horizon)[
-  #text(size: 48pt, weight: "bold")[Scheinkognat]
-  #v(0.5em)
-  #text(size: 14pt, style: "italic")[Eine Sammlung linguistischer Koinzidenzen]
+  #text(size: 36pt, weight: "regular", tracking: 2pt)[#smallcaps[Scheinkognat]]
+  #v(0.8em)
+  #text(size: 11pt, style: "italic")[Eine Sammlung linguistischer Koinzidenzen]
   #v(3em)
-  #text(size: 10pt)[#data.entries.len() Einträge · Stand #datetime.today().display("[day].[month].[year]")]
+  #text(size: 9pt)[#data.entries.len() Einträge · Stand #data.meta.buildDate]
 ]
 #pagebreak()
 
 // --- Epigraph -----------------------------------------------------------------
-#set page(numbering: "1")
-#counter(page).update(1)
-#v(4em)
+#v(6em)
 #align(center)[
-  #block(width: 75%)[
-    #set text(style: "italic")
-    #set par(justify: false)
+  #block(width: 70%)[
+    #set text(style: "italic", size: 10pt)
+    #set par(justify: false, leading: 0.6em)
     „Aber es mußte einmal an einigen Beispielen aus verschiedenen Gebieten gezeigt werden, ein wie neckisches Spiel der unbezweifelbare Zufall im sprachlichen Leben treibt."
 
-    #v(0.5em)
+    #v(0.6em)
     #text(style: "normal", size: 9pt)[— Johannes Friedrich, 1952]
   ]
 ]
@@ -114,121 +128,109 @@
 #pagebreak()
 
 // --- Einträge -----------------------------------------------------------------
-#set heading(numbering: none)
+#set page(numbering: "1", number-align: center)
+#counter(page).update(1)
 
-#columns(2, gutter: 1.2em)[
-  #for entry in data.entries [
-    #block(breakable: false, width: 100%)[
-      #heading(level: 2)[#entry.id] #label("entry-" + entry.id)
+#let lang-abbr(code) = upper(code)
 
-      #for form in entry.forms [
-        #grid(
-          columns: (4.5em, 1fr),
-          column-gutter: 0.5em,
-          row-gutter: 0.1em,
-          [#text(size: 7.5pt, fill: gray)[
-            #lang-name(form.lang)
-            #if form.at("dialect", default: none) != none [
-              \ #text(size: 7pt)[· #form.dialect]
-            ]
-          ]],
-          [
-            #if form.at("script", default: none) != none [
-              #text(font: script-font(form.lang), lang: form.lang)[#form.script]
-            ]
-            #if form.at("translit", default: none) != none [
-              #h(0.3em) #text(style: "italic")[#form.translit]
-            ]
-            #if form.at("gloss", default: none) != none [
-              #h(0.3em) ‚#form.gloss‘
-            ]
-            #if form.at("etymology", default: none) != none [
-              #linebreak()
-              #text(size: 8pt, fill: gray)[#form.etymology]
-            ]
-          ]
-        )
-      ]
+#let render-form(form) = {
+  let bits = ()
+  if form.at("script", default: none) != none {
+    bits.push(text(
+      font: script-font(form.lang),
+      lang: form.lang,
+      weight: "bold",
+      form.script,
+    ))
+  }
+  if form.at("translit", default: none) != none {
+    bits.push(text(style: "italic", form.translit))
+  }
+  let head = bits.join(" ")
+  let suffix = []
+  if form.at("dialect", default: none) != none {
+    suffix += text(size: 7pt)[ (#form.dialect)]
+  }
+  let gloss = if form.at("gloss", default: none) != none [ ‚#form.gloss‘] else []
+  let abbr = text(size: 7.2pt, fill: rgb("#6e3052"))[ #smallcaps(lang-abbr(form.lang))]
+  let etym = if form.at("etymology", default: none) != none [ #text(size: 7.5pt, fill: gray)[(#form.etymology)]] else []
+  [#head#abbr#suffix#gloss#etym]
+}
 
-      #if entry.at("comment", default: none) != none [
-        #v(0.25em)
-        #text(size: 8.5pt)[#entry.comment]
-      ]
+#let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
 
-      #v(0.2em)
-      #text(size: 7pt, fill: gray)[
-        #let bits = ()
-        #let cn = contrib-name(entry.at("contributor", default: none))
-        #if cn != none { bits.push(cn) }
-        #if entry.at("added", default: none) != none { bits.push(entry.added) }
-        #bits.join(" · ")
-      ]
-    ]
-    #v(0.6em)
+#let render-entry(num, entry) = {
+  let head = text(weight: "bold", size: 8pt)[#num]
+  let forms = entry.forms.map(render-form).join(text(weight: "bold")[ ‖ ])
+  let comment = if entry.at("comment", default: none) != none [ #text(style: "italic")[ — #trim-trailing-period(entry.comment)]] else []
+  let cn = contrib-initials(entry.at("contributor", default: none))
+  let credit = if cn != none [ #h(0.4em)#text(size: 7pt, fill: gray)[#cn]] else []
+  [#head #h(0.3em)#forms#comment.#credit]
+}
+
+#set par(hanging-indent: 1em, justify: true, leading: 0.45em, spacing: 0.4em)
+
+#columns(3, gutter: 0.9em)[
+  #for (i, entry) in data.entries.enumerate() [
+    #render-entry(i + 1, entry)#parbreak()
   ]
 ]
 
-// --- Sprachindex --------------------------------------------------------------
-#pagebreak()
-#heading(level: 1)[Sprachindex]
-#v(0.6em)
-
-#let lang-to-entries = {
+// --- Indizes ------------------------------------------------------------------
+#let lang-to-nums = {
   let m = (:)
-  for entry in data.entries {
+  for (i, entry) in data.entries.enumerate() {
+    let seen = (:)
     for form in entry.forms {
       let l = form.lang
-      if l in m { m.insert(l, m.at(l) + (entry.id,)) }
-      else { m.insert(l, (entry.id,)) }
+      if l in seen { continue }
+      seen.insert(l, true)
+      if l in m { m.insert(l, m.at(l) + (i + 1,)) }
+      else { m.insert(l, (i + 1,)) }
     }
   }
   m
 }
 
-#let lang-codes-sorted = {
-  let codes = lang-to-entries.keys()
-  codes.sorted(key: c => lang-name(c))
-}
-
-#columns(2, gutter: 1em)[
-  #for code in lang-codes-sorted [
-    #block(breakable: false)[
-      #text(weight: "bold", size: 10pt)[#lang-name(code)]
-      #h(0.3em) #text(size: 8pt, fill: gray)[(#code)]
-      #linebreak()
-      #set text(size: 8.5pt)
-      #lang-to-entries.at(code).map(id => link(label("entry-" + id))[#id]).join(", ")
-    ]
-    #v(0.4em)
-  ]
-]
-
-// --- Beiträgerindex -----------------------------------------------------------
-#pagebreak()
-#heading(level: 1)[Beiträgerindex]
-#v(0.6em)
-
-#let contrib-to-entries = {
+#let contrib-to-nums = {
   let m = (:)
-  for entry in data.entries {
+  for (i, entry) in data.entries.enumerate() {
     let c = entry.at("contributor", default: none)
     if c == none { continue }
-    if c in m { m.insert(c, m.at(c) + (entry.id,)) }
-    else { m.insert(c, (entry.id,)) }
+    if c in m { m.insert(c, m.at(c) + (i + 1,)) }
+    else { m.insert(c, (i + 1,)) }
   }
   m
 }
 
-#let contrib-ids-sorted = {
-  contrib-to-entries.keys().sorted(key: id => contrib-name(id))
-}
+#pagebreak()
+#align(center)[#text(size: 16pt, weight: "regular", tracking: 1pt)[#smallcaps[Sprachen]]]
+#v(0.8em)
 
-#for id in contrib-ids-sorted [
-  #block(breakable: false)[
-    #text(weight: "bold", size: 10pt)[#contrib-name(id)]
-    #linebreak()
-    #set text(size: 8.5pt)
-    #contrib-to-entries.at(id).map(eid => link(label("entry-" + eid))[#eid]).join(", ")
+#set par(hanging-indent: 1em, justify: true, leading: 0.5em, spacing: 0.35em)
+
+#let lang-codes-sorted = lang-to-nums.keys().sorted(key: c => lang-name(c))
+
+#columns(2, gutter: 1.2em)[
+  #for code in lang-codes-sorted [
+    #text(weight: "bold")[#lang-name(code)]
+    #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(code)] —
+    #lang-to-nums.at(code).map(n => str(n)).join(", ").#parbreak()
   ]
-  #v(0.4em)
+]
+
+#pagebreak()
+#align(center)[#text(size: 16pt, weight: "regular", tracking: 1pt)[#smallcaps[Beiträger]]]
+#v(0.8em)
+
+#let contrib-name(id) = data.contributors.at(id, default: (name: id)).name
+
+#let contrib-ids-sorted = contrib-to-nums.keys().sorted(key: id => contrib-name(id))
+
+#columns(2, gutter: 1.2em)[
+  #for id in contrib-ids-sorted [
+    #text(weight: "bold")[#contrib-name(id)]
+    #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(initials(contrib-name(id)))] —
+    #contrib-to-nums.at(id).map(n => str(n)).join(", ").#parbreak()
+  ]
 ]
