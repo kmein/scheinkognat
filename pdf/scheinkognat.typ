@@ -159,28 +159,19 @@
 
 #let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
 
-#let render-entry(num, entry, show-credit) = {
+#let render-entry(num, entry) = {
   let head = text(weight: "bold", size: 8pt)[#num]
   let forms = entry.forms.map(render-form).join(text(weight: "bold")[ ‖ ])
   let comment = if entry.at("comment", default: none) != none [ #text(style: "italic")[ — #trim-trailing-period(entry.comment)]] else []
-  let cn = contrib-initials(entry.at("contributor", default: none))
-  let credit = if show-credit and cn != none [ #h(0.4em)#text(size: 7pt, fill: gray)[#cn]] else []
-  [#head #h(0.3em)#forms#comment.#credit]
+  [#head #h(0.3em)#forms#comment.]
 }
 
 #set par(hanging-indent: 1em, justify: true, leading: 0.5em, spacing: 0.4em)
 
 #columns(2, gutter: 1em)[
-  #{
-    let prev = none
-    for (i, entry) in data.entries.enumerate() {
-      let c = entry.at("contributor", default: none)
-      let show-credit = c != none and c != prev
-      render-entry(i + 1, entry, show-credit)
-      parbreak()
-      prev = c
-    }
-  }
+  #for (i, entry) in data.entries.enumerate() [
+    #render-entry(i + 1, entry)#parbreak()
+  ]
 ]
 
 // --- Indizes ------------------------------------------------------------------
