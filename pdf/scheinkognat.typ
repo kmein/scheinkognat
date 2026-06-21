@@ -170,9 +170,14 @@
     suffix += text(size: 7pt)[ (#form.dialect)]
   }
   let gloss = if form.at("gloss", default: none) != none [ ‚#form.gloss‘] else []
-  let abbr = text(size: 7.2pt, fill: rgb("#6e3052"))[ #smallcaps(lang-abbr(form.lang))]
+  let abbr = text(
+    font: "Noto Sans",
+    size: 7pt,
+    fill: gray,
+    tracking: 0.6pt,
+  )[#smallcaps(lang-abbr(form.lang))]
   let etym = if form.at("etymology", default: none) != none [ #text(size: 7.5pt, fill: gray)[(#form.etymology)]] else []
-  [#head#abbr#suffix#gloss#etym]
+  [#abbr #head#suffix#gloss#etym]
 }
 
 #let trim-trailing-period(s) = if s.ends-with(".") { s.slice(0, s.len() - 1) } else { s }
@@ -232,7 +237,7 @@
 #columns(1)[
   #for code in lang-codes-sorted [
     #smallcaps[#lang-name(code)]
-    #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(code)] —
+    #h(0.2em)#text(font: "Noto Sans", size: 7pt, fill: gray, tracking: 0.6pt)[#smallcaps(code)] —
     #lang-to-nums.at(code).map(n => str(n)).join(", ").#parbreak()
   ]
 ]
@@ -248,7 +253,7 @@
 #columns(1)[
   #for id in contrib-ids-sorted [
     #smallcaps[#contrib-name(id)]
-    #h(0.2em)#text(size: 7.2pt, fill: rgb("#6e3052"))[#smallcaps(initials(contrib-name(id)))] —
+    #h(0.2em)#text(font: "Noto Sans", size: 7pt, fill: gray, tracking: 0.6pt)[#smallcaps(initials(contrib-name(id)))] —
     #contrib-to-nums.at(id).map(n => str(n)).join(", ").#parbreak()
   ]
 ]
