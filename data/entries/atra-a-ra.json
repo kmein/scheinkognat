@@ -1,0 +1,18 @@
+{
+  "id": "atra-a-ra",
+  "forms": [
+    {
+      "lang": "san",
+      "script": "अत्र",
+      "translit": "atra",
+      "gloss": "hier"
+    },
+    {
+      "lang": "syc",
+      "script": "ܐܰܬܪܳܐ",
+      "translit": "aθrā",
+      "gloss": "Ort"
+    }
+  ],
+  "contributor": "kfm"
+}
