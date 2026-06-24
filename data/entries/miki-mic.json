@@ -1,0 +1,16 @@
+{
+  "id": "miki-mic",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "miki-",
+      "gloss": "klein sein"
+    },
+    {
+      "lang": "ron",
+      "script": "mic",
+      "gloss": "klein"
+    }
+  ],
+  "contributor": "kw"
+}

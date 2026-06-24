@@ -1,0 +1,17 @@
+{
+  "id": "allos-alla",
+  "forms": [
+    {
+      "lang": "ell",
+      "script": "άλλος",
+      "translit": "állos",
+      "gloss": "anderer"
+    },
+    {
+      "lang": "kal",
+      "script": "alla",
+      "gloss": "anderer"
+    }
+  ],
+  "contributor": "kw"
+}

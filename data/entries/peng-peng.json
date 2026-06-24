@@ -1,0 +1,16 @@
+{
+  "id": "peng-peng",
+  "forms": [
+    {
+      "lang": "ace",
+      "script": "peng",
+      "gloss": "Geld"
+    },
+    {
+      "lang": "swe",
+      "script": "peng",
+      "gloss": "Münze, Geld"
+    }
+  ],
+  "contributor": "kw"
+}

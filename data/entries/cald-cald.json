@@ -1,0 +1,21 @@
+{
+  "id": "cald-cald",
+  "forms": [
+    {
+      "lang": "ron",
+      "script": "cald",
+      "gloss": "warm"
+    },
+    {
+      "lang": "cat",
+      "script": "cald",
+      "gloss": "warm"
+    },
+    {
+      "lang": "deu",
+      "script": "kalt",
+      "gloss": "kalt"
+    }
+  ],
+  "contributor": "kw"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "atsa-atta",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "atsa",
+      "gloss": "Tante väterlicherseits"
+    },
+    {
+      "lang": "tel",
+      "script": "అత్త",
+      "translit": "atta",
+      "gloss": "Tante väterlicherseits"
+    }
+  ],
+  "contributor": "kw"
+}

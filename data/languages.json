@@ -1,4 +1,13 @@
 {
+  "ace": {
+    "name": "Achinesisch",
+    "rtl": false,
+    "glottocode": "achi1257",
+    "coords": [
+      5.55,
+      95.32
+    ]
+  },
   "ady": {
     "name": "Tscherkessisch",
     "rtl": false,
@@ -15,6 +24,15 @@
     "coords": [
       36.75,
       43
+    ]
+  },
+  "ale": {
+    "name": "Aleutisch",
+    "rtl": false,
+    "glottocode": "aleu1260",
+    "coords": [
+      53.88,
+      -166.54
     ]
   },
   "akk": {
@@ -49,7 +67,7 @@
     "rtl": true,
     "glottocode": "arab1395",
     "dialects": [
-      "Damskus",
+      "Damaskus",
       "Sudanesisch",
       "Libanon",
       "Hijazi",
@@ -106,6 +124,15 @@
     "coords": [
       28.3681,
       90.1872
+    ]
+  },
+  "cat": {
+    "name": "Katalanisch",
+    "rtl": false,
+    "glottocode": "stan1289",
+    "coords": [
+      41.65,
+      1.78
     ]
   },
   "ces": {
@@ -201,6 +228,15 @@
       -1
     ]
   },
+  "est": {
+    "name": "Estnisch",
+    "rtl": false,
+    "glottocode": "esto1258",
+    "coords": [
+      58.7,
+      25.5
+    ]
+  },
   "ett": {
     "name": "Etruskisch",
     "rtl": false,
@@ -208,6 +244,15 @@
     "coords": [
       41.9,
       12.4833
+    ]
+  },
+  "ewe": {
+    "name": "Ewe",
+    "rtl": false,
+    "glottocode": "ewee1241",
+    "coords": [
+      6.78,
+      0.95
     ]
   },
   "eus": {
@@ -253,6 +298,15 @@
     "coords": [
       10.0063,
       17.6143
+    ]
+  },
+  "gil": {
+    "name": "Gilbertesisch",
+    "rtl": false,
+    "glottocode": "gilb1244",
+    "coords": [
+      1.33,
+      172.97
     ]
   },
   "gle": {
@@ -706,6 +760,15 @@
       14.7766
     ]
   },
+  "sme": {
+    "name": "Nordsamisch",
+    "rtl": false,
+    "glottocode": "nort2671",
+    "coords": [
+      69.0,
+      23.0
+    ]
+  },
   "smo": {
     "name": "Samoanisch",
     "rtl": false,
@@ -760,6 +823,15 @@
       37.624
     ]
   },
+  "swe": {
+    "name": "Schwedisch",
+    "rtl": false,
+    "glottocode": "swed1254",
+    "coords": [
+      62,
+      15
+    ]
+  },
   "syc": {
     "name": "Syrisch",
     "rtl": true,
@@ -785,6 +857,33 @@
     "coords": [
       14.2038,
       -2.41269
+    ]
+  },
+  "tat": {
+    "name": "Tatarisch",
+    "rtl": false,
+    "glottocode": "tata1255",
+    "coords": [
+      55.79,
+      49.1
+    ]
+  },
+  "tel": {
+    "name": "Telugu",
+    "rtl": false,
+    "glottocode": "telu1262",
+    "coords": [
+      16.5,
+      79.5
+    ]
+  },
+  "tet": {
+    "name": "Tetum",
+    "rtl": false,
+    "glottocode": "tetu1245",
+    "coords": [
+      -8.55,
+      125.58
     ]
   },
   "tha": {
@@ -862,6 +961,15 @@
     "coords": [
       25,
       67
+    ]
+  },
+  "uzb": {
+    "name": "Usbekisch",
+    "rtl": false,
+    "glottocode": "uzbe1247",
+    "coords": [
+      41.3,
+      69.27
     ]
   },
   "vmb": {

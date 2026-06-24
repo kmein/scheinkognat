@@ -1,0 +1,16 @@
+{
+  "id": "mannik-monni",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "mannik",
+      "gloss": "Ei"
+    },
+    {
+      "lang": "sme",
+      "script": "monni, manni",
+      "gloss": "Ei"
+    }
+  ],
+  "contributor": "kw"
+}

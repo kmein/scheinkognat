@@ -1,0 +1,16 @@
+{
+  "id": "issiq-issik",
+  "forms": [
+    {
+      "lang": "uzb",
+      "script": "issiq",
+      "gloss": "warm"
+    },
+    {
+      "lang": "kal",
+      "script": "issi(k)",
+      "gloss": "kalt"
+    }
+  ],
+  "contributor": "kw"
+}

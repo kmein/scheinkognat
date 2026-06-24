@@ -1,0 +1,21 @@
+{
+  "id": "man-mane",
+  "forms": [
+    {
+      "lang": "eng",
+      "script": "man",
+      "gloss": "Mann"
+    },
+    {
+      "lang": "gil",
+      "script": "mane",
+      "gloss": "Mann"
+    },
+    {
+      "lang": "tet",
+      "script": "mane",
+      "gloss": "Mann"
+    }
+  ],
+  "contributor": "kw"
+}

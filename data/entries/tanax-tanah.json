@@ -1,0 +1,16 @@
+{
+  "id": "tanax-tanah",
+  "forms": [
+    {
+      "lang": "ale",
+      "script": "tanax̂",
+      "gloss": "Land"
+    },
+    {
+      "lang": "msa",
+      "script": "tanah",
+      "gloss": "Land"
+    }
+  ],
+  "contributor": "kw"
+}

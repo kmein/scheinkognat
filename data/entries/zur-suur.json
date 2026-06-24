@@ -1,0 +1,17 @@
+{
+  "id": "zur-suur",
+  "forms": [
+    {
+      "lang": "tat",
+      "script": "зур",
+      "translit": "zur",
+      "gloss": "groß"
+    },
+    {
+      "lang": "est",
+      "script": "suur",
+      "gloss": "groß"
+    }
+  ],
+  "contributor": "kw"
+}

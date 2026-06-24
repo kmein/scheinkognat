@@ -1,0 +1,18 @@
+{
+  "id": "answer-ansa",
+  "forms": [
+    {
+      "lang": "eng",
+      "script": "answer",
+      "translit": "/ˈɑːnsə/",
+      "gloss": "antworten"
+    },
+    {
+      "lang": "isl",
+      "script": "ansa",
+      "gloss": "antworten"
+    }
+  ],
+  "comment": "Soweit ich weiß keine Kognaten.",
+  "contributor": "kw"
+}
