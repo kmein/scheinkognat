@@ -1,0 +1,18 @@
+{
+  "id": "mahatta",
+  "forms": [
+    {
+      "lang": "syc",
+      "script": "ܡܰܚܬܬܐܴ",
+      "translit": "maḥattā",
+      "gloss": "Hinabstieg"
+    },
+    {
+      "lang": "ara",
+      "script": "محطة",
+      "translit": "maḥaṭṭah",
+      "gloss": "Haltestelle, Station"
+    }
+  ],
+  "contributor": "kfm"
+}
