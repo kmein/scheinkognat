@@ -1,0 +1,17 @@
+{
+  "id": "selo-chez-lui",
+  "forms": [
+    {
+      "lang": "heb",
+      "script": "שלו",
+      "translit": "šelo",
+      "gloss": "von ihm"
+    },
+    {
+      "lang": "fra",
+      "script": "chez lui",
+      "gloss": "bei ihm"
+    }
+  ],
+  "contributor": "kfm"
+}
