@@ -1,0 +1,17 @@
+{
+  "id": "saki-sakhi",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "saki",
+      "gloss": "Schwiegervater, Schwiegermutter"
+    },
+    {
+      "lang": "san",
+      "script": "सखि",
+      "translit": "sakhi",
+      "gloss": "Freund, Assistent, Schwippschwager",
+      "etymology": "etymologisch zusammengehörig mit \"sozi-al\"."
+    }
+  ]
+}
