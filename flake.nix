@@ -11,7 +11,7 @@
       let
         pkgs = import nixpkgs { inherit system; };
 
-        runtime = with pkgs; [ nodejs_22 pnpm jq ];
+        runtime = with pkgs; [ nodejs_22 pnpm jq gh ];
 
         # Wrapper: lokalisiert die Projektwurzel (package.json mit "scheinkognat"),
         # installiert bei Bedarf node_modules, führt dann das Kommando aus.
