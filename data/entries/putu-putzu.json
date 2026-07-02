@@ -1,0 +1,16 @@
+{
+  "id": "putu-putzu",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "putu",
+      "gloss": "Loch"
+    },
+    {
+      "lang": "eus",
+      "script": "putzu",
+      "gloss": "Wasserloch (Loch in der Erde mit Quellwasser)",
+      "etymology": "Entlehnt aus gleichbedeutend spanisch pozo; Kognate zu deutsch Pfütze"
+    }
+  ]
+}
