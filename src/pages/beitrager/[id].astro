@@ -22,7 +22,7 @@ const c = contributors[id];
   <span class="eyebrow">Beiträger:in</span>
   <h1>{contributorDisplay(id)}</h1>
   <p class="index-summary">
-    {list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'}{c?.url && <>, <a href={c.url}>{c.url}</a></>}.
+    {list.length} {list.length === 1 ? 'Eintrag' : 'Einträge'}{c?.url && <>, <a href={c.url}>{c.url}</a></>}{c?.github && <>, <a href={`https://github.com/${c.github}`}>@{c.github}</a></>}.
   </p>
 
   <div>
