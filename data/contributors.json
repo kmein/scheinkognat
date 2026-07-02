@@ -1,7 +1,8 @@
 {
   "kw": {
     "name": "Kenneth Wehr",
-    "url": "https://researchprofiles.ku.dk/da/persons/kenneth-wehr/"
+    "url": "https://researchprofiles.ku.dk/da/persons/kenneth-wehr/",
+    "github": "KennyMcFly"
   },
   "js": {
     "name": "Johannes Schütz"
@@ -55,6 +56,7 @@
   },
   "kfm": {
     "name": "Kierán Meinhardt",
-    "url": "https://kieranmeinhardt.de"
+    "url": "https://kieranmeinhardt.de",
+    "github": "kmein"
   }
 }

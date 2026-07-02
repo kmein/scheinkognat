@@ -45,6 +45,11 @@ if (typeof c === 'string' && c.startsWith('«') && c.endsWith('»')) {
   delete entry.contributor;
 }
 
+// --- 2b. Issue-Autor auf bekannten Beiträger mappen --------------------------
+// Wenn kein `contributor` gesetzt ist und der Issue-Autor per `github`-Feld in
+// contributors.json bekannt ist, tragen wir ihn automatisch ein.
+const issueAuthor = (process.env.ISSUE_AUTHOR ?? '').toLowerCase();
+
 // --- 3. ID generieren --------------------------------------------------------
 fs.mkdirSync(ENTRIES_DIR, { recursive: true });
 const existingIds = new Set(
@@ -63,6 +68,16 @@ const entrySchema = JSON.parse(fs.readFileSync(path.join(SCHEMA_DIR, 'entry.sche
 const validate = ajv.compile<unknown>(entrySchema);
 const languages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'languages.json'), 'utf8'));
 const contributors = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'contributors.json'), 'utf8'));
+
+if (!entry.contributor && issueAuthor) {
+  const match = Object.entries(contributors).find(
+    ([, v]) => typeof (v as any).github === 'string' && (v as any).github.toLowerCase() === issueAuthor
+  );
+  if (match) {
+    entry.contributor = match[0];
+    freeTextContributor = null;
+  }
+}
 
 const errors: string[] = [];
 if (!validate(entry)) {
