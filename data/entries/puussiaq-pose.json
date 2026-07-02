@@ -1,0 +1,23 @@
+{
+  "id": "puussiaq-pose",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "puussiaq",
+      "gloss": "Tüte",
+      "etymology": "pooq+SSAQ+LIAQ \"für den Gebrauch als Sack gemacht\""
+    },
+    {
+      "lang": "dan",
+      "script": "pose",
+      "gloss": "Tüte"
+    },
+    {
+      "lang": "fin",
+      "script": "pussi",
+      "gloss": "Tüte",
+      "etymology": "aus dem Schwedischen entlehnt"
+    }
+  ],
+  "comment": "Wird von vielen per Volksetymologie für ein Lehnwort aus dem Dänischen gehalten."
+}
