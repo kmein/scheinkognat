@@ -1121,5 +1121,21 @@
       55.0,
       10.0
     ]
+  },
+  "dan": {
+    "name": "Dänisch",
+    "rtl": false,
+    "coords": [
+      54.8655,
+      9.36284
+    ]
+  },
+  "fin": {
+    "name": "Finnisch",
+    "rtl": false,
+    "coords": [
+      64.7628,
+      25.5577
+    ]
   }
 }
