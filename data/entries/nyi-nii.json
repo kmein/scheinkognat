@@ -1,0 +1,17 @@
+{
+  "id": "nyi-nii",
+  "forms": [
+    {
+      "lang": "xto",
+      "translit": "-ñi",
+      "gloss": "mich"
+    },
+    {
+      "lang": "ara",
+      "script": "-ني",
+      "translit": "-nī",
+      "gloss": "mich"
+    }
+  ],
+  "contributor": "kfm"
+}
