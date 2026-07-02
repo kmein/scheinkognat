@@ -1,0 +1,15 @@
+{
+  "id": "illu-haus",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "illu",
+      "gloss": "Haus"
+    },
+    {
+      "lang": "tel",
+      "script": "illu",
+      "gloss": "Haus"
+    }
+  ]
+}
