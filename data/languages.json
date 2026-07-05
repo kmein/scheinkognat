@@ -467,6 +467,15 @@
       12.6489
     ]
   },
+  "jav": {
+    "name": "Javanisch",
+    "rtl": false,
+    "glottocode": "java1254",
+    "coords": [
+      -7.001,
+      109.287
+    ]
+  },
   "jpn": {
     "name": "Japanisch",
     "rtl": false,
