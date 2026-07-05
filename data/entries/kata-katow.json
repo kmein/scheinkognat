@@ -1,0 +1,21 @@
+{
+  "id": "kata-katow",
+  "forms": [
+    {
+      "lang": "kat",
+      "script": "კატა",
+      "translit": "ḳaṭa",
+      "gloss": "Katze"
+    },
+    {
+      "lang": "hye",
+      "script": "կատու",
+      "translit": "katow",
+      "gloss": "Katze"
+    },
+    {
+      "lang": "eng",
+      "script": "cat"
+    }
+  ]
+}
