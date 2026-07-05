@@ -1,0 +1,19 @@
+{
+  "id": "kaka-kaka",
+  "forms": [
+    {
+      "lang": "swa",
+      "script": "kaka",
+      "gloss": "Bruder"
+    },
+    {
+      "lang": "jav",
+      "script": "ꦏꦏ",
+      "translit": "kaka",
+      "gloss": "àlterer Bruder"
+    }
+  ],
+  "sources": [
+    "https://sealang.net/java/dictionary.htm"
+  ]
+}
