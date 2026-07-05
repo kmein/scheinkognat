@@ -1,0 +1,17 @@
+{
+  "id": "mori-mori",
+  "forms": [
+    {
+      "lang": "jpn",
+      "script": "森",
+      "translit": "mori",
+      "gloss": "Wald"
+    },
+    {
+      "lang": "kat",
+      "script": "მორი",
+      "translit": "mori",
+      "gloss": "Baumstamm"
+    }
+  ]
+}
