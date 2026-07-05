@@ -1,0 +1,33 @@
+{
+  "id": "sala-salah",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "sala-",
+      "gloss": "dünne Klamotten tragen, sich wegen Wärme ausziehen, ausgestreckt liegen vor Wärme"
+    },
+    {
+      "lang": "ara",
+      "dialect": "Südlevantinisch",
+      "script": "شلح",
+      "translit": "šalaḥ",
+      "gloss": "sich ausziehen"
+    },
+    {
+      "lang": "swe",
+      "script": "sola",
+      "gloss": "sich sonnen"
+    },
+    {
+      "lang": "fij",
+      "script": "sala",
+      "gloss": "ausstrecken (Körperteil)"
+    },
+    {
+      "lang": "non",
+      "script": "svala",
+      "gloss": "abkühlen"
+    }
+  ],
+  "contributor": "kw"
+}
