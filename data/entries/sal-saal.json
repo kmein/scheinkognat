@@ -1,0 +1,18 @@
+{
+  "id": "sal-saal",
+  "forms": [
+    {
+      "lang": "hin",
+      "script": "साल",
+      "translit": "sāl",
+      "gloss": "Haus, Halle, Stelle",
+      "etymology": "gehört etymologisch zu \"Halle\""
+    },
+    {
+      "lang": "deu",
+      "script": "Saal",
+      "etymology": "von urgermanisch *saliz/salą \"Haus, Wohnung, Halle, Raum\", wovon in zahlreiche romanische Sprachen entlehnt, vgl. spanisch sala \"Raum, Saal\""
+    }
+  ],
+  "contributor": "kw"
+}
