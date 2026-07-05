@@ -1,0 +1,18 @@
+{
+  "id": "anta-anta",
+  "forms": [
+    {
+      "lang": "ara",
+      "script": "أنت",
+      "translit": "anta",
+      "gloss": "du"
+    },
+    {
+      "lang": "jpn",
+      "dialect": "Umgangsprachlich (für あなた anata)",
+      "script": "あんた",
+      "translit": "anta",
+      "gloss": "du"
+    }
+  ]
+}
