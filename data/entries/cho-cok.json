@@ -1,0 +1,17 @@
+{
+  "id": "cho-cok",
+  "forms": [
+    {
+      "lang": "jpn",
+      "dialect": "umgangsprachlich",
+      "script": "超",
+      "translit": "chō",
+      "gloss": "sehr"
+    },
+    {
+      "lang": "tur",
+      "script": "çok",
+      "gloss": "sehr"
+    }
+  ]
+}
