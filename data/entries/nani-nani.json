@@ -1,0 +1,19 @@
+{
+  "id": "nani-nani",
+  "forms": [
+    {
+      "lang": "swa",
+      "script": "nani",
+      "gloss": "wer"
+    },
+    {
+      "lang": "jpn",
+      "script": "なに",
+      "translit": "nani",
+      "gloss": "was"
+    }
+  ],
+  "sources": [
+    "https://en.wiktionary.org/wiki/nani"
+  ]
+}
