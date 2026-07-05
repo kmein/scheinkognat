@@ -282,6 +282,15 @@
       31.8376
     ]
   },
+  "fij": {
+    "name": "Fidschianisch",
+    "rtl": false,
+    "glottocode": "fiji1243",
+    "coords": [
+      -18,
+      178.33
+    ]
+  },
   "fra": {
     "name": "Französisch",
     "rtl": false,
