@@ -1,0 +1,17 @@
+{
+  "id": "nami-nami",
+  "forms": [
+    {
+      "lang": "kat",
+      "script": "ნამი",
+      "translit": "nami",
+      "gloss": "Tau"
+    },
+    {
+      "lang": "jpn",
+      "script": "なみ",
+      "translit": "nami",
+      "gloss": "Welle"
+    }
+  ]
+}
