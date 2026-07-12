@@ -1,0 +1,19 @@
+{
+  "id": "patati-patu",
+  "forms": [
+    {
+      "lang": "san",
+      "script": "पतति",
+      "translit": "patati",
+      "gloss": "fallen"
+    },
+    {
+      "lang": "tam",
+      "script": "படு",
+      "translit": "paṭu",
+      "gloss": "fallen"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-12"
+}
