@@ -1,0 +1,9 @@
+{
+  "id": "aska-ask",
+  "forms": [
+    { "lang": "jqr", "script": "aska", "gloss": "fragen" },
+    { "lang": "eng", "script": "ask", "gloss": "fragen" }
+  ],
+  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
+  "contributor": "kfm"
+}

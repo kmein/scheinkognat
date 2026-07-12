@@ -1,0 +1,8 @@
+{
+  "id": "erdbeere-eper",
+  "forms": [
+    { "lang": "deu", "script": "Erdbeere", "gloss": "Erdbeere" },
+    { "lang": "hun", "script": "eper", "gloss": "Erdbeere" }
+  ],
+  "contributor": "kfm"
+}

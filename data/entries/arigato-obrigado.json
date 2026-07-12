@@ -1,0 +1,9 @@
+{
+  "id": "arigato-obrigado",
+  "forms": [
+    { "lang": "jpn", "script": "ありがとう", "translit": "arigatō", "gloss": "danke" },
+    { "lang": "por", "script": "obrigado", "gloss": "danke" }
+  ],
+  "comment": "Trotz der populären Volksetymologie keine Entlehnung: jap. *arigatō* < 有り難い *arigatai* ‚schwer zu haben, kostbar‘, port. *obrigado* < lat. *obligare* ‚verpflichten‘.",
+  "contributor": "kfm"
+}

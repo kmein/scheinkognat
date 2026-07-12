@@ -1,0 +1,9 @@
+{
+  "id": "ah-akh",
+  "forms": [
+    { "lang": "mon", "script": "ах", "translit": "akh", "gloss": "älterer Bruder" },
+    { "lang": "ara", "script": "أَخ", "translit": "akh", "gloss": "Bruder" }
+  ],
+  "comment": "Mongolisch gegen semitisch — keine nachweisbare gemeinsame Herkunft.",
+  "contributor": "kfm"
+}

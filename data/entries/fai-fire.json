@@ -1,0 +1,9 @@
+{
+  "id": "fai-fire",
+  "forms": [
+    { "lang": "tha", "script": "ไฟ", "translit": "fai", "gloss": "Feuer" },
+    { "lang": "eng", "script": "fire", "gloss": "Feuer" }
+  ],
+  "comment": "Tai-Kadai gegen germanisch (PIE *péh₂ur) — zufällige Ähnlichkeit.",
+  "contributor": "kfm"
+}

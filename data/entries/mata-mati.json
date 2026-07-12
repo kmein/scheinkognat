@@ -1,0 +1,9 @@
+{
+  "id": "mata-mati",
+  "forms": [
+    { "lang": "msa", "script": "mata", "gloss": "Auge" },
+    { "lang": "ell", "script": "μάτι", "translit": "mati", "gloss": "Auge" }
+  ],
+  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
+  "contributor": "kfm"
+}

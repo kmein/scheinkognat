@@ -1,0 +1,8 @@
+{
+  "id": "phra-fra",
+  "forms": [
+    { "lang": "tha", "script": "พระ", "translit": "phra", "gloss": "Mönch, ehrwürdig (Anrede)" },
+    { "lang": "ita", "script": "fra", "gloss": "Ordensbruder (vor Namen, < frate)" }
+  ],
+  "contributor": "kfm"
+}

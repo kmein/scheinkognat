@@ -1,0 +1,9 @@
+{
+  "id": "ki-qui",
+  "forms": [
+    { "lang": "sei", "script": "ki", "gloss": "wer?" },
+    { "lang": "fra", "script": "qui", "translit": "/ki/", "gloss": "wer?" }
+  ],
+  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
+  "contributor": "kfm"
+}

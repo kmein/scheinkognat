@@ -1,0 +1,8 @@
+{
+  "id": "kahuna-kahana",
+  "forms": [
+    { "lang": "haw", "script": "kahuna", "gloss": "Priester, Experte" },
+    { "lang": "syc", "script": "ܟܳܗܢܳܐ", "translit": "kāhanā", "gloss": "Priester" }
+  ],
+  "contributor": "kfm"
+}

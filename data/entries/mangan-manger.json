@@ -1,0 +1,9 @@
+{
+  "id": "mangan-manger",
+  "forms": [
+    { "lang": "jav", "script": "ꦩꦔꦤ꧀", "translit": "mangan", "gloss": "essen" },
+    { "lang": "fra", "script": "manger", "gloss": "essen" }
+  ],
+  "comment": "Austronesisch gegen romanisch (lat. *manducare*) — zufällige Ähnlichkeit.",
+  "contributor": "kfm"
+}

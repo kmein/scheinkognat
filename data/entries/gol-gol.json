@@ -1,0 +1,8 @@
+{
+  "id": "gol-gol",
+  "forms": [
+    { "lang": "swe", "script": "göl", "gloss": "Teich, Tümpel" },
+    { "lang": "tur", "script": "göl", "gloss": "See" }
+  ],
+  "contributor": "kfm"
+}

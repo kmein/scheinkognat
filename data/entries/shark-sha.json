@@ -1,0 +1,8 @@
+{
+  "id": "shark-sha",
+  "forms": [
+    { "lang": "eng", "script": "shark", "gloss": "Hai" },
+    { "lang": "zho", "script": "鲨", "translit": "shā", "gloss": "Hai" }
+  ],
+  "contributor": "kfm"
+}

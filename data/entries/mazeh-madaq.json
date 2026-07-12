@@ -1,0 +1,9 @@
+{
+  "id": "mazeh-madaq",
+  "forms": [
+    { "lang": "fas", "script": "مزه", "translit": "mazeh", "gloss": "Geschmack" },
+    { "lang": "ara", "script": "مَذَاق", "translit": "maḏāq", "gloss": "Geschmack" }
+  ],
+  "comment": "Ob die Ähnlichkeit rein zufällig ist, ist unklar — eine gemeinsame bzw. entlehnte Herkunft wird diskutiert.",
+  "contributor": "kfm"
+}

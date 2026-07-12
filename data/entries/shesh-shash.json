@@ -1,0 +1,9 @@
+{
+  "id": "shesh-shash",
+  "forms": [
+    { "lang": "heb", "script": "שֵׁשׁ", "translit": "šeš", "gloss": "sechs" },
+    { "lang": "fas", "script": "شش", "translit": "šaš", "gloss": "sechs" }
+  ],
+  "comment": "Achtung — möglicherweise **kein** reiner Zufall: das Zahlwort ‚sechs‘ (semit. *šidṯ-/šešš-* gegen idg. *sweḱs*) gilt als mögliches altes Wanderwort zwischen indogermanischen und semitischen Sprachen.",
+  "contributor": "kfm"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "qayaq-kayik",
+  "forms": [
+    { "lang": "iku", "script": "ᖃᔭᖅ", "translit": "qayaq", "gloss": "Kajak" },
+    { "lang": "tur", "script": "kayık", "gloss": "Boot, Kahn" }
+  ],
+  "contributor": "kfm"
+}

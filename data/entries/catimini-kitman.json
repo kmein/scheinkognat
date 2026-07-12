@@ -1,0 +1,9 @@
+{
+  "id": "catimini-kitman",
+  "forms": [
+    { "lang": "fra", "script": "catimini", "gloss": "heimlich, verstohlen (en catimini)" },
+    { "lang": "ara", "script": "كِتْمَان", "translit": "kitmān", "gloss": "Verheimlichung, Geheimhaltung" }
+  ],
+  "comment": "Die Etymologie von *catimini* ist ungeklärt; eine (umstrittene) Herleitung führt es auf arab. كِتْمَان zurück, eine andere auf griech. *katamēnia*.",
+  "contributor": "kfm"
+}
