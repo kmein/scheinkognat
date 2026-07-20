@@ -1,0 +1,22 @@
+{
+  "id": "simu-simi",
+  "forms": [
+    {
+      "lang": "swa",
+      "script": "simu",
+      "gloss": "Telefon",
+      "etymology": "< Persisch sīm 'Kabel'"
+    },
+    {
+      "lang": "isl",
+      "script": "sími",
+      "gloss": "Telefon",
+      "etymology": "< Altnordisch síma 'Faden'"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-20",
+  "sources": [
+    "https://nitter.net/KEBuHCAH/status/2078826900794097756"
+  ]
+}

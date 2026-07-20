@@ -1,0 +1,22 @@
+{
+  "id": "mulu-mulu",
+  "forms": [
+    {
+      "lang": "amh",
+      "script": "ሙሉ",
+      "translit": "mulu",
+      "gloss": "komplett, ganz"
+    },
+    {
+      "lang": "tam",
+      "script": "முழு",
+      "translit": "muḻu",
+      "gloss": "komplett, ganz"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-20",
+  "sources": [
+    "https://nitter.net/KEBuHCAH/status/2078468580690038937"
+  ]
+}
