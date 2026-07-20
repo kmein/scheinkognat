@@ -1,0 +1,19 @@
+{
+  "id": "ale-ala",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ⲁⲗⲉ",
+      "translit": "ale",
+      "gloss": "aufsteigen"
+    },
+    {
+      "lang": "ara",
+      "script": "علا",
+      "translit": "ʿalā",
+      "gloss": "aufsteigen, hoch sein"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-20"
+}
