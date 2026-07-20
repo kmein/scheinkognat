@@ -1,0 +1,25 @@
+{
+  "id": "falaqa-paleg",
+  "forms": [
+    {
+      "lang": "ara",
+      "script": "فلق",
+      "translit": "falaqa",
+      "gloss": "trennen, spalten"
+    },
+    {
+      "lang": "syc",
+      "script": "ܦܵܠܹܓ݂",
+      "translit": "pālēḡ",
+      "gloss": "spalten, trennen"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲡⲱⲣϫ",
+      "translit": "pōrč",
+      "gloss": "trennen"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-20"
+}
