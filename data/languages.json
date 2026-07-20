@@ -1261,5 +1261,14 @@
       16.0,
       107.0
     ]
+  },
+  "omn": {
+    "name": "Minoisch",
+    "rtl": false,
+    "glottocode": "mino1236",
+    "coords": [
+      35.21,
+      25.00
+    ]
   }
 }

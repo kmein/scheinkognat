@@ -1,0 +1,22 @@
+{
+  "id": "ku-ro-kull-un",
+  "forms": [
+    {
+      "lang": "omn",
+      "script": "𐙂𐘁",
+      "translit": "ku-ro",
+      "gloss": "gesamt"
+    },
+    {
+      "lang": "ara",
+      "script": "كل",
+      "translit": "kull(un)",
+      "gloss": "all, ganz"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-20",
+  "sources": [
+    "https://nitter.net/hekwoys/status/2078903082965213556"
+  ]
+}
