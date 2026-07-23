@@ -1,0 +1,19 @@
+{
+  "id": "kand-kanta",
+  "forms": [
+    {
+      "lang": "onw",
+      "script": "ⲕⲁⲛⲇ-",
+      "translit": "kand-",
+      "gloss": "Dorn"
+    },
+    {
+      "lang": "hin",
+      "script": "कांटा",
+      "translit": "kānṭā",
+      "gloss": "Dorn"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-07-23"
+}

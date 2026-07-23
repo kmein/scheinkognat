@@ -1,0 +1,17 @@
+{
+  "id": "ama-ma",
+  "forms": [
+    {
+      "lang": "tur",
+      "script": "ama",
+      "gloss": "aber"
+    },
+    {
+      "lang": "ita",
+      "script": "ma",
+      "gloss": "aber"
+    }
+  ],
+  "added": "2026-07-23",
+  "contributor": "kfm"
+}
