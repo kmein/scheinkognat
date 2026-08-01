@@ -1,0 +1,18 @@
+{
+  "id": "kelenkeh-gelenk",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ⲕⲉⲗⲉⲛⲕⲉϩ",
+      "translit": "kelenkeh",
+      "gloss": "Ellbogen"
+    },
+    {
+      "lang": "deu",
+      "script": "Gelenk",
+      "gloss": "Gelenk"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-01"
+}
