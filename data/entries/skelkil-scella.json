@@ -1,0 +1,19 @@
+{
+  "id": "skelkil-scella",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ϣⲕⲉⲗⲕⲓⲗ",
+      "translit": "škelkil",
+      "gloss": "Glocke"
+    },
+    {
+      "lang": "deu",
+      "dialect": "Althochdeutsch",
+      "script": "scella",
+      "gloss": "Glocke"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-04"
+}

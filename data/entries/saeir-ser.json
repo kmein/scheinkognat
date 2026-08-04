@@ -1,0 +1,18 @@
+{
+  "id": "saeir-ser",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ⲥⲁⲉⲓⲣ",
+      "translit": "saeir",
+      "gloss": "Käse"
+    },
+    {
+      "lang": "pol",
+      "script": "ser",
+      "gloss": "Käse"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-04"
+}

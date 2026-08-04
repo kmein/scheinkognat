@@ -17,6 +17,15 @@
       39.33
     ]
   },
+  "che": {
+    "name": "Tschetschenisch",
+    "rtl": false,
+    "glottocode": "chec1245",
+    "coords": [
+      43.50,
+      45.50
+    ]
+  },
   "aii": {
     "name": "Neuostaramäisch",
     "rtl": true,

@@ -1,0 +1,23 @@
+{
+  "id": "xellibs-khalyps",
+  "forms": [
+    {
+      "lang": "cop",
+      "dialect": "Bohairisch",
+      "script": "ϧⲉⲗⲗⲓⲃϣ",
+      "translit": "xellibš",
+      "gloss": "Brustpanzer"
+    },
+    {
+      "lang": "grc",
+      "script": "χάλυψ",
+      "translit": "khályps",
+      "gloss": "Stahl, gehärtetes Eisen"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-04",
+  "sources": [
+    "Stern, Koptische Grammatik"
+  ]
+}

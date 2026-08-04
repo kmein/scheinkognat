@@ -1,0 +1,19 @@
+{
+  "id": "gowr-ghora",
+  "forms": [
+    {
+      "lang": "che",
+      "script": "говр",
+      "translit": "gowr",
+      "gloss": "Pferd"
+    },
+    {
+      "lang": "hin",
+      "script": "घोड़ा",
+      "translit": "ghoṛā",
+      "gloss": "Pferd"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-04"
+}
