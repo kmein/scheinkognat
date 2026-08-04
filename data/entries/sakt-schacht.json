@@ -1,0 +1,18 @@
+{
+  "id": "sakt-schacht",
+  "forms": [
+    {
+      "lang": "cop",
+      "script": "ϣⲁⲕⲧ⸗",
+      "translit": "šakt-",
+      "gloss": "graben"
+    },
+    {
+      "lang": "deu",
+      "script": "Schacht",
+      "gloss": "Schacht"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-04"
+}
