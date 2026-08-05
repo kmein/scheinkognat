@@ -1279,5 +1279,14 @@
       35.21,
       25.00
     ]
+  },
+  "nci": {
+    "name": "Klassisches Nahuatl",
+    "rtl": false,
+    "glottocode": "clas1250",
+    "coords": [
+      19.72,
+      -96.97
+    ]
   }
 }
