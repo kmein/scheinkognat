@@ -1,0 +1,18 @@
+{
+  "id": "buffet-byfe",
+  "forms": [
+    {
+      "lang": "kal",
+      "script": "piffik",
+      "translit": "Buffet",
+      "etymology": "pi+VVIK, eigentlich wörtlich etwa \"Ort, Zeit, Gelegenheit\" (so auch in älteren Wörterbüchern)"
+    },
+    {
+      "lang": "deu",
+      "script": "Buffet",
+      "translit": "/byfeː/"
+    }
+  ],
+  "comment": "Ein semantischer Einfluss durch das gleichlautende dänische Wort ist nicht auszuschließen.",
+  "contributor": "kw"
+}
