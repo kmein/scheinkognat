@@ -35,19 +35,13 @@ if (!Array.isArray((entry as any).forms) || (entry as any).forms.length < 2) {
   fail('Der Vorschlag braucht mindestens zwei `forms`.');
 }
 
-// --- 2. Free-Text-Contributor abfangen ---------------------------------------
-// SubmitForm wickelt unbekannte Beiträger-Namen in «…». Den nehmen wir hier
-// raus und vermerken's auf dem PR — der Maintainer pflegt das contributors.json.
-let freeTextContributor: string | null = null;
-const c = entry.contributor;
-if (typeof c === 'string' && c.startsWith('«') && c.endsWith('»')) {
-  freeTextContributor = c.slice(1, -1);
-  delete entry.contributor;
-}
+// --- 2. Beiträger = Issue-Autor ----------------------------------------------
+// Das Formular fragt keinen Namen mehr ab: wer eingereicht hat, sagt uns das
+// GitHub-Konto, das das Issue eröffnet hat — das lässt sich nicht frei
+// behaupten. Ein im JSON mitgeschickter `contributor` ist damit unbelegt und
+// fliegt raus; die Zuordnung passiert unten über das `github`-Feld.
+delete entry.contributor;
 
-// --- 2b. Issue-Autor auf bekannten Beiträger mappen --------------------------
-// Wenn kein `contributor` gesetzt ist und der Issue-Autor per `github`-Feld in
-// contributors.json bekannt ist, tragen wir ihn automatisch ein.
 const issueAuthor = (process.env.ISSUE_AUTHOR ?? '').toLowerCase();
 
 // --- 3. ID generieren --------------------------------------------------------
@@ -69,14 +63,13 @@ const validate = ajv.compile<unknown>(entrySchema);
 const languages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'languages.json'), 'utf8'));
 const contributors = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'contributors.json'), 'utf8'));
 
-if (!entry.contributor && issueAuthor) {
+let unknownAuthor: string | null = null;
+if (issueAuthor) {
   const match = Object.entries(contributors).find(
     ([, v]) => typeof (v as any).github === 'string' && (v as any).github.toLowerCase() === issueAuthor
   );
-  if (match) {
-    entry.contributor = match[0];
-    freeTextContributor = null;
-  }
+  if (match) entry.contributor = match[0];
+  else unknownAuthor = process.env.ISSUE_AUTHOR!;
 }
 
 const errors: string[] = [];
@@ -114,9 +107,10 @@ const prBody = [
   errors.length
     ? `**Validation-Fehler — vor Merge beheben:**\n\n${errors.map((e) => `- ${e}`).join('\n')}`
     : `\`pnpm validate\` läuft sauber durch. Bereit zum Review/Merge.`,
-  freeTextContributor
-    ? `\n_Beiträger im Issue genannt: **${freeTextContributor}**. Falls gewünscht in \`data/contributors.json\` eintragen und \`contributor\` setzen._`
+  entry.contributor
+    ? `\n_Beiträger: \`${entry.contributor}\` — zugeordnet über **@${process.env.ISSUE_AUTHOR}**._`
     : '',
+  unknownAuthor ? contributorHint(unknownAuthor) : '',
   `\nSchließt #${issueNumber} beim Merge.`,
 ].filter(Boolean).join('\n');
 
@@ -148,6 +142,41 @@ sh(`gh issue comment ${issueNumber} --body-file /tmp/issue-comment.md`);
 console.log(`\n✓ ${note}`);
 
 // --------------------------------------------------------------------------- helpers
+// Der Issue-Autor steckt in keinem `github`-Feld. Wir raten hier nichts,
+// sondern legen einen fertigen Schnipsel bei: einmal einpflegen, danach
+// ordnet sich jede weitere Einreichung dieser Person von selbst zu.
+function contributorHint(login: string): string {
+  let name = login;
+  let url: string | null = null;
+  try {
+    const p = JSON.parse(sh(`gh api users/${login}`));
+    if (p.name) name = p.name;
+    url = p.blog || null;
+  } catch {
+    // Profil nicht abrufbar — Login als Name, Maintainer korrigiert.
+  }
+  const initials = name.split(/\s+/).map((w: string) => w[0]?.toLowerCase() ?? '').join('');
+  let key = /^[a-z0-9-]+$/.test(initials) && initials.length >= 2 ? initials : login.toLowerCase();
+  // Kürzel sind Objekt-Keys — ein belegtes würde beim Einfügen jemanden
+  // überschreiben, also durchzählen wie bei den Eintrags-IDs.
+  if (contributors[key]) {
+    let n = 2;
+    while (contributors[`${key}${n}`]) n++;
+    key = `${key}${n}`;
+  }
+  const record: Record<string, string> = { name, github: login };
+  if (url) record.url = url;
+  return [
+    `\n**@${login} ist noch keinem Beiträger zugeordnet** — der Eintrag hat deshalb kein \`contributor\`-Feld.`,
+    `Zum Zuordnen in \`data/contributors.json\` aufnehmen (Kürzel frei wählbar):`,
+    '',
+    '```json',
+    `  ${JSON.stringify(key)}: ${JSON.stringify(record, null, 2).split('\n').join('\n  ')}`,
+    '```',
+    `Danach hier \`"contributor": ${JSON.stringify(key)}\` ergänzen. Künftige Einreichungen von @${login} werden automatisch zugeordnet.`,
+  ].join('\n');
+}
+
 function required(name: string): string {
   const v = process.env[name];
   if (!v) {

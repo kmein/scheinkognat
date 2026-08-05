@@ -48,8 +48,11 @@ function resolveLang(input: string, langs: LangOption[]): string {
   return t; // free text — will land in review
 }
 
+// `contributor` setzt nicht das Formular, sondern issue-to-pr.ts anhand des
+// GitHub-Kontos, das das Issue eröffnet — das ist die einzige Angabe zur
+// Person, die nicht frei behauptet werden kann.
 function buildEntry(forms: FormRow[], langs: LangOption[], extras: {
-  comment: string; sources: string[]; contributor: string;
+  comment: string; sources: string[];
 }) {
   const out: Record<string, unknown> = {};
   out.forms = forms.map((f) => {
@@ -64,7 +67,6 @@ function buildEntry(forms: FormRow[], langs: LangOption[], extras: {
   });
   if (extras.comment.trim()) out.comment = extras.comment.trim();
   if (extras.sources.length) out.sources = extras.sources;
-  if (extras.contributor.trim()) out.contributor = `«${extras.contributor.trim()}»`;
   return out;
 }
 
@@ -72,7 +74,6 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
   const [forms, setForms] = useState<FormRow[]>([emptyForm(), emptyForm()]);
   const [comment, setComment] = useState('');
   const [sourcesText, setSourcesText] = useState('');
-  const [contributor, setContributor] = useState('');
 
   const update = (i: number, patch: Partial<FormRow>) =>
     setForms((rows) => rows.map((r, idx) => (idx === i ? { ...r, ...patch } : r)));
@@ -83,7 +84,7 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
   const onSubmit = (e: Event) => {
     e.preventDefault();
     const sources = sourcesText.split('\n').map((s) => s.trim()).filter(Boolean);
-    const entry = buildEntry(forms, languages, { comment, sources, contributor });
+    const entry = buildEntry(forms, languages, { comment, sources });
 
     const langSummary = (entry.forms as Array<{ lang: string }>).map((f) => f.lang).join(' ↔ ');
     const title = `Neuer Eintrag: ${langSummary}`;
@@ -94,9 +95,6 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
       '```json',
       JSON.stringify(entry, null, 2),
       '```',
-      contributor.trim()
-        ? `\nBeiträger: ${contributor.trim()} (bitte in data/contributors.json eintragen, falls noch nicht vorhanden)`
-        : '',
     ].filter(Boolean).join('\n');
 
     const url = new URL(`https://github.com/${githubOwner}/${githubRepo}/issues/new`);
@@ -216,14 +214,12 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
             onInput={(e) => setSourcesText((e.target as HTMLTextAreaElement).value)}
           />
         </label>
-        <label>
-          Dein Name <span class="help">(optional)</span>
-          <input
-            value={contributor}
-            onInput={(e) => setContributor((e.target as HTMLInputElement).value)}
-          />
-        </label>
       </fieldset>
+
+      <p class="help">
+        Die Zuordnung als Beiträger passiert über dein GitHub-Konto — du musst
+        deinen Namen hier nicht eintragen.
+      </p>
 
       <button type="submit">Issue auf GitHub öffnen</button>
       <p class="help">
