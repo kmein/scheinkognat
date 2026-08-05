@@ -1,0 +1,16 @@
+{
+  "id": "habeo-habere-haben",
+  "forms": [
+    {
+      "lang": "lat",
+      "script": "habeō, habere",
+      "gloss": "ich habe, haben"
+    },
+    {
+      "lang": "deu",
+      "script": "haben"
+    }
+  ],
+  "comment": "Die tatsächliche lateinische Kognate zu *haben* ist *capiō*.",
+  "contributor": "md"
+}
