@@ -22,6 +22,11 @@ interface FormRow {
   etymology: string;
 }
 
+// Unsichtbarer Marker im Issue-Body. GitHub verwirft den `labels`-Query-Param
+// bei Nutzern ohne Schreibrechte — issue-to-pr.yml erkennt Einreichungen daher
+// an diesem Marker und setzt das Label selbst.
+const SUBMISSION_MARKER = '<!-- scheinkognat:einreichung -->';
+
 const emptyForm = (): FormRow => ({
   lang: '',
   dialect: '',
@@ -83,6 +88,7 @@ export default function SubmitForm({ languages, githubOwner, githubRepo, entries
     const langSummary = (entry.forms as Array<{ lang: string }>).map((f) => f.lang).join(' ↔ ');
     const title = `Neuer Eintrag: ${langSummary}`;
     const body = [
+      SUBMISSION_MARKER,
       'Vorschlag für einen neuen Eintrag:',
       '',
       '```json',
