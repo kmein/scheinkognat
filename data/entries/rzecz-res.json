@@ -1,0 +1,17 @@
+{
+  "id": "rzecz-res",
+  "forms": [
+    {
+      "lang": "pol",
+      "script": "rzecz",
+      "gloss": "Sache"
+    },
+    {
+      "lang": "lat",
+      "script": "rēs",
+      "gloss": "Sache"
+    }
+  ],
+  "comment": "Die Kognatschaft der Scheinkognaten wird insb. bezeugt durch pol. \"rzeczpospolita\" = lat. \"rēs publica\".",
+  "contributor": "md"
+}
