@@ -9,13 +9,29 @@ permissions:
   issues: write
   pull-requests: write
 
+concurrency:
+  group: issue-to-pr-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
 jobs:
   submission-to-pr:
+    # Der `labels`-Query-Param des Web-Formulars greift nur bei Nutzern mit
+    # Schreibrechten. Einreichungen erkennen wir deshalb zusätzlich am Marker,
+    # den SubmitForm.tsx in den Body schreibt.
     if: |
-      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'einreichung'))
-      || (github.event.action == 'labeled' && github.event.label.name == 'einreichung')
+      (github.event.action == 'labeled' && github.event.label.name == 'einreichung')
+      || (github.event.action == 'opened' && (
+            contains(github.event.issue.labels.*.name, 'einreichung')
+            || contains(github.event.issue.body, '<!-- scheinkognat:einreichung -->')
+         ))
     runs-on: ubuntu-latest
     steps:
+      - name: Label setzen
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: gh issue edit "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --add-label einreichung
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
