@@ -1,0 +1,29 @@
+{
+  "id": "ho-theos-teotl",
+  "forms": [
+    {
+      "lang": "grc",
+      "script": "ὁ θεός",
+      "translit": "ho theós",
+      "gloss": "Gott",
+      "etymology": "Nomen zu uidg. *dʰeh₁- \"setzen, stellen, legen\""
+    },
+    {
+      "lang": "Klassisches Nahuatl",
+      "script": "teōtl",
+      "gloss": "Gott",
+      "etymology": "Wurzel teō- \"Gott, kosmische Kraft, Mana\" + Absolutivsuffix -tl"
+    },
+    {
+      "lang": "lat",
+      "script": "deus",
+      "gloss": "\"Gott\"",
+      "etymology": "o-Stamm zu uidg. di̯eu̯- \"(heller Tages-)Himmel\""
+    }
+  ],
+  "sources": [
+    "https://en.wiktionary.org/w/index.php?title=θεός&oldid=91695965",
+    "https://en.wiktionary.org/w/index.php?title=teotl&oldid=86381644",
+    "https://en.wiktionary.org/w/index.php?title=deus&oldid=91503955"
+  ]
+}
