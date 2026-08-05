@@ -9,7 +9,7 @@
       "etymology": "Nomen zu uidg. *dʰeh₁- \"setzen, stellen, legen\""
     },
     {
-      "lang": "Klassisches Nahuatl",
+      "lang": "nci",
       "script": "teōtl",
       "gloss": "Gott",
       "etymology": "Wurzel teō- \"Gott, kosmische Kraft, Mana\" + Absolutivsuffix -tl"
@@ -21,6 +21,7 @@
       "etymology": "o-Stamm zu uidg. di̯eu̯- \"(heller Tages-)Himmel\""
     }
   ],
+  "contributor": "md",
   "sources": [
     "https://en.wiktionary.org/w/index.php?title=θεός&oldid=91695965",
     "https://en.wiktionary.org/w/index.php?title=teotl&oldid=86381644",
