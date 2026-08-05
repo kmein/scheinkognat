@@ -9,11 +9,11 @@
     },
     {
       "lang": "jpn",
-      "dialect": "Umgangsprachlich (für あなた anata)",
       "script": "あんた",
       "translit": "anta",
       "gloss": "du"
     }
   ],
+  "comment": "Umgangsprachlich (für あなた anata)",
   "contributor": "cwl"
 }
