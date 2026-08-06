@@ -44,6 +44,16 @@ delete entry.contributor;
 
 const issueAuthor = (process.env.ISSUE_AUTHOR ?? '').toLowerCase();
 
+// --- 2b. Datum = Eröffnung des Issues ----------------------------------------
+// Bewusst nicht `new Date()`: bei einem erneuten Lauf (Issue nochmal gelabelt)
+// bliebe das Datum sonst nicht stehen, sondern rutschte auf den Lauftag.
+// Ein selbst gesetztes `added` lassen wir stehen — etwa beim Nachtragen
+// älterer Einträge von Hand.
+if (!(typeof entry.added === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(entry.added))) {
+  const created = process.env.ISSUE_CREATED_AT;
+  entry.added = (created && !Number.isNaN(Date.parse(created)) ? created : new Date().toISOString()).slice(0, 10);
+}
+
 // --- 3. ID generieren --------------------------------------------------------
 fs.mkdirSync(ENTRIES_DIR, { recursive: true });
 const existingIds = new Set(
