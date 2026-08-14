@@ -1,0 +1,22 @@
+{
+  "id": "ki-ki",
+  "forms": [
+    {
+      "lang": "heb",
+      "script": "כִּי",
+      "translit": "kī",
+      "gloss": "dass, denn, weil",
+      "etymology": "gemeinsemitische Partikel, vgl. akkad. kī(ma) \"wie, dass\", ugarit. k"
+    },
+    {
+      "lang": "hin",
+      "script": "कि",
+      "translit": "ki",
+      "gloss": "dass",
+      "etymology": "aus pers. که (ke), letztlich zum uidg. Interrogativ-/Relativstamm *kʷo-"
+    }
+  ],
+  "comment": "Beide sind Konjunktionen, die einen Nebensatz einleiten, und klingen praktisch gleich — die Ähnlichkeit reicht also über den Klang hinaus bis in die Funktion. Verwandt sind sie trotzdem nicht: das hebräische kī ist semitisch, das hindische ki über das Persische ein Erbe von uidg. *kʷo- und damit eher mit lat. quod und dt. was zu verbinden. Nicht zu verwechseln mit hindi की (kī), dem femininen Genitivpostpositions- bzw. Perfektivform.",
+  "contributor": "kfm",
+  "added": "2026-08-14"
+}

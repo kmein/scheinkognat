@@ -1,0 +1,22 @@
+{
+  "id": "metseini-medicine",
+  "forms": [
+    {
+      "lang": "cop",
+      "dialect": "Bohairisch",
+      "script": "ⲙⲉⲧⲥⲏⲓⲛⲓ",
+      "translit": "metsēini",
+      "gloss": "Arzttum, Heilkunde",
+      "etymology": "Abstraktpräfix ⲙⲉⲧ- (sahid. ⲙⲛⲧ-) + ⲥⲏⲓⲛⲓ \"Arzt\", zu ägypt. swnw \"Arzt\""
+    },
+    {
+      "lang": "eng",
+      "script": "medicine",
+      "gloss": "Medizin, Heilkunde",
+      "etymology": "über afrz. medecine aus lat. medicīna (ars) zu medicus \"Arzt\", zu uidg. *med- \"ermessen, Maß nehmen\""
+    }
+  ],
+  "comment": "Die Ähnlichkeit steckt nicht nur im Anklang, sondern auch in der Bildung: beide Wörter sind Ableitungen vom jeweiligen Wort für \"Arzt\" und bezeichnen dessen Kunst. Nur ist das koptische met- ein einheimisches Abstraktpräfix, während das lateinische -īna ein Zugehörigkeitssuffix ist — der Gleichklang von ⲙⲉⲧⲥ- und med- ist Zufall.",
+  "contributor": "kfm",
+  "added": "2026-08-14"
+}
