@@ -1,0 +1,17 @@
+{
+  "id": "kafa-kopf",
+  "forms": [
+    {
+      "lang": "tur",
+      "script": "kafa",
+      "gloss": "Kopf"
+    },
+    {
+      "lang": "deu",
+      "script": "Kopf",
+      "gloss": "Kopf"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-19"
+}
