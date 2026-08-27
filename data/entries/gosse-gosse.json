@@ -1,0 +1,20 @@
+{
+  "id": "gosse-gosse",
+  "forms": [
+    {
+      "lang": "fra",
+      "script": "gosse",
+      "gloss": "Kind (Slang)",
+      "etymology": "vermutlich von älterem gonze \"Junge (Slang)\", von Italienisch gonzo \"Einfaltspinsel, Trottel\""
+    },
+    {
+      "lang": "swe",
+      "script": "gosse",
+      "gloss": "Junge",
+      "etymology": "unbekannter Herkunft, möglicherweise von französisch garçon \"Junge\", norwegisch gut \"Kerl, Typ\" (mit Suffix -se), von goþer son \"guter Sohn\" oder norwegisch gosse \"Eber\""
+    }
+  ],
+  "comment": "Eine Entlehnung aus dem Französischen wäre naheliegend, allerdings ist das schwedische Wort bereits zwei Jahrhunderte früher im 16. Jahrhundert belegt.",
+  "contributor": "kw",
+  "added": "2026-08-27"
+}
