@@ -1,0 +1,19 @@
+{
+  "id": "kit-k-et",
+  "forms": [
+    {
+      "lang": "lit",
+      "script": "kit",
+      "gloss": "'ein anderer'"
+    },
+    {
+      "lang": "cop",
+      "dialect": "Bohairisch",
+      "script": "ⲭⲉⲧ",
+      "translit": "kʰet",
+      "gloss": "ein anderer"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-08-29"
+}
