@@ -1,9 +1,20 @@
 {
   "id": "mes-mess",
   "forms": [
-    { "lang": "cak", "script": "mes", "gloss": "Unordnung, Müll" },
-    { "lang": "eng", "script": "mess", "gloss": "Unordnung" }
+    {
+      "lang": "cak",
+      "script": "mes",
+      "gloss": "Unordnung, Müll"
+    },
+    {
+      "lang": "eng",
+      "script": "mess",
+      "gloss": "Unordnung"
+    }
   ],
-  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12",
+  "sources": [
+    "Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"
+  ]
 }

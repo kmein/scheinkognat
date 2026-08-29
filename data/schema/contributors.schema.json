@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://scheinkognat/schema/contributors.json",
+  "$id": "https://kmein.github.io/scheinkognat/schema/contributors.json",
   "title": "Contributors",
   "type": "object",
   "propertyNames": { "pattern": "^[a-z0-9-]+$" },
@@ -11,7 +11,12 @@
     "properties": {
       "name": { "type": "string", "minLength": 1 },
       "url": { "type": ["string", "null"], "format": "uri" },
-      "github": { "type": "string", "pattern": "^[A-Za-z0-9-]+$" }
+      "github": { "type": "string", "pattern": "^[A-Za-z0-9-]+$" },
+      "orcid": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$",
+        "description": "ORCID iD, z. B. 0000-0002-1825-0097."
+      }
     }
   }
 }

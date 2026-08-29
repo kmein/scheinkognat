@@ -1,9 +1,19 @@
 {
   "id": "abru-eyebrow",
   "forms": [
-    { "lang": "fas", "script": "ابرو", "translit": "abrū", "gloss": "Augenbraue" },
-    { "lang": "eng", "script": "eyebrow", "gloss": "Augenbraue" }
+    {
+      "lang": "fas",
+      "script": "ابرو",
+      "translit": "abrū",
+      "gloss": "Augenbraue"
+    },
+    {
+      "lang": "eng",
+      "script": "eyebrow",
+      "gloss": "Augenbraue"
+    }
   ],
   "comment": "Achtung — **kein** echter Scheinkognat: das Element *brow* ist mit pers. *abrū* tatsächlich urverwandt (PIE *bʰruH- ‚Braue‘, vgl. gr. *ophrys*, skt. *bhrū-*). Nur die Ähnlichkeit zum ganzen Kompositum *eye-brow* ist zufällig.",
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

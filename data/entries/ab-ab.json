@@ -1,8 +1,19 @@
 {
   "id": "ab-ab",
   "forms": [
-    { "lang": "sux", "script": "𒀊", "translit": "ab", "gloss": "Meer" },
-    { "lang": "fas", "script": "آب", "translit": "āb", "gloss": "Wasser" }
+    {
+      "lang": "sux",
+      "script": "𒀊",
+      "translit": "ab",
+      "gloss": "Meer"
+    },
+    {
+      "lang": "fas",
+      "script": "آب",
+      "translit": "āb",
+      "gloss": "Wasser"
+    }
   ],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-06-20"
 }

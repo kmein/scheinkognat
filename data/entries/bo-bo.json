@@ -1,8 +1,17 @@
 {
   "id": "bo-bo",
   "forms": [
-    { "lang": "gla", "script": "bò", "gloss": "Kuh" },
-    { "lang": "vie", "script": "bò", "gloss": "Rind, Kuh" }
+    {
+      "lang": "gla",
+      "script": "bò",
+      "gloss": "Kuh"
+    },
+    {
+      "lang": "vie",
+      "script": "bò",
+      "gloss": "Rind, Kuh"
+    }
   ],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

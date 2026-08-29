@@ -1,8 +1,18 @@
 {
   "id": "khuluma-kalam",
   "forms": [
-    { "lang": "zul", "script": "khuluma", "gloss": "sprechen, reden" },
-    { "lang": "ara", "script": "كَلَام", "translit": "kalām", "gloss": "Rede, Sprechen, Wort(e)" }
+    {
+      "lang": "zul",
+      "script": "khuluma",
+      "gloss": "sprechen, reden"
+    },
+    {
+      "lang": "ara",
+      "script": "كَلَام",
+      "translit": "kalām",
+      "gloss": "Rede, Sprechen, Wort(e)"
+    }
   ],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

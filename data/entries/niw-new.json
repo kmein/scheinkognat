@@ -1,9 +1,20 @@
 {
   "id": "niw-new",
   "forms": [
-    { "lang": "qje", "translit": "*niw", "gloss": "neu" },
-    { "lang": "eng", "script": "new", "gloss": "neu" }
+    {
+      "lang": "qje",
+      "translit": "*niw",
+      "gloss": "neu"
+    },
+    {
+      "lang": "eng",
+      "script": "new",
+      "gloss": "neu"
+    }
   ],
-  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12",
+  "sources": [
+    "Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"
+  ]
 }

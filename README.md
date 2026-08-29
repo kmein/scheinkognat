@@ -39,8 +39,9 @@ Regeln:
 - `lang`: ISO 639-3 (Register in `data/languages.json`).
 - `script`: Form in der Originalschrift — bei Latein-Alphabeten **das Wort selbst**, sonst die Originalschrift.
 - `translit`: Romanisierung; nur bei nicht-lateinischer Schrift, IPA in `/…/` oder `[…]`.
-- `dialect`, `gloss`, `etymology`, `comment`, `contributor`, `added`, `sources` sind optional.
+- `dialect`, `gloss`, `etymology`, `comment`, `contributor`, `sources` sind optional; `added` ist Pflicht.
 - Mindestens zwei Sprachen pro Eintrag.
+- `id` ist nach dem Merge **permanent** — Korrekturen an Formen benennen einen Eintrag nicht um.
 
 Schemata (JSON Schema Draft 2020-12) in `data/schema/`.
 
@@ -58,11 +59,11 @@ pnpm validate         # prüft alle Daten gegen Schemata + Referenzintegrität
 
 ### Sprachregister
 
-`data/languages.json` mappt ISO-639-3-Code → `{ name, script (ISO 15924), rtl, dialects, … }`. Neue Sprachen dort eintragen, bevor Einträge sie verwenden. Für Sprachen ohne ISO-Code (PIE u. Ä.) gibt es den Private-Use-Bereich `qaa`–`qtz`.
+`data/languages.json` mappt ISO-639-3-Code → `{ name, rtl, glottocode, coords, dialects, … }`. Neue Sprachen dort eintragen, bevor Einträge sie verwenden. Für Sprachen ohne ISO-Code (PIE u. Ä.) gibt es den Private-Use-Bereich `qaa`–`qtz`.
 
 ### Beiträger­register
 
-`data/contributors.json` mappt kebab-case-ID → `{ name, url? }`.
+`data/contributors.json` mappt kebab-case-ID → `{ name, url?, github?, orcid? }`.
 
 ## Build & Deploy
 
@@ -105,6 +106,34 @@ src/
 flake.nix              Nix-Devshell (Node + pnpm)
 ```
 
+## Nachnutzung & Zitieren
+
+Maschinenlesbare Fassungen der Daten:
+
+- Gesamtdatensatz (JSON): <https://kmein.github.io/scheinkognat/scheinkognat.json>
+- CLDF-Export (Generic-Modul): <https://kmein.github.io/scheinkognat/cldf/Generic-metadata.json>
+- JSON-Schemata: <https://kmein.github.io/scheinkognat/schema/entry.json> (analog `languages.json`, `contributors.json`)
+- Rohdaten pro Eintrag: `https://raw.githubusercontent.com/kmein/scheinkognat/main/data/entries/{id}.json`
+- PDF: als Release-Asset
+
+Zitierhinweise in `CITATION.cff`. Releases folgen CalVer (`vYYYY.MM.DD`):
+
+```sh
+git tag v2026.08.29 && git push --tags
+```
+
+Der Release-Workflow (`.github/workflows/release.yml`) validiert, baut und hängt
+Datensatz-JSON, CLDF-Zip und PDF an das GitHub-Release.
+
+**Zenodo-DOI (einmalig einrichten):** auf [zenodo.org](https://zenodo.org/account/settings/github/)
+das Repository `kmein/scheinkognat` aktivieren, dann ein Tag pushen. Zenodo archiviert
+jedes Release und vergibt DOIs. Danach den Concept-DOI in `CITATION.cff` (`doi:`),
+als Badge hier im README und im JSON-LD von `src/pages/index.astro` (`identifier`/`sameAs`) nachtragen.
+
+<!-- DOI-Badge nach erstem Zenodo-Release:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+-->
+
 ## Lizenz
 
-Daten: CC BY 4.0. Code: MIT.
+Daten: CC BY 4.0. Code: MIT. Details in `LICENSE`.

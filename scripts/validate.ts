@@ -49,7 +49,7 @@ function loadJson<T>(p: string): T {
 }
 
 // 1. Validate languages.json
-const languages = loadJson<Record<string, { name: string; script: string; dialects?: string[] }>>(LANG_FILE);
+const languages = loadJson<Record<string, { name: string; dialects?: string[] }>>(LANG_FILE);
 if (!validateLangs(languages)) {
   errors.push(`languages.json: ${ajv.errorsText(validateLangs.errors)}`);
 }

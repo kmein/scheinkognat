@@ -1,8 +1,18 @@
 {
   "id": "shark-sha",
   "forms": [
-    { "lang": "eng", "script": "shark", "gloss": "Hai" },
-    { "lang": "zho", "script": "鲨", "translit": "shā", "gloss": "Hai" }
+    {
+      "lang": "eng",
+      "script": "shark",
+      "gloss": "Hai"
+    },
+    {
+      "lang": "zho",
+      "script": "鲨",
+      "translit": "shā",
+      "gloss": "Hai"
+    }
   ],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

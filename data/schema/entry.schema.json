@@ -1,9 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://scheinkognat/schema/entry.json",
+  "$id": "https://kmein.github.io/scheinkognat/schema/entry.json",
   "title": "Entry",
   "type": "object",
-  "required": ["id", "forms"],
+  "required": ["id", "forms", "added"],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -26,12 +26,16 @@
       "description": "ID in data/contributors.json."
     },
     "added": {
-      "type": ["string", "null"],
+      "type": "string",
       "format": "date"
     },
     "sources": {
       "type": "array",
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "description": "URL oder Freitext-Zitat."
+      }
     }
   },
   "$defs": {

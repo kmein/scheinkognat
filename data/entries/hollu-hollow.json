@@ -1,9 +1,20 @@
 {
   "id": "hollu-hollow",
   "forms": [
-    { "lang": "lmw", "script": "hóllu", "gloss": "hohl" },
-    { "lang": "eng", "script": "hollow", "gloss": "hohl" }
+    {
+      "lang": "lmw",
+      "script": "hóllu",
+      "gloss": "hohl"
+    },
+    {
+      "lang": "eng",
+      "script": "hollow",
+      "gloss": "hohl"
+    }
   ],
-  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12",
+  "sources": [
+    "Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"
+  ]
 }

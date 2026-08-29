@@ -1,8 +1,18 @@
 {
   "id": "qayaq-kayik",
   "forms": [
-    { "lang": "iku", "script": "ᖃᔭᖅ", "translit": "qayaq", "gloss": "Kajak" },
-    { "lang": "tur", "script": "kayık", "gloss": "Boot, Kahn" }
+    {
+      "lang": "iku",
+      "script": "ᖃᔭᖅ",
+      "translit": "qayaq",
+      "gloss": "Kajak"
+    },
+    {
+      "lang": "tur",
+      "script": "kayık",
+      "gloss": "Boot, Kahn"
+    }
   ],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

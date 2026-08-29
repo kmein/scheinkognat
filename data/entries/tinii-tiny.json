@@ -1,9 +1,20 @@
 {
   "id": "tinii-tiny",
   "forms": [
-    { "lang": "ynn", "translit": "t’inii-", "gloss": "klein" },
-    { "lang": "eng", "script": "tiny", "gloss": "winzig (auch teeny)" }
+    {
+      "lang": "ynn",
+      "translit": "t’inii-",
+      "gloss": "klein"
+    },
+    {
+      "lang": "eng",
+      "script": "tiny",
+      "gloss": "winzig (auch teeny)"
+    }
   ],
-  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12",
+  "sources": [
+    "Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"
+  ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "mar-mard",
   "forms": [
-    { "lang": "ara", "script": "مَرْء", "translit": "marʔ", "gloss": "Mann, Mensch" },
-    { "lang": "fas", "script": "مرد", "translit": "mard", "gloss": "Mann" }
+    {
+      "lang": "ara",
+      "script": "مَرْء",
+      "translit": "marʔ",
+      "gloss": "Mann, Mensch"
+    },
+    {
+      "lang": "fas",
+      "script": "مرد",
+      "translit": "mard",
+      "gloss": "Mann"
+    }
   ],
   "comment": "Semitisch (Wurzel m-r-ʔ) gegen iranisch *martiya- (PIE *mer- ‚sterblich‘) — keine gemeinsame Herkunft.",
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12"
 }

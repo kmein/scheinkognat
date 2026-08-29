@@ -35,6 +35,7 @@ export interface Contributor {
   name: string;
   url?: string | null;
   github?: string;
+  orcid?: string;
 }
 
 const here = path.dirname(fileURLToPath(import.meta.url));

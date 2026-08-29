@@ -1,9 +1,20 @@
 {
   "id": "kuri-cur",
   "forms": [
-    { "lang": "mri", "script": "kurī", "gloss": "Hund" },
-    { "lang": "eng", "script": "cur", "gloss": "Köter" }
+    {
+      "lang": "mri",
+      "script": "kurī",
+      "gloss": "Hund"
+    },
+    {
+      "lang": "eng",
+      "script": "cur",
+      "gloss": "Köter"
+    }
   ],
-  "sources": ["Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"],
-  "contributor": "kfm"
+  "contributor": "kfm",
+  "added": "2026-07-12",
+  "sources": [
+    "Lyle Campbell, Historical Linguistics: An Introduction, 3rd edition, p. 350"
+  ]
 }
