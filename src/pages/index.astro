@@ -15,12 +15,14 @@ const contributorsWithEntries = [...entriesByContributor().keys()]
   .map((id) => ({ id, name: contributorDisplay(id) }))
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 
-// schema.org Dataset (FAIR F2/F4); nach erstem Zenodo-Release DOI als identifier/sameAs ergänzen.
+// schema.org Dataset (FAIR F2/F4)
 const siteUrl = new URL(import.meta.env.BASE_URL, Astro.site).href;
 const ld = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
   name: 'Scheinkognat',
+  identifier: 'https://doi.org/10.5281/zenodo.22158017',
+  sameAs: 'https://doi.org/10.5281/zenodo.22158017',
   description:
     'Kuratierte Sammlung linguistischer Koinzidenzen — Wörter zwischen unverwandten Sprachen, die einander zufällig ähneln.',
   url: siteUrl,

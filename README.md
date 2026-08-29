@@ -125,14 +125,10 @@ git tag v2026.08.29 && git push --tags
 Der Release-Workflow (`.github/workflows/release.yml`) validiert, baut und hängt
 Datensatz-JSON, CLDF-Zip und PDF an das GitHub-Release.
 
-**Zenodo-DOI (einmalig einrichten):** auf [zenodo.org](https://zenodo.org/account/settings/github/)
-das Repository `kmein/scheinkognat` aktivieren, dann ein Tag pushen. Zenodo archiviert
-jedes Release und vergibt DOIs. Danach den Concept-DOI in `CITATION.cff` (`doi:`),
-als Badge hier im README und im JSON-LD von `src/pages/index.astro` (`identifier`/`sameAs`) nachtragen.
+Zenodo archiviert jedes Release automatisch und vergibt Versions-DOIs;
+der Concept-DOI (alle Versionen) ist [10.5281/zenodo.22158017](https://doi.org/10.5281/zenodo.22158017).
 
-<!-- DOI-Badge nach erstem Zenodo-Release:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22158017.svg)](https://doi.org/10.5281/zenodo.22158017)
 
 ## Lizenz
 
