@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Bei Nachnutzung der Daten bitte wie folgt zitieren."
+type: dataset
+title: "Scheinkognat: linguistische Koinzidenzen zwischen Sprachen"
+authors:
+  - family-names: Meinhardt
+    given-names: Kierán
+license: CC-BY-4.0
+repository-code: "https://github.com/kmein/scheinkognat"
+url: "https://kmein.github.io/scheinkognat/"
+# doi: nach dem ersten Zenodo-Release den Concept-DOI eintragen.

@@ -1,0 +1,55 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Validate data
+        run: pnpm validate
+
+      - name: Build site (incl. dataset JSON + CLDF)
+        run: pnpm build
+
+      - name: Validate CLDF
+        run: pipx run --spec pycldf cldf validate dist/cldf/Generic-metadata.json
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: Build PDF
+        run: nix build .#pdf
+
+      - name: Zip CLDF
+        run: cd dist && zip -r scheinkognat-cldf.zip cldf
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "Scheinkognat $GITHUB_REF_NAME" \
+            --generate-notes \
+            dist/scheinkognat.json \
+            dist/scheinkognat-cldf.zip \
+            result/scheinkognat.pdf

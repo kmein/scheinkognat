@@ -1,0 +1,22 @@
+{
+  "upload_type": "dataset",
+  "title": "Scheinkognat: linguistische Koinzidenzen zwischen Sprachen",
+  "description": "Kuratierte Sammlung von Scheinkognaten — Wörtern zwischen unverwandten Sprachen, die einander zufällig ähneln, ohne gemeinsame Etymologie oder Entlehnung. Strukturierte JSON-Daten mit ISO-639-3- und Glottolog-Codes, dazu ein CLDF-Export. Daten: CC BY 4.0; Code im selben Repository: MIT. Website: https://kmein.github.io/scheinkognat/",
+  "creators": [{ "name": "Meinhardt, Kierán" }],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "deu",
+  "keywords": ["linguistics", "false cognates", "chance resemblance", "lexicon", "etymology"],
+  "related_identifiers": [
+    {
+      "identifier": "https://kmein.github.io/scheinkognat/",
+      "relation": "isDescribedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://kmein.github.io/scheinkognat/scheinkognat.json",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}
