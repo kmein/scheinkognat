@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+import { entries, languageName } from '../lib/data.ts';
+import { averageLinkage, type Tree } from '../lib/cluster.ts';
+
+// --- 1. Paarungen zählen: wie oft teilen zwei Sprachen einen Eintrag? -------
+const langCounts = new Map<string, number>();
+const pairCounts = new Map<string, number>();
+for (const e of entries) {
+  const langs = [...new Set(e.forms.map((f) => f.lang))].sort();
+  for (const l of langs) langCounts.set(l, (langCounts.get(l) ?? 0) + 1);
+  for (let i = 0; i < langs.length; i++) {
+    for (let j = i + 1; j < langs.length; j++) {
+      const key = `${langs[i]}|${langs[j]}`;
+      pairCounts.set(key, (pairCounts.get(key) ?? 0) + 1);
+    }
+  }
+}
+const pairsOf = (a: string, b: string) =>
+  pairCounts.get(a < b ? `${a}|${b}` : `${b}|${a}`) ?? 0;
+
+// --- 2. Clustern: Distanz = 1 − Paarungen/Maximum ---------------------------
+const MIN_ENTRIES = 3; // darunter wird der Baum zur Strichliste
+const langs = [...langCounts.keys()]
+  .filter((l) => langCounts.get(l)! >= MIN_ENTRIES)
+  .sort();
+const maxPair = Math.max(...pairCounts.values());
+const D = langs.map((a) =>
+  langs.map((b) => (a === b ? 0 : 1 - pairsOf(a, b) / maxPair))
+);
+const tree = averageLinkage(langs, D);
+
+// --- 3. Dendrogramm als SVG-Pfade (build-time) ------------------------------
+const ROW = 26;
+const TREE_W = 620;
+const LABEL_W = 240;
+const PAD = 10;
+const WIDTH = TREE_W + LABEL_W + 2 * PAD;
+const HEIGHT = langs.length * ROW + 2 * PAD;
+
+const xAt = (height: number) => PAD + TREE_W * (1 - height);
+const leaves: { code: string; y: number }[] = [];
+const segments: string[] = [];
+function layout(t: Tree): { x: number; y: number } {
+  if ('leaf' in t) {
+    const y = PAD + leaves.length * ROW + ROW / 2;
+    leaves.push({ code: t.leaf, y });
+    return { x: xAt(0), y };
+  }
+  const a = layout(t.children[0]);
+  const b = layout(t.children[1]);
+  const x = xAt(t.height);
+  segments.push(`M${a.x} ${a.y} H${x} V${b.y} H${b.x}`);
+  return { x, y: (a.y + b.y) / 2 };
+}
+layout(tree);
+
+// --- 4. Die „engsten Verwandten“ für den Begleittext ------------------------
+const topPairs = [...pairCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 3)
+  .map(([key, n]) => {
+    const [a, b] = key.split('|');
+    return `${languageName(a!)}–${languageName(b!)} (${n})`;
+  });
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Base
+  title="Stammbaum"
+  description="Der Stammbaum der Sprachen, streng wissenschaftlich rekonstruiert — ausschließlich aus Scheinkognaten."
+>
+  <h1>Stammbaum</h1>
+  <p class="index-summary">
+    Die komparative Methode rekonstruiert Sprachfamilien aus systematischen
+    Lautentsprechungen. Das ist mühsam. Dieser Stammbaum beruht stattdessen
+    ausschließlich auf Scheinkognaten: Je öfter zwei Sprachen rein zufällig
+    ähnliche Wörter haben, desto enger sind sie „verwandt“. Die engsten
+    Verwandtschaften des Korpus sind demnach {topPairs.join(', ')} —
+    die Indogermanistik möge ihre Handbücher entsprechend korrigieren.
+  </p>
+
+  <div class="baum-wrap">
+    <svg
+      class="baum"
+      viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+      style={`min-width: ${WIDTH * 0.75}px`}
+      role="img"
+      aria-label="Dendrogramm der Sprachen nach gemeinsamen Scheinkognat-Einträgen"
+    >
+      <g class="aeste">
+        {segments.map((d) => <path d={d} />)}
+      </g>
+      <g class="blaetter">
+        {leaves.map((l) => (
+          <a href={`${base}sprache/${l.code}/`}>
+            <text x={PAD + TREE_W + 8} y={l.y} dominant-baseline="middle">
+              {languageName(l.code)} ({langCounts.get(l.code)})
+            </text>
+          </a>
+        ))}
+      </g>
+    </svg>
+  </div>
+
+  <p class="methodik">
+    Methodik, falls jemand fragt: berücksichtigt sind die {langs.length} Sprachen
+    mit mindestens {MIN_ENTRIES} Einträgen. Distanz zweier Sprachen ist
+    1&nbsp;−&nbsp;Paarungen/Maximum (das Maximum liegt bei {maxPair} gemeinsamen
+    Einträgen), geclustert wird agglomerativ mit average linkage. Je weiter links
+    zwei Äste zusammenlaufen, desto zufälliger die Verwandtschaft — also genau
+    wie bei echten Stammbäumen, nur ehrlicher. Alles wird beim Build aus den
+    aktuellen Einträgen berechnet.
+  </p>
+</Base>
+
+<style>
+  .baum-wrap {
+    overflow-x: auto;
+  }
+  .baum {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .baum .aeste path {
+    fill: none;
+    stroke: var(--fg-muted);
+    stroke-width: 1.2;
+  }
+  .baum .blaetter text {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    fill: var(--fg);
+  }
+  .baum .blaetter a:hover text,
+  .baum .blaetter a:focus text {
+    fill: var(--accent);
+    text-decoration: underline;
+  }
+  .methodik {
+    color: var(--fg-muted);
+    font-size: 0.9rem;
+    max-width: var(--measure);
+  }
+</style>
