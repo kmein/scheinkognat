@@ -1,0 +1,18 @@
+{
+  "id": "alatus-halet",
+  "forms": [
+    {
+      "lang": "lat",
+      "script": "ālātus",
+      "gloss": "geflügelt"
+    },
+    {
+      "lang": "cop",
+      "script": "ϩⲁⲗⲏⲧ",
+      "translit": "halēt",
+      "gloss": "Vogel"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-01"
+}
