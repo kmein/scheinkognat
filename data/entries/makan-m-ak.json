@@ -1,0 +1,19 @@
+{
+  "id": "makan-m-ak",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "மகன்",
+      "translit": "makaṉ",
+      "gloss": "Sohn"
+    },
+    {
+      "lang": "gle",
+      "script": "mac",
+      "translit": "/mˠak/",
+      "gloss": "Sohn"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-06"
+}

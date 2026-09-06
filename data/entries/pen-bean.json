@@ -1,0 +1,25 @@
+{
+  "id": "pen-bean",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "பெண்",
+      "translit": "peṇ",
+      "gloss": "Frau"
+    },
+    {
+      "lang": "gle",
+      "script": "bean",
+      "translit": "/bʲænˠ/",
+      "gloss": "Frau"
+    },
+    {
+      "lang": "urd",
+      "script": "بَہَن",
+      "translit": "[bɛ.ɦɛn]",
+      "gloss": "Frau"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-06"
+}

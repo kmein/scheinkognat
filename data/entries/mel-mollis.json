@@ -1,0 +1,18 @@
+{
+  "id": "mel-mollis",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "மெல்",
+      "translit": "mel",
+      "gloss": "weich"
+    },
+    {
+      "lang": "lat",
+      "script": "mollis",
+      "gloss": "weich"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-06"
+}
