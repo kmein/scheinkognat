@@ -10,6 +10,12 @@
     {
       "lang": "deu",
       "script": "Sack"
+    },
+    {
+      "lang": "cop",
+      "script": "ⲥⲁⲕ",
+      "translit": "sak",
+      "gloss": "Sack"
     }
   ],
   "contributor": "kfm",
