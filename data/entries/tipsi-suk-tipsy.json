@@ -1,0 +1,19 @@
+{
+  "id": "tipsi-suk-tipsy",
+  "forms": [
+    {
+      "lang": "ikt",
+      "dialect": "Natsilingmiutut",
+      "script": "tipsi-suk-",
+      "gloss": "zum Lachen zumute sein",
+      "etymology": "-suk- drückt Gefühlszustände aus; die zugrundeliegende Wurzel bedeutet in etwa \"lustig sein\""
+    },
+    {
+      "lang": "eng",
+      "script": "tipsy",
+      "gloss": "angetrunken, lustig drauf wegen Alkohol"
+    }
+  ],
+  "contributor": "kw",
+  "added": "2026-09-15"
+}
