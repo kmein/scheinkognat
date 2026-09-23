@@ -1,0 +1,19 @@
+{
+  "id": "ze-cest",
+  "forms": [
+    {
+      "lang": "heb",
+      "script": "זֶה",
+      "translit": "ze",
+      "gloss": "das (ist)"
+    },
+    {
+      "lang": "fra",
+      "script": "c'est",
+      "translit": "[se]",
+      "gloss": "das ist"
+    }
+  ],
+  "contributor": "ff",
+  "added": "2026-09-21"
+}

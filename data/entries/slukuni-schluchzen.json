@@ -1,0 +1,17 @@
+{
+  "id": "slukuni-schluchzen",
+  "forms": [
+    {
+      "lang": "kat",
+      "script": "სლუკუნი",
+      "translit": "sluk'uni",
+      "gloss": "Schluchzen"
+    },
+    {
+      "lang": "deu",
+      "script": "Schluchzen"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-19"
+}

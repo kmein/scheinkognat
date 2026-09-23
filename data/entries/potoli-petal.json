@@ -1,0 +1,18 @@
+{
+  "id": "potoli-petal",
+  "forms": [
+    {
+      "lang": "kat",
+      "script": "ფოთოლი",
+      "translit": "potoli",
+      "gloss": "Blatt"
+    },
+    {
+      "lang": "eng",
+      "script": "petal",
+      "gloss": "Blütenblatt"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-19"
+}

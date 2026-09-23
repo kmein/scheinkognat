@@ -11,6 +11,12 @@
       "lang": "tur",
       "script": "-da/-de/-ta/-te",
       "gloss": "in (Lokativ-Suffix)"
+    },
+    {
+      "lang": "jpn",
+      "script": "で",
+      "translit": "de",
+      "gloss": "in, an (Lokativ-Partikel)"
     }
   ],
   "contributor": "kfm",

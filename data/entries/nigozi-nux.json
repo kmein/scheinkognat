@@ -1,0 +1,18 @@
+{
+  "id": "nigozi-nux",
+  "forms": [
+    {
+      "lang": "kat",
+      "script": "ნიგოზი",
+      "translit": "nigozi",
+      "gloss": "Nuss"
+    },
+    {
+      "lang": "lat",
+      "script": "nux",
+      "gloss": "Nuss"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-19"
+}
