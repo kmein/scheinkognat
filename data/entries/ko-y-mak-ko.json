@@ -1,0 +1,19 @@
+{
+  "id": "ko-y-mak-ko",
+  "forms": [
+    {
+      "lang": "tur",
+      "script": "ko(y)-mak",
+      "gloss": "setzen, stellen, legen"
+    },
+    {
+      "lang": "cop",
+      "dialect": "Sahidisch",
+      "script": "ⲕⲱ",
+      "translit": "kô",
+      "gloss": "setzen, stellen, legen"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-09-28"
+}
