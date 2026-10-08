@@ -10,6 +10,24 @@
       "lang": "ita",
       "script": "ma",
       "gloss": "aber"
+    },
+    {
+      "lang": "hit",
+      "translit": "ma",
+      "gloss": "aber"
+    },
+    {
+      "lang": "grc",
+      "dialect": "Thessalisch",
+      "script": "μα",
+      "translit": "ma",
+      "gloss": "aber"
+    },
+    {
+      "lang": "ett",
+      "script": "-𐌌",
+      "translit": "-m",
+      "gloss": "aber"
     }
   ],
   "added": "2026-07-23",

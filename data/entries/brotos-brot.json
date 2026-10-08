@@ -1,0 +1,18 @@
+{
+  "id": "brotos-brot",
+  "forms": [
+    {
+      "lang": "grc",
+      "script": "βρωτός",
+      "translit": "brōtós",
+      "gloss": "essbar"
+    },
+    {
+      "lang": "deu",
+      "script": "Brot",
+      "gloss": "Brot"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-10-08"
+}
