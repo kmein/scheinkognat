@@ -1,0 +1,19 @@
+{
+  "id": "ara-arae",
+  "forms": [
+    {
+      "lang": "amh",
+      "script": "አረ",
+      "translit": "ärä",
+      "gloss": "also, dann"
+    },
+    {
+      "lang": "grc",
+      "script": "ἄρα",
+      "translit": "ára",
+      "gloss": "also, dann"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-10-13"
+}
