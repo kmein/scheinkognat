@@ -1,0 +1,17 @@
+{
+  "id": "kuritu-kurz",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "குறிது",
+      "translit": "kuṟitu",
+      "gloss": "kurz"
+    },
+    {
+      "lang": "deu",
+      "script": "kurz"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-11-12"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "megaron-magarah",
+  "forms": [
+    {
+      "lang": "grc",
+      "script": "μέγαρον",
+      "translit": "mégaron",
+      "gloss": "Halle, Saal"
+    },
+    {
+      "lang": "ara",
+      "script": "مغارة",
+      "translit": "maġārah",
+      "gloss": "Höhle"
+    }
+  ],
+  "contributor": "tk",
+  "added": "2026-11-12"
+}

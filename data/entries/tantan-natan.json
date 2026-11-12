@@ -1,0 +1,19 @@
+{
+  "id": "tantan-natan",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "தந்தான்",
+      "translit": "tantāṉ",
+      "gloss": "er gab"
+    },
+    {
+      "lang": "heb",
+      "script": "נָתַן",
+      "translit": "nātan",
+      "gloss": "er gab"
+    }
+  ],
+  "contributor": "kfm",
+  "added": "2026-11-12"
+}
