@@ -1,0 +1,20 @@
+{
+  "id": "qattuneq-qattuneq",
+  "forms": [
+    {
+      "lang": "kal",
+      "dialect": "Westgrönländisch",
+      "script": "qattuneq",
+      "gloss": "Hügel, Anhöhe"
+    },
+    {
+      "lang": "kal",
+      "dialect": "Ostgrönländisch",
+      "script": "qattuneq",
+      "gloss": "Delle, Vertiefung"
+    }
+  ],
+  "comment": "Die Wörter sind Antonyme und zufälligerweise phonologisch zusammengefallen.",
+  "contributor": "kw",
+  "added": "2026-11-16"
+}
