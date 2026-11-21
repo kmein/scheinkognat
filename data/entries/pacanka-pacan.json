@@ -1,0 +1,27 @@
+{
+  "id": "pacanka-pacan",
+  "forms": [
+    {
+      "lang": "tam",
+      "dialect": "umgangssprachlich",
+      "script": "பசங்க",
+      "translit": "pacaṅka",
+      "gloss": "Jungen, Kerle (Pl.)",
+      "etymology": "< பசங்கள் pacaṅkaḷ < பயல்கள் payalkaḷ, Pl. von பயல் payal 'Kerl, Bursche'"
+    },
+    {
+      "lang": "rus",
+      "script": "пацан",
+      "translit": "pacán",
+      "gloss": "Junge, Kerl",
+      "etymology": "< ukr. пацан, wohl zu пацю́к 'Ferkel, Ratte' + -ан"
+    }
+  ],
+  "comment": "Im Tamil gibt es nur den Plural; eine Singularform *pacaṅ existiert nicht.",
+  "contributor": "kfm",
+  "added": "2026-11-21",
+  "sources": [
+    "Tamil Lexicon, p. 2396: https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=2396",
+    "https://en.wiktionary.org/w/index.php?title=пацан&oldid=87493715"
+  ]
+}
