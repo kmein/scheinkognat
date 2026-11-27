@@ -1,0 +1,30 @@
+{
+  "id": "inru-iro",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "இன்று",
+      "translit": "iṉṟu",
+      "gloss": "heute",
+      "etymology": "i- „dies“ + -ṉṟu „Tag“; vgl. aṉṟu „an jenem Tag“, eṉṟu „wann“"
+    },
+    {
+      "lang": "kur",
+      "dialect": "Nordkurdisch",
+      "script": "îro",
+      "gloss": "heute",
+      "etymology": "î- „dies“ + ro(j) „Tag“; vgl. îsal „dieses Jahr“, îşev „heute Nacht“"
+    },
+    {
+      "lang": "kur",
+      "dialect": "Zentralkurdisch",
+      "script": "ئەمڕۆ",
+      "translit": "emřo",
+      "gloss": "heute",
+      "etymology": "em- „dies“ + řo(j) „Tag“"
+    }
+  ],
+  "comment": "Gleich gebaut, aber nicht verwandt: Beide Wörter bestehen aus einem proximalen Demonstrativ und einem Wort für „Tag“. Das gemeinsame *i-* ist Zufall bzw. Lautsymbolik (hohe Vordervokale in Nahdeixis sind sprachübergreifend häufig); die Tag-Wörter haben nichts miteinander zu tun.",
+  "contributor": "kfm",
+  "added": "2026-11-27"
+}
