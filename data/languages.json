@@ -451,6 +451,18 @@
       45
     ]
   },
+  "ikt": {
+    "name": "Westkanadisches Inuktitut",
+    "rtl": false,
+    "glottocode": "west2618",
+    "dialects": [
+      "Natsilingmiutut"
+    ],
+    "coords": [
+      64.3486,
+      -96.148
+    ]
+  },
   "iku": {
     "name": "Inuktitut",
     "rtl": false,
@@ -1235,6 +1247,15 @@
     "coords": [
       -11.0,
       -51.0
+    ]
+  },
+  "qtu": {
+    "name": "Tunumiisut",
+    "rtl": false,
+    "glottocode": "tunu1234",
+    "coords": [
+      65.613611,
+      -37.631111
     ]
   },
   "haw": {
