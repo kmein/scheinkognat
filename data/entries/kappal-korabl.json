@@ -1,0 +1,21 @@
+{
+  "id": "kappal-korabl",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "கப்பல்",
+      "translit": "kappal",
+      "gloss": "Schiff"
+    },
+    {
+      "lang": "rus",
+      "script": "корабль",
+      "translit": "korabl'",
+      "gloss": "Schiff",
+      "etymology": "< mgr. καράβιον *karábion* „Boot“, Deminutiv zu κάραβος *kárabos*; -l- slawischer Einschub nach Labial (\\*korabjь > korablь)"
+    }
+  ],
+  "comment": "Das gemeinsame *-l* ist im Russischen erst slawisch entstanden, vgl. *zemlja* < \\*zemja.",
+  "contributor": "kfm",
+  "added": "2026-11-27"
+}
