@@ -1,0 +1,18 @@
+{
+  "id": "lahm-lehm",
+  "forms": [
+    {
+      "lang": "ara",
+      "script": "لحم",
+      "translit": "laḥm",
+      "gloss": "Fleisch"
+    },
+    {
+      "lang": "est",
+      "script": "lehm",
+      "gloss": "Kuh"
+    }
+  ],
+  "contributor": "md",
+  "added": "2026-10-20"
+}
