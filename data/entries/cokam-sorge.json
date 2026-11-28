@@ -1,0 +1,19 @@
+{
+  "id": "cokam-sorge",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "சோகம்",
+      "translit": "cōkam",
+      "gloss": "Sorge",
+      "etymology": "< skt. शोक *śoka* „Kummer, Trauer“"
+    },
+    {
+      "lang": "deu",
+      "script": "Sorge"
+    }
+  ],
+  "comment": "Gesprochen [soːɣam]: anlautendes *c* ist im Tamil [s], intervokalisches *k* [ɣ].",
+  "contributor": "kfm",
+  "added": "2026-11-28"
+}
