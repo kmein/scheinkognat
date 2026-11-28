@@ -4,7 +4,7 @@
     {
       "lang": "tam",
       "script": "சோகம்",
-      "translit": "cōkam",
+      "translit": "[soːɣam]",
       "gloss": "Sorge",
       "etymology": "< skt. शोक *śoka* „Kummer, Trauer“"
     },
@@ -13,7 +13,6 @@
       "script": "Sorge"
     }
   ],
-  "comment": "Gesprochen [soːɣam]: anlautendes *c* ist im Tamil [s], intervokalisches *k* [ɣ].",
   "contributor": "kfm",
   "added": "2026-11-28"
 }
