@@ -1,0 +1,27 @@
+{
+  "id": "perror-patres",
+  "forms": [
+    {
+      "lang": "tam",
+      "script": "பெற்றோர்",
+      "translit": "[petroːr]",
+      "gloss": "Eltern",
+      "etymology": "peṟṟ-, Präteritalstamm von peṟu „bekommen, gebären“, + -ōr (3. Pl.): „die (Kinder) bekommen haben“"
+    },
+    {
+      "lang": "lat",
+      "script": "patrēs",
+      "gloss": "Väter; Eltern",
+      "etymology": "Pl. von pater < uridg. \\*ph₂tḗr"
+    },
+    {
+      "lang": "spa",
+      "script": "padres",
+      "gloss": "Eltern",
+      "etymology": "< lat. patrēs"
+    }
+  ],
+  "comment": "Lat. *patrēs* für beide Eltern etwa bei Ovid, *Met.* 4,61: *vetuere patres* (Pyramus und Thisbe).",
+  "contributor": "kfm",
+  "added": "2026-11-28"
+}
